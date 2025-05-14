@@ -1,6 +1,6 @@
 // import "./App.css";
-import Navbar from "../Components/NavBar";
-import Header from "../Components/Header";
+import Navbar from "../Components/NavBar(Azul)";
+import Header from "../Components/Header(Azul)";
 
 function Contestado() {
   return (

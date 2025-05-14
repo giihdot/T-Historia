@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Navbar from "../Components/NavBar";
-import Header from "../Components/Header";
+import Navbar from "../Components/NavBar(Azul)";
+import Header from "../Components/Header(Azul)";
 
 function GuerraDeCanudos() {
   const [resumoWiki, setResumoWiki] = useState("");
