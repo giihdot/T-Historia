@@ -1,0 +1,29 @@
+.Flex-roww{
+  background-color: #a6a6a6; /* azul escuro */
+  color: #043f5b; /* cinza claro para o texto */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 35px;
+  height: 60px;
+  box-shadow: 0 2px 4px #043f5b; /* azul escuro */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1-cinza {
+  font-size: 3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Imagemm {
+  height: 12vh;
+  width: 8vw;
+}
+
+.menu-iconn {
+  font-size: 1.5em;
+  color: #043f5b;
+  cursor: pointer;
+}
