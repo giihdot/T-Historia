@@ -1,21 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
-function Avaliacao() {
-  const localizacao = useLocation();
-  const chaveDaPagina = `avaliacao_${localizacao.pathname}`;
+function Avaliacao({ idPagina }) {
   const [estrelas, setEstrelas] = useState(0);
 
   useEffect(() => {
-    const estrelasSalvas = localStorage.getItem(chaveDaPagina);
+    const estrelasSalvas = localStorage.getItem(idPagina);
     if (estrelasSalvas) {
       setEstrelas(parseInt(estrelasSalvas));
     }
-  }, [chaveDaPagina]);
+  }, [idPagina]);
 
   const clicarEstrela = (quantidade) => {
     setEstrelas(quantidade);
-    localStorage.setItem(chaveDaPagina, quantidade);
+    localStorage.setItem(idPagina, quantidade);
   };
 
   return (
@@ -27,7 +24,7 @@ function Avaliacao() {
           style={{
             fontSize: "30px",
             cursor: "pointer",
-            color: numero <= estrelas ? "blue" : "gray",
+            color: numero <= estrelas ? "#062a3c" : "gray",  // Ajuste a cor aqui
           }}
         >
           ★
