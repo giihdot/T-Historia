@@ -1,6 +1,8 @@
 // import "./App.css";
 import Navbar from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
+import Avaliacao from "../Components/Avaliacao"
+
 
 function Contestado() {
   return (
@@ -71,6 +73,7 @@ function Contestado() {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mapa_guerra_do_contestado.png/330px-Mapa_guerra_do_contestado.png"
             alt="Mapa da Guerra do Contestado"
           />
+          <Avaliacao/>
         </section>
     </div>
   );

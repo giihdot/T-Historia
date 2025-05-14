@@ -1,6 +1,6 @@
 .footer {
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: #062a3c;
     text-align: center;
   }
   
@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: white;
   }
   
   .line {
@@ -17,17 +18,17 @@
   .row {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50%;
+    margin-bottom: 0.02%;
   }
   
   .item {
     flex: 1;
     margin: 0 10px;
     padding: 10px;
-    background-color: #FF6347;
-    width: 20vw;
-    height: 20vh;
-    font-size: 0.8em;
+    background-color: #a6a6a6;
+    width: 30vw;
+    height: 30vh;
+    font-size: 0.72em;
     text-align: center;
   }
 
@@ -35,10 +36,10 @@
     flex: 1;
     margin: 0 10px;
     padding: 10px;
-    background-color: #FF6347;
+    background-color: #a6a6a6;
     width: 30vw;
     height: 30vh;
-    font-size: 0.8em;
+    font-size: 0.72em;
     text-align: center;
   }
 
@@ -46,18 +47,43 @@
     flex: 1;
     margin: 0 10px;
     padding: 10px;
-    background-color: #FF6347;
+    background-color: #a6a6a6;
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    font-size: 0.72em;
+    text-align: center;
+  }
+
+  .item_4 {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 30vw;
+    height: 30vh;
+    font-size: 0.72em;
+    color: white;
+    text-align: center;
+  }
+
+  .item_5 {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #a6a6a6;
     width: 30vw;
     height: 30vh;
     font-size: 1em;
+    color: white;
     text-align: center;
   }
-  
-  .image-container {
-    margin-bottom: 20px;
+
+  .image-contain {
+    margin-bottom: 3%;
   }
   
-  .Img_2 {
-    width: 25vw;
-    height: 10vh;
+  .imggg {
+    width: 20vw;
+    height: 50vh;
   }

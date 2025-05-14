@@ -7,7 +7,7 @@ import GuerraDoContestado from "./Pages/Guerra_Do_Contestado";
 import PrimeiraGuerraMundial from "./Pages/1ºGuerra_Mundial";
 //import RevolucaoRussa from "./Pages/Revolução_Russa";
 //import Revolucao1930 from "./Pages/Revolução_1930";
-//import Formulario from "./Pages/Formulario";
+import Formulario from "./Pages/Formulario";
 //import AsGatitas from "./Pages/AsGatitas";
 
  function App() {
@@ -22,7 +22,7 @@ import PrimeiraGuerraMundial from "./Pages/1ºGuerra_Mundial";
         <Route path="/1º_GUERRA_MUNDIAL" element={<PrimeiraGuerraMundial />} />
         {/* <Route path="/REVOLUÇÃO_RUSSA" element={<RevolucaoRussa />} /> */}
         {/* <Route path="/REVOLUÇÃO_1930" element={<Revolucao1930 />} /> */}
-        {/* <Route path="/FORMULÁRIO" element={<Formulario />} /> */}
+         <Route path="/FORMULÁRIO" element={<Formulario />} /> 
         {/* <Route path="/AS_GATITAS" element={<AsGatitas />} /> */}
       </Routes>
     </Router>

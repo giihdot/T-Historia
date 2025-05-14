@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; 
-import Logo from '../assets/Logo_Unificada.jpg'
+import Logo from '../assets/COLLAB AZUL.png'
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <br/>
         <p>|</p>
         <br/>
-      <p> <b> Email: </b> arquivobelico@passagens.com.br </p>
+      <p> <b> Email: </b> arquivobelico@history.com.br </p>
       </div>
     <br/>
     <br/>
@@ -21,8 +21,10 @@ const Footer = () => {
     <br/>
       {/* Seção com 4 itens lado a lado */}
       <div className="row">
-        <div className="item_2">
-        <p> <b>Sobre a Empresa:</b> </p>
+        <div className="item">
+        <p> <b> Sobre a Empresa: </b> </p>
+
+        <br/>
 
         <p> Atendimento ao Cliente </p>
         <p> Blog do Arquivo Bélico </p>
@@ -33,41 +35,49 @@ const Footer = () => {
         </div>
 
         <div className="item_2">
-        <p> <b> Arquivo Bélico: Conheça mais sobre a história do mundo </b> </p>
+        <p> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
+        <p> <b> história do mundo </b> </p>
 
-        <p> Segunda Guerra Mundial </p>
-        <p> Guerra Fria </p>
-        <p> Brasil Império </p>
-        <p> Brasil República </p>
-        <p> Golpe de 18 de Brumário </p>
-        <p> Conferência de Berlim </p>
-        <p> Idade Média </p>
+        <br/>
+
+        <a href="https://www.suapesquisa.com/segundaguerra/" target="_blank" rel="noopener noreferrer"> Segunda Guerra Mundial </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/guerrafria/" target="_blank" rel="noopener noreferrer"> Guerra Fria </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historiadobrasil/brasil_imperio.htm" target="_blank" rel="noopener noreferrer"> Brasil Império </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historiadobrasil/causas_proclamacao_republica.htm" target="_blank" rel="noopener noreferrer"> Brasil República </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historia/conferencia_berlim.htm" target="_blank" rel="noopener noreferrer"> Conferência de Berlim </a> 
         </div>
 
         <div className="item_3">
-        <p> <b> Companhias Aéreas Internacionais </b> </p>
+        <p> <b> Fatos históricos </b> </p>
 
-        <p> Tap Air Portugal </p>
-        <p> Copa Airlines </p>
-        <p> Air France </p>
-        <p> Iberia </p>
-        <p> American Airlines </p>
+        <br/>
+        <br/>
+
+        <a href="https://www.suapesquisa.com/pesquisa/tratado_de_versalhes.htm" target="_blank" rel="noopener noreferrer"> 110 anos do Tratado de Versalhes </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/pesquisa/crise_1929.htm" target="_blank" rel="noopener noreferrer"> 90 anos do Crash da Bolsa de Nova York </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historia/revolucao_cubana.htm" target="_blank" rel="noopener noreferrer"> 80 anos da Revolução Cubana </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/respostas_historia/corrida_espacial.htm" target="_blank" rel="noopener noreferrer"> 70 anos do Homem da Lua </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/pesquisa/queda_muro_berlim.htm" target="_blank" rel="noopener noreferrer"> 30 anos da Queda do Muro de Berlim </a>
         </div>
 
-        <div className="item_3">
-        <p> <b> Companhias Aéreas Nacionais </b> </p>
+        <div className="item_4">
+        <p> <b> Outros séculos de seu interesse </b> </p>
 
-        <p> Azul Viagens </p>
-        <p> Latam </p>
-        <p> Tam </p>
-        <p> VoePass </p>
-        <p> Avianca </p>
+        <br/>
+        <br/>
+        
+
+        <a href="https://www.suapesquisa.com/historia/acontecimentos_seculo_xv.htm" target="_blank" rel="noopener noreferrer"> Século XV </a> <br/> <br/>
+        <a href="https://noticiasconcursos.com.br/principais-acontecimentos-do-seculo-viii-confira/" target="_blank" rel="noopener noreferrer"> Século VIII </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historia/acontecimentos_seculo_xix.htm" target="_blank" rel="noopener noreferrer"> Século XIX </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historia/acontecimentos_seculo_xx.htm" target="_blank" rel="noopener noreferrer"> Século XX </a> <br/> <br/>
+        <a href="https://www.suapesquisa.com/historia/acontecimentos_seculo_xvii.htm" target="_blank" rel="noopener noreferrer"> Século XVII </a> 
         </div>
       </div>
 
       {/* Imagem abaixo dos itens */}
-      <div className="image-containe">
-        <img className="Img_2" src={Logo} alt="Logo" />
+      <div className="image-contain">
+        <img className="imggg" src={Logo} alt="Logo" />
       </div>
 
     <br/> 
@@ -75,7 +85,7 @@ const Footer = () => {
       {/* Seção com mais itens abaixo da imagem */}
       <div className="row">
         <div className="item">
-          <br/>
+            <br/>
           <p> MadamesVoyage.com Ltda. – CNPJ/ME 40.59.12/0008-76 </p>
  
           <p> Madames Voyage é uma marca do Grupo As Gatitas e sua razão social é MadamesVoyage.com Ltda. 
@@ -87,19 +97,17 @@ const Footer = () => {
 
         </div>
 
-        <div className="item">
-          <br/>
+        <div className="item_5">
           <p>
-          A Madames Voyage comercializa os produtos de seus fornecedores de forma direta pelo seu site (www.mademesvoyage.com.br), 
-          aplicativo e televendas. Não há qualquer venda por redes sociais (Facebook, Instagram, Twitter, LinkedIn, TikTok, etc.).
-          Pós-vendas - os canais oficiais de atendimento aos clientes são: por meio do telefone (19) 97864-2324 e Minhas Viagens. 
+          O Arquivo Bélico distribui conhecimento de forma direta pelo seu site (www.arquivobelico.com.br), 
+          aplicativo e televendas. Há maiores informações nas redes sociais (Facebook, Instagram, Twitter, LinkedIn, TikTok, etc.).
+          Os canais oficiais de atendimento aos clientes são: por meio do telefone (19) 97864-2324 e Atendimento ao Cliente. 
           <br/>
-          <br/>
-          A Madames Voyage é composta pelas integrantes:
-          Giovanna Ferreira,
-          Maria Clara Duarte,
-          Julia Piazzoli,
-          Kamilly Barra.
+          O Arquivo Bélico é composto pelas integrantes: <br/>
+          Giovanna Ferreira, <br/>
+          Maria Clara Duarte, <br/>
+          Julia Piazzoli, <br/>
+          Kamilly Barra. <br/>
           <br/>
           As integrantes são alunas do técnico de Desenvolvimento de Sistemas do SENAI em Vinhedo-SP.
           </p>
