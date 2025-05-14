@@ -1,3 +1,7 @@
+body {
+    background-color: #a6a6a6;
+}
+
 .pagina-container {
   display: flex;
 }
@@ -18,7 +22,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 5px #778084;
   font-size: 2rem;
   text-align: center;
 }
@@ -50,10 +54,17 @@
 .conteudo-principal {
   flex: 1;
   padding: 30px;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1em;
+    color: #062a3c;
+}
+
+.H3-HomePage {
+    color: #062a3c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
 }
