@@ -25,7 +25,7 @@ function HomePage() {
 
         <main className="conteudo-principal">
           {/* Texto introdutório */}
-          <h3>Bem-vindo à Nossa Plataforma</h3>
+          <h3 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h3>
           <p>
             Aqui você encontrará informações detalhadas sobre os principais
             acontecimentos do século XX — um período marcado por intensas
@@ -57,12 +57,12 @@ function HomePage() {
           {/* Seção com efeito Parallax */}
           <section className="parallax-section">
             <div className="parallax-content">
-              <h2>Impacto e Inovação</h2>
+              <h3 className="H3-HomePage">Impacto e Inovação</h3>
             </div>
           </section>
 
           {/* Segundo bloco de texto */}
-          <h3>Por que esses temas são importantes?</h3>
+          <h3 className="H3-HomePage">Por que esses temas são importantes?</h3>
           <p>
             Os temas escolhidos para este site não foram selecionados por acaso.
             Cada um deles representa momentos decisivos que influenciaram
