@@ -1,6 +1,6 @@
 import Nav from "../Components/NavBar";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+// import Footer from "../Components/Footer";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 //
 
@@ -97,7 +97,7 @@ function HomePage() {
         econômicas no país.
       </p>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
