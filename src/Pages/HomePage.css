@@ -23,11 +23,6 @@ body {
   text-align: center;
 }
 
-.conteudo-principal {
-  flex: 1;
-  padding: 30px;
-  background-color: whitesmoke;
-}
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
