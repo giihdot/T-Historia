@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Header from "../Components/Header";
-import Nav from "../Components/NavBar";
+import Header from "../Components/Header(Azul)";
+import Nav from "../Components/NavBar(Azul)";
 // import Footer from "../Components/Footer";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
-import "./HomePage.css"; // se quiser adicionar estilos extras
+import "./HomePage.css";
 
 function HomePage() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -25,7 +25,7 @@ function HomePage() {
 
         <main className="conteudo-principal">
           {/* Texto introdutório */}
-          <h3 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h3>
+          <h1 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h1>
           <p>
             Aqui você encontrará informações detalhadas sobre os principais
             acontecimentos do século XX — um período marcado por intensas
@@ -57,7 +57,13 @@ function HomePage() {
           {/* Seção com efeito Parallax */}
           <section className="parallax-section">
             <div className="parallax-content">
-              <h3 className="H3-HomePage">Impacto e Inovação</h3>
+              <section className="back">
+                <p className="H4-HomePage">
+                  "No século XX, o mundo ardeu em guerras e renasceu em
+                  revoluções — um tempo em que o sangue escreveu a história e a
+                  esperança desenhou novos caminhos!"
+                </p>
+              </section>
             </div>
           </section>
 

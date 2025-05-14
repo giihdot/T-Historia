@@ -1,10 +1,9 @@
 body {
-    background-color: #a6a6a6;
+  background-color: #a6a6a6;
 }
-
 .parallax-section {
   height: 100vh;
-  background-image: url("../assets/parallax-image.jpg");
+  background-image: url("../assets/PARALLAX.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,17 +22,38 @@ body {
   text-align: center;
 }
 
-
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.1em;
-    color: #062a3c;
-    text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: #062a3c;
 }
 
 .H3-HomePage {
-    color: #062a3c;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2em;
-    text-align: justify;
+  color: #062a3c;
+}
+
+.H4-HomePage {
+  font-size: 0.7em;
+  margin-left: 6%;
+  color: #043f5b;
+  width: 85vw;
+}
+
+.back {
+  background-color: #a6a6a6;
+  padding: 2px 2px;
+  width: 97vw;
+}
+
+.navegacao {
+  background-color: #043f5b;
+  color: #a6a6a6;
+}
+
+.navegacao a {
+  color: #a6a6a6;
+}
+
+.navegacao a:hover {
+  background-color: #062a3c;
 }
