@@ -24,7 +24,7 @@ function Avaliacao({ idPagina }) {
           style={{
             fontSize: "30px",
             cursor: "pointer",
-            color: numero <= estrelas ? "#062a3c" : "gray",  // Ajuste a cor aqui
+            color: numero <= estrelas ? "#a6a6a6" : "gray",  // Ajuste a cor aqui
           }}
         >
           ★
