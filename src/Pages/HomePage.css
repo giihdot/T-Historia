@@ -61,10 +61,12 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.1em;
     color: #062a3c;
+    text-align: justify;
 }
 
 .H3-HomePage {
     color: #062a3c;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
+    text-align: justify;
 }
