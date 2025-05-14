@@ -1,8 +1,8 @@
-import "./App.css";
+//import "./App.css";
 import Navbar from "../Components/NavBar"
 import Header from "../Components/Header"
 
-function App() {
+function Canudos() {
   return (
     <div>
       <Header/>
@@ -74,12 +74,12 @@ function App() {
 
         <section className="info-img">
           <div className="video">
-            <iframe
+            <img
               width="100%"
               height="200"
               src="https://www.youtube.com/embed/FWhG-MpEBHk"
               title="Guerra de Canudos - Canal História"
-            ></iframe>
+            />
           </div>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gravura-Guerra_de_Canudos.jpg/320px-Gravura-Guerra_de_Canudos.jpg"
@@ -92,4 +92,4 @@ function App() {
   );
 }
 
-export default App;
+export default Canudos;
