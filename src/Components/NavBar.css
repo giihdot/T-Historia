@@ -25,3 +25,9 @@
   .pagina-container {
     display: flex;
   }
+
+  .conteudo-principal {
+    flex: 1;
+    padding: 30px;
+    background-color: whitesmoke;
+  }
