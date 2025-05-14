@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 25px 35px;
   height: 60px;
   box-shadow: 0 2px 4px #043f5b; /* azul escuro */
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -18,8 +18,8 @@ header h1 {
 }
 
 .Imagem {
-  height: 8vh;
-  width: 5vw;
+  height: 12vh;
+  width: 8vw;
 }
 
 .menu-icon {
