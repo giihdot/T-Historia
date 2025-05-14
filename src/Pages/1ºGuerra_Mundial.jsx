@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import Navbar from "../Components/NavBar";
-import Header from "../Components/Header";
+import Header from "../Components/Header(Cinza)";
+import Nav from "../Components/NavBar(Cinza)";
+import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
+import "./1ºGuerra_Mundial.css"
 
 function PrimeiraGuerraMundial() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -26,22 +28,37 @@ function PrimeiraGuerraMundial() {
     buscarResumo();
   }, []);
 
-  return (
-    <div>
-      <Header />
-      <h1>Primeira Guerra Mundial</h1>
-      <Navbar />
+  const [menuAberto, setMenuAberto] = useState(false);
 
+  const alternarMenu = () => {
+    setMenuAberto(!menuAberto);
+  };
+
+
+  return (
+    <>
+
+      <Header 
+        titulo="ARQUIVO BÉLICO"
+        imge={Logo_Arma_Azul}
+        onMenuClick={alternarMenu}
+      />
+
+      <div className="pagina-containerr">
+        {menuAberto && <Nav />}
+
+        <main className="conteudo-principall">
       {/* Resumo da Wikipedia */}
       <section>
-        <h2>Resumo (Wikipedia)</h2>
-        <p>{resumoWiki}</p>
+        <h1 className="H1-PGM"> PRIMEIRA GUERRA MUNDIAL </h1>
+        <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
+        <p className="pp">{resumoWiki}</p>
       </section>
-
+      
       {/* Informações históricas */}
       <section>
         <div>
-          <p>
+          <p className="pp">
             A Primeira Guerra Mundial foi um conflito global que durou de 1914 a
             1918. Ela começou com o assassinato do arquiduque Francisco Ferdinando
             da Áustria e rapidamente se transformou em uma guerra envolvendo as
@@ -61,7 +78,7 @@ function PrimeiraGuerraMundial() {
 
       <section>
         <div>
-          <p>
+          <p className="pp">
             A guerra envolveu duas alianças principais: a Tríplice Entente (França,
             Reino Unido e Rússia) e as Potências Centrais (Alemanha, Áustria-Hungria
             e Império Otomano). A entrada dos Estados Unidos em 1917 foi decisiva
@@ -90,7 +107,9 @@ function PrimeiraGuerraMundial() {
           alt="Trincheiras na Primeira Guerra"
         />
       </section>
+    </main>
     </div>
+    </>
   );
 }
 

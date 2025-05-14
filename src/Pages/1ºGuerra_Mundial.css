@@ -1,0 +1,22 @@
+body {
+  background-color: #043f5b;
+}
+
+.pagina-containerr {
+  display: flex;
+}
+
+.conteudo-principall {
+  flex: 1;
+  padding: 30px;
+  background-color: whitesmoke;
+}
+.pp {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: #a6a6a6;
+  text-align: justify;
+}
+.H1-PGM {
+  color: #043f5b;
+}
