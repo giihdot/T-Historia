@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import Navbar from "../Components/NavBar";
+import Header from "../Components/Header";
 
 function Formulario() {
   const [nome, setNome] = useState("");
@@ -27,12 +29,14 @@ function Formulario() {
   const enviarFormulario = (e) => {
     e.preventDefault();
     alert("Formulário enviado com sucesso!");
-    // Aqui você poderia salvar no localStorage, ou enviar para o back-end
   };
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Formulário</h2>
+      <Header />
+      <h1>Formulário</h1>
+      <Navbar />
+
       <form onSubmit={enviarFormulario}>
         <div>
           <label>Nome:</label><br />

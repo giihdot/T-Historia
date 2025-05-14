@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 function Avaliacao() {
   const localizacao = useLocation();
-  const chaveDaPagina = `avaliacao_${localizacao}`;
+  const chaveDaPagina = `avaliacao_${localizacao.pathname}`;
   const [estrelas, setEstrelas] = useState(0);
 
   useEffect(() => {
