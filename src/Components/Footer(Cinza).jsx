@@ -1,6 +1,6 @@
 import React from 'react';
-import './Footer(Azul).css'; 
-import Logo from '../assets/COLLAB CINZA.png'
+import './Footer(Cinza).css'; 
+import Logo from '../assets/COLLAB AZUL.png'
 
 const Footer = () => {
   return (

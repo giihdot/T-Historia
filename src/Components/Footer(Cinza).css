@@ -1,7 +1,7 @@
 .footer {
     padding: 20px;
-    background-color: #043f5b;
-    height: 7 0vh;
+    background-color: #a6a6a6;
+    height: 7 0vh; 
     text-align: center;
   }
   
@@ -38,7 +38,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color: #043f5b;
     color: white;
     width: 26vw;
     height: 26vh;
@@ -56,7 +56,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color: #043f5b;
     width: 26vw;
     height: 26vh;
     color: white;
@@ -69,7 +69,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color: #043f5b;
     width: 26vw;
     height: 26vh;
     font-size: 0.65em;
@@ -82,7 +82,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color: #043f5b;
     width: 26vw;
     height: 26vh;
     font-size: 0.9em;
@@ -94,7 +94,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color :#043f5b;
     width: 26vw;
     height: 26vh;
     font-size: 0.9em;
@@ -128,7 +128,7 @@
   }
 
   .pss {
-    color:#095b82ef;
+    color:#8d8b8bdf;
     font-size: 1em;
   }
 

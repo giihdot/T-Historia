@@ -108,22 +108,26 @@ function Contestado() {
               </p>
             </div>
             <img
-              src=""
+              src="https://memoriapolitica.alesc.sc.gov.br/uploads/imagem/arquivo/A_Guerra_do_Contestado.jpeg"
               alt="Monge José Maria"
             />
           </section>
 
           <section>
             <div className="video">
-              <img
-                width="100%"
-                height="200"
-                src=""
-                title="Guerra do Contestado - História do Brasil"
-              />
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5n6kplSnks4?si=lDLpSt8i5ufO3EXY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <img
-              src=""
+              src="https://www.uninter.com/noticias/wp-content/uploads/2019/08/noticias_contestado4.jpg"
               alt="Mapa da Guerra do Contestado"
             />
             <Avaliacao />
