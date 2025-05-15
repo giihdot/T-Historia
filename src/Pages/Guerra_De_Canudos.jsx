@@ -59,13 +59,7 @@ function GuerraDeCanudos() {
 
             <div className="texto">
               <p className="pp">
-                A Guerra de Canudos (1896-1897) foi um dos conflitos mais
-                violentos da história do Brasil. Ela aconteceu no interior do
-                estado da Bahia, no arraial de Canudos, fundado por Antônio
-                Conselheiro, um líder religioso carismático que atraía milhares
-                de sertanejos pobres com suas mensagens de fé, justiça social e
-                resistência ao novo regime republicano, que havia sido
-                instaurado em 1889...
+               
               </p>
             </div>
             <img

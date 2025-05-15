@@ -55,7 +55,7 @@ function Formulario() {
           <div style={{ padding: "20px" }}>
             <Header />
             <h1>Formulário</h1>
-            <Navbar />
+            <Nav/>
 
             <form onSubmit={enviarFormulario}>
               <div>

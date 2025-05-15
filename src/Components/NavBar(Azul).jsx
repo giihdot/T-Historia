@@ -13,7 +13,7 @@ function Nav() {
       <Link to="/1º_GUERRA_MUNDIAL"> 1º GUERRA MUNDIAL </Link>
       <Link to="/REVOLUÇÃO_RUSSA"> REVOLUÇÃO RUSSA </Link>
       <Link to="/REVOLUÇÃO_1930"> REVOLUÇÃO 1930 </Link>
-      <Link to="/FORMULÁRIO"> FORMULÁRIO </Link>
+      <Link to="/FORMULARIO"> FORMULÁRIO </Link>
       <Link to="/AS_GATITAS "> AS GATITAS </Link>
     </nav>
   );
