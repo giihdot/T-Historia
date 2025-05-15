@@ -82,7 +82,7 @@ function Contestado() {
               </p>
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Soldados_Guerra_do_Contestado.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUP-MTQzLwjVd2fw3W2JSK7lXadOC_1aTdtw&s"
               alt="Soldados na Guerra do Contestado"
             />
           </section>
@@ -108,7 +108,7 @@ function Contestado() {
               </p>
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Jose_Maria_-Monge_do_Contestado.jpg/220px-Jose_Maria-_Monge_do_Contestado.jpg"
+              src=""
               alt="Monge José Maria"
             />
           </section>
@@ -118,12 +118,12 @@ function Contestado() {
               <img
                 width="100%"
                 height="200"
-                src="https://www.youtube.com/embed/xDYo3hhVaAM"
+                src=""
                 title="Guerra do Contestado - História do Brasil"
               />
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mapa_guerra_do_contestado.png/330px-Mapa_guerra_do_contestado.png"
+              src=""
               alt="Mapa da Guerra do Contestado"
             />
             <Avaliacao />

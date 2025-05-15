@@ -81,7 +81,7 @@ function GuerraDeCanudos() {
               </p>
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Canudos1897.jpg/320px-Canudos1897.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxK42eZBzpTPz-AFtW3ItdOUEMRzflqBF846_cS2LlwM0qM1kUNJR9Obs2KI_SjzOgOxo&usqp=CAU"
               alt="Imagem de Canudos"
             />
           </section>
@@ -110,22 +110,26 @@ function GuerraDeCanudos() {
               </p>
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Conselheiro.jpg/220px-Conselheiro.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR19FGJvdsQxqmkd2FvIm9inrN2il1SXR5bWBRoOIa7STCAZb-3DIJGo_pqzzLv3JiUr1s&usqp=CAU"
               alt="Antônio Conselheiro"
             />
           </section>
 
           <section className="info-img">
             <div className="video">
-              <img
-                width="100%"
-                height="200"
-                src="https://www.youtube.com/embed/FWhG-MpEBHk"
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/34iCBr9r1CY?si=g7rT95A5mR_j7kYN"
                 title="Guerra de Canudos - Canal História"
-              />
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Gravura-Guerra_de_Canudos.jpg/320px-Gravura-Guerra_de_Canudos.jpg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxOZdVVbu3kCKavmbDv2mglI_RfUeM4yhqBxKoqqQuAGr9a8kzcrZQR62mAdcvaCd6Mpv8jXLzDtU_zF-pq-LJzmyTQPoipkwnye4r4qAovDXsNExxocj02Xrout1t_QZV_kC8ybI1yTp/s1600/5o_Batalhao_da_Policia_Militar_da_Bahia.jpg"
               alt="Gravura da Guerra de Canudos"
             />
           </section>
