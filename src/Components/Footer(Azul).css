@@ -1,5 +1,6 @@
 .footer {
     padding: 20px;
+    width: 92vw;
     background-color: #062a3c;
     text-align: center;
   }
@@ -28,7 +29,7 @@
     background-color: #a6a6a6;
     width: 30vw;
     height: 30vh;
-    font-size: 0.72em;
+    font-size: 1em;
     text-align: center;
   }
 
@@ -86,4 +87,9 @@
   .imggg {
     width: 20vw;
     height: 50vh;
+  }
+
+  .txt {
+    color: white;
+    font-size: 0.8em;
   }

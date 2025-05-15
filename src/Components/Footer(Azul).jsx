@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; 
+import './Footer(Azul).css'; 
 import Logo from '../assets/COLLAB AZUL.png'
 
 const Footer = () => {
@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="footer">
       {/* Seção de conteúdo acima da linha */}
       <div className="top-section">
-        <p> <b> Telefone: </b> +55 (19) 97864-2324 </p>
+        <p className='txt'> <b> Telefone: </b> +55 (19) 97864-2324 </p>
         <br/>
-        <p>|</p>
+        <p className='txt'>|</p>
         <br/>
-      <p> <b> Email: </b> arquivobelico@history.com.br </p>
+      <p className='txt'> <b> Email: </b> arquivobelico@history.com.br </p>
       </div>
     <br/>
     <br/>
@@ -22,21 +22,21 @@ const Footer = () => {
       {/* Seção com 4 itens lado a lado */}
       <div className="row">
         <div className="item">
-        <p> <b> Sobre a Empresa: </b> </p>
+        <p className='txt'> <b> Sobre a Empresa: </b> </p>
 
         <br/>
 
-        <p> Atendimento ao Cliente </p>
-        <p> Blog do Arquivo Bélico </p>
-        <p> Canais Oficiais </p>
-        <p> Políticas de Privacidade </p>
-        <p> Termos de Uso </p>
-        <p> Nossas Redes Sociais </p>
+        <p className='txt'> Atendimento ao Cliente </p>
+        <p className='txt'> Blog do Arquivo Bélico </p>
+        <p className='txt'> Canais Oficiais </p>
+        <p className='txt'> Políticas de Privacidade </p>
+        <p className='txt'> Termos de Uso </p>
+        <p className='txt'> Nossas Redes Sociais </p>
         </div>
 
         <div className="item_2">
-        <p> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
-        <p> <b> história do mundo </b> </p>
+        <p className='txt'> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
+        <p className='txt'> <b> história do mundo </b> </p>
 
         <br/>
 
@@ -88,12 +88,12 @@ const Footer = () => {
             <br/>
           <p> MadamesVoyage.com Ltda. – CNPJ/ME 40.59.12/0008-76 </p>
  
-          <p> Madames Voyage é uma marca do Grupo As Gatitas e sua razão social é MadamesVoyage.com Ltda. 
+          <p className='txt'> Madames Voyage é uma marca do Grupo As Gatitas e sua razão social é MadamesVoyage.com Ltda. 
               Ministério do Turismo - Cadastur 42.395627.30.0009-5 / 42.395627.30.0009-5 – CNPJ/ME 40.59.12/0008-76. 
               <br/>
               Todos os direitos reservados. Avenida Ana Lombardi, 242, 8º andar, Jardim Canudos, Vinhedo, São Paulo, CEP 13269-540. </p>
 
-          <p> Copyright 1992-2024, MademesVoyage.com Ltda </p>
+          <p className='txt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
 
         </div>
 
