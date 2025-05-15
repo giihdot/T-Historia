@@ -58,7 +58,6 @@ function GuerraDeCanudos() {
             />
 
             <div className="texto">
-<<<<<<< HEAD
               <p className="ppGC">
                 A Guerra de Canudos foi um dos conflitos mais marcantes da
                 história do Brasil, ocorrido no sertão da Bahia, no final do
@@ -85,10 +84,6 @@ function GuerraDeCanudos() {
                 social e da violência do Estado contra os mais vulneráveis. Até
                 hoje, ela é lembrada como um dos episódios mais trágicos da
                 história do Brasil.
-=======
-              <p className="pp">
-               
->>>>>>> 86f6f39d28519d29b8d41f5e9fdb5ac104a115dd
               </p>
             </div>
             <img
