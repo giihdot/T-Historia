@@ -104,12 +104,12 @@ function PrimeiraGuerraMundial() {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
               alt="Batalha de trincheiras da Primeira Guerra"
             />
-          <img
-            className="img2PGM"
-            src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
-            alt="Trincheiras na Primeira Guerra"
-          />
-          </section>  
+            <img
+              className="img2PGM"
+              src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
+              alt="Trincheiras na Primeira Guerra"
+            />
+          </section>
 
           {/* Segunda parte do texto */}
           <section>
@@ -151,18 +151,26 @@ function PrimeiraGuerraMundial() {
             </div>
 
             <h3>
-              Indicação de Livro que relata os acontecimentos da Primeira Grande Guerra:
+              Indicação de Livros que relata os acontecimentos da Primeira
+              Grande Guerra:
             </h3>
             <img
               className="livroPGM"
               src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
               alt="Livro - Primeira Guerra Mundial"
             />
+
+            <img
+              className="livroPGM"
+              src="https://a-static.mlcdn.com.br/1500x1500/livro-a-historia-da-primeira-guerra-mundial-1914-1918/cliquebooks/550200-4/a579153fb0b0a3f990016f46dcba8fea.jpg"
+              alt="Livro - Primeira Guerra Mundial"
+            />
           </section>
 
           {/* Filme indicado */}
           <h3>
-            Indicação de Filme que relata os acontecimentos da Primeira Grande Guerra:
+            Indicação de Filme que relata os acontecimentos da Primeira Grande
+            Guerra:
           </h3>
 
           <section className="info-img">

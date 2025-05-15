@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
+import "../Pages/Crise_1929.css"
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 
 function Crise1929() {
@@ -41,26 +42,27 @@ return (
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <div className="pag-contain">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principal">
+        <main className="conte-princ">
           <h1> Crise de 1929 </h1>
 
-          <section>
+          <section className="resum">
             <strong>
-              <h2>Resumo</h2>
+              <h2> Resumo da Wikipédia </h2>
             </strong>
-            <p>{resumoWiki}</p>
+            <p className="paragh">{resumoWiki}</p>
           </section>
 
           <section>
-            <div>
-              <p>
+            <div className="resum">
+              <p className="paragh">
+                <p> Contexto Histórico: </p>
                 A Crise de 1929 foi uma crise econômica de grandes proporções, considerada um dos principais abalos 
                 ao capitalismo liberal da história. Causada pela superprodução da indústria dos EUA e pelo subconsumo 
                 dos mercados consumidores nos anos 1926-1929, teve efeitos desastrosos na economia mundial.
-                    Os antecedentes históricos da Crise de 1929 foram:
+                Os antecedentes históricos da Crise de 1929 foram:
                     Os anos do pós-Primeira Guerra Mundial: os EUA estavam envolvidos na reconstrução da Europa por 
                     meio de investimentos e empréstimos às nações. Isso gerou uma expansão em sua produção industrial, 
                     chamada de superprodução.
@@ -73,15 +75,17 @@ return (
 
               </p>
             </div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxK42eZBzpTPz-AFtW3ItdOUEMRzflqBF846_cS2LlwM0qM1kUNJR9Obs2KI_SjzOgOxo&usqp=CAU"
-              alt="Imagem de Canudos"
+            <img className="imagens"
+              src="https://ensinarhistoria.com.br/s21/wp-content/uploads/2015/04/15_carro-a-venda-crise-1929_101a-1.jpg"
+              alt="Imagem de Crise de 29"
             />
           </section>
+          
 
-          <section>
+          <section className="resum">
             <div>
-              <p>
+              <p className="paragh">
+                <p> Causa e Consequências: </p>
                 As causas da Crise de 1929 foram diversas. Em primeiro lugar, é importante ter em mente que o contexto 
                 dos anos 1925 e 1926 foi determinante para a crise: os países europeus que estavam, desde 1918, em movimento 
                 de reconstrução encerraram esse processo e, portanto, passam a importar menos da indústria dos EUA e a 
@@ -127,15 +131,16 @@ return (
 
               </p>
             </div>
+            </section>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR19FGJvdsQxqmkd2FvIm9inrN2il1SXR5bWBRoOIa7STCAZb-3DIJGo_pqzzLv3JiUr1s&usqp=CAU"
-              alt="Antônio Conselheiro"
+              src="http://image.slidesharecdn.com/emcrise1929-120924184936-phpapp02/95/em-crise-1929-22-728.jpg?cb=1348512890"
+              alt="Crise de 29"
             />
-          </section>
 
-          <section>
+          <section className="resum">
             <div>
-              <p>
+              <p className="paragh">
+                <p> New Deal: </p>
                 O New Deal foi um conjunto de programas e políticas implementadas pelo presidente Franklin D. Roosevelt nos Estados Unidos, com o objetivo de combater os efeitos da 
                 Crise de 1929 e da Grande Depressão. A crise havia devastado a economia global, e os EUA estavam enfrentando um colapso econômico, com milhões de pessoas desempregadas, 
                 falências em massa, falências de bancos e uma queda drástica na produção industrial. O New Deal buscou enfrentar esses problemas de várias maneiras.
@@ -196,13 +201,13 @@ return (
             </div>
             </section>
 
-          <section className="info-img">
-            <div className="video">
+          <section className="inform-img">
+            <div className="video_you">
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/34iCBr9r1CY?si=g7rT95A5mR_j7kYN"
-                title="Guerra de Canudos - Canal História"
+                src="https://www.youtube.com/watch?app=desktop&v=Qi1mesXHuq8"
+                title="Crise de 1929"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -210,8 +215,8 @@ return (
               ></iframe>
             </div>
             <img
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxOZdVVbu3kCKavmbDv2mglI_RfUeM4yhqBxKoqqQuAGr9a8kzcrZQR62mAdcvaCd6Mpv8jXLzDtU_zF-pq-LJzmyTQPoipkwnye4r4qAovDXsNExxocj02Xrout1t_QZV_kC8ybI1yTp/s1600/5o_Batalhao_da_Policia_Militar_da_Bahia.jpg"
-              alt="Gravura da Guerra de Canudos"
+              src="https://static.todamateria.com.br/upload/qu/eb/quebradabolsadenovayork-cke.jpg"
+              alt="1929"
             />
           </section>
         </main>

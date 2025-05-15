@@ -1,0 +1,49 @@
+.IMG1F {
+    width: 30vw;
+    height: 40vh;
+}
+
+.IMG2F {
+    width: 30vw;
+    height: 40vh;
+}
+
+.IMG3F {
+    width: 30vw;
+    height: 40vh;
+}
+
+.juntIMG {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.ppFI {
+    width: 92vw;
+}
+
+
+.juntppFI3 {
+    display: flex;
+    flex-direction: row;
+    width: 92vw;
+    gap: 5%;
+
+}
+
+.juntppFI1 {
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+
+}
+
+.juntppFI2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ppRESF {
+    width: 92vw;
+}
