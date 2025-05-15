@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import Navbar from "../Components/NavBar(Azul)";
-import Header from "../Components/Header(Azul)";
+import Header from "../Components/Header(Cinza)";
+import Nav from "../Components/NavBar(Cinza)";
+import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 
 function GuerraDeCanudos() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -26,10 +27,24 @@ function GuerraDeCanudos() {
     buscarResumo();
   }, []);
 
+  const [menuAberto, setMenuAberto] = useState(false);
+
+  const alternarMenu = () => {
+    setMenuAberto(!menuAberto);
+  };
+
   return (
-    <div>
-      <Header />
-      <Navbar />
+    <>
+       <Header
+        titulo="ARQUIVO BÉLICO"
+        imge={Logo_Arma_Azul}
+        onMenuClick={alternarMenu}
+      />
+
+      <div className="pagina-container">
+        {menuAberto && <Nav />}
+
+        <main className="conteudo-principal">
 
       <h1>Guerra de Canudos</h1>
       {/* Resumo vindo da Wikipedia */}
@@ -83,7 +98,9 @@ function GuerraDeCanudos() {
           alt="Gravura da Guerra de Canudos"
         />
       </section>
-    </div>
+      </main>
+      </div>
+    </>
   );
 }
 
