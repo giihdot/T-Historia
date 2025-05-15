@@ -55,17 +55,17 @@ function RevoluçãoRussa() {
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
           <h3 className="H3-RR"> Resumo (Wikipedia) </h3>
-          <p> {resumoWiki} </p>
+          <p className="pRR"> {resumoWiki} </p>
 
           <h1 className="H3-RR"> Contexto Histórico </h1>
-          <p>
+          <p className="pRR">
             A Revolução Russa foi o resultado do desgaste do czarismo na Rússia
             e do aumento da insatisfação social com esse regime e a situação do
             país. Em 1904, o czar Nicolau II decidiu iniciar uma guerra contra o
             Japão pelo controle da Manchúria. Essa guerra ficou conhecida como
             Guerra Russo-Japonesa.
           </p>
-          <p>
+          <p className="pRR">
             Esse conflito agravou os problemas russos e aumentou a pobreza da
             população, que, insatisfeita, passou a realizar uma série de
             protestos e outras manifestações, como greves. Um desses protestos
@@ -76,7 +76,7 @@ function RevoluçãoRussa() {
           <div className="Box-row">
             <Slider />
             <div className="Box-colunm">
-              <p>
+              <p className="pRR">
                 Nessa passeata a população ainda exaltava o czar, carregando
                 cartazes em seu apoio e cantando-lhe músicas. A reação de
                 Nicolau II foi brutal, e a população que estava na passeata foi
@@ -87,7 +87,7 @@ function RevoluçãoRussa() {
                 indignada com a ação do czar, conduziu uma série de revoltas
                 contra o governo.
               </p>
-              <p>
+              <p className="pRR">
                 As revoltas conduzidas pela população em reação ao Domingo
                 Sangrento foram o que se chamou de Revolução de 1905, entendida
                 como um ensaio para a Revolução Russa de 1917. Durante a
@@ -95,7 +95,7 @@ function RevoluçãoRussa() {
                 pelos trabalhadores operários.
               </p>
 
-              <p>
+              <p className="pRR">
                 A Revolução Russa de 1917 teve suas raízes na Revolução
                 Industrial, que criou o proletariado, expôs os trabalhadores à
                 exploração extrema (o chamado “capitalismo selvagem”) e
@@ -107,7 +107,7 @@ function RevoluçãoRussa() {
               </p>
             </div>
           </div>
-          <p>
+          <p className="pRR">
             No início do século XX, a Rússia era um país atrasado economicamente
             (agrário e pouco industrializado), socialmente desigual (com uma
             elite fundiária dominante) e politicamente autocrático (sob o czar
@@ -120,7 +120,7 @@ function RevoluçãoRussa() {
           <img id="Imagem1" src={RevRS1}></img>
           <img id="Imagem1" src={RevRS2}></img>
           </div>
-          <p>
+          <p className="pRR">
             A Primeira Guerra Mundial agravou a crise russa, com derrotas
             militares, fome e miséria. Em fevereiro de 1917, manifestações
             populares e a adesão dos soldados provocaram a queda do czar. Um
@@ -130,7 +130,7 @@ function RevoluçãoRussa() {
             tomaram o poder em outubro de 1917, derrubando o governo de
             Kerensky.
           </p>
-          <p>
+          <p className="pRR">
             Após dissolver a Duma e a Assembleia Constituinte (que não deu
             maioria aos bolcheviques), Lenin instaurou a ditadura comunista.
             Seguiram-se a Guerra Civil entre brancos e vermelhos, a NEP (Nova
@@ -139,12 +139,12 @@ function RevoluçãoRussa() {
             repressão e autoritarismo.
           </p>
           <h3 className="H3-RR"> Revolução de Fevereiro de 1917 </h3>
-          <p>
+          <p className="pRR">
             Em 1917, após diversas tensões políticas que se avolumavam desde
             1905, catalisadas pelo desempenho desastroso do país na guerra, a
             Rússia estava em uma situação política grave.
           </p>
-          <p>
+          <p className="pRR">
             Como grande parte da população masculina servia ao exército na
             guerra, foi uma greve deflagrada por mulheres trabalhadoras das
             indústrias de Petrogrado (então capital) que iniciou a revolução.
@@ -153,7 +153,7 @@ function RevoluçãoRussa() {
             episódio gerou reações de outros setores, que também se revoltaram
             contra o governo.
           </p>
-          <p>
+          <p className="pRR">
             Rapidamente, a inconformidade se generalizou, ganhando, inclusive, o
             apoio político da Duma, representada pelo jovem líder socialista e
             deputado Alexander Kerenski, e do Soviete de Petrogrado. Diante de
@@ -162,7 +162,7 @@ function RevoluçãoRussa() {
             Rússia.
           </p>
           <h3 className="H3-RR"> Revolução de Outubro de 1917 </h3>
-          <p>
+          <p className="pRR">
             O novo governo republicano não conseguiu sanar os anseios populares
             e os problemas políticos em tempo satisfatório. Em abril de 1917, o
             líder bolchevique Lênin, anteriormente preso e exilado na Suíça,
@@ -170,27 +170,27 @@ function RevoluçãoRussa() {
             sovietes assumissem imediatamente o poder em uma revolução
             socialista.
           </p>
-          <p>
+          <p className="pRR">
             Com o apoio bolchevique, Lênin protagonizou um golpe de Estado em
             outubro de 1917, que destituiu o governo republicano. Imediatamente,
             negociou a saída da Rússia da Primeira Guerra Mundial, nacionalizou
             terras e fábricas (uma pauta socialista) e iniciou reformas
             estruturais na economia e política russas.
           </p>
-          <p>
+          <p className="pRR">
             Após a Revolução de Outubro, construiu-se o governo socialista russo
             que resultaria na formação da União das Repúblicas Socialistas
             Soviéticas (URSS) em 1922. O governo de Lênin foi responsável por
             implementar as primeiras medidas socialistas, e, mesmo após sua
             morte, seus sucessores mantiveram o alinhamento ideológico do país.
           </p>
-          <p>
+          <p className="pRR">
             Após a morte de Lênin, em 1924, chegou ao poder Joseph Stalin, que
             governaria a União Soviética durante todo o período entre guerras
             (1918-1939), a Segunda Guerra Mundial (1939-1945) até sua morte, em
             1953, no início da Guerra Fria.
           </p>
-          <p>
+          <p className="pRR">
             Diante do rápido desenvolvimento industrial, as questões sociais já
             vividas em outros países europeus também ocorreram em solo russo.
             Nesse contexto, organizou-se o Partido Operário Social-Democrata
@@ -203,7 +203,7 @@ function RevoluçãoRussa() {
           </p>
           <div className="junt">
           <div className="Colunm">
-          <p>
+          <p className="pRR">
             <strong> Mencheviques: </strong> grupo liderado por Julius Martov,
             entendia que o socialismo deveria ser construído com base no
             controle das instituições por meio da política e do desenvolvimento
@@ -212,7 +212,7 @@ function RevoluçãoRussa() {
           <img id="Imagem2" src={Menc}></img>
           </div>
           <div className="Colunm">
-          <p>
+          <p className="pRR">
             <strong> Bolcheviques: </strong> por outro lado, liderados por
             Vladmir Lênin, defendiam uma revolução socialista imediata, fruto da
             aliança de operários e camponeses.

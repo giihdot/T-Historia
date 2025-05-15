@@ -116,6 +116,7 @@ function PrimeiraGuerraMundial() {
           {/* Segunda parte do texto */}
 
           <section className="f-containerr">
+            <article className="f-containerr">
             <div className="junt-imag">
               <p className="ppPGM">
                 A Primeira Guerra Mundial envolveu duas grandes alianças
@@ -214,6 +215,7 @@ function PrimeiraGuerraMundial() {
                 </section>
               </section>
             </div>
+          </article>
           </section>
         </div>
       </div>
