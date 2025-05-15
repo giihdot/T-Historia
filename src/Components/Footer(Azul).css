@@ -1,7 +1,7 @@
 .footer {
-    padding: 20px;
+    padding: 25px;
     background-color: #043f5b;
-    height: 7 0vh;
+    height: 90vh;
     text-align: center;
   }
   
@@ -16,33 +16,33 @@
     border: 1px solid #ccc;
   }
   
-  .row {
+  .linhaa {
     display: flex;
     justify-content: space-around;
     margin-bottom: 0.02%;
   }
   
-  .item {
+  .itens {
     flex: 1;
-    margin: 0 0.7%;
+    margin: 0.7%;
     padding: 10px;
     background-color: #a6a6a6;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
     color: white;
   }
 
-  .item_2 {
+  .itens_2 {
     flex: 1;
-    margin: 0 0.7%;
+    margin: 0.7%;
     padding: 10px;
     background-color: #a6a6a6;
     color: white;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
    
   }
@@ -50,89 +50,97 @@
   a {
     text-decoration: none;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .item_3 {
+  .itens_3 {
     flex: 1;
-    margin: 0 0.7%;
+    margin: 0.7%;
     padding: 10px;
     background-color: #a6a6a6;
     width: 26vw;
     height: 26vh;
     color: white;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
     text-decoration: none;
   }
 
-  .item_4 {
+  .itens_4 {
     flex: 1;
-    margin: 0 0.7%;
+    margin: 0.7%;
     padding: 10px;
     background-color: #a6a6a6;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
+    font-size: 0.67em;
     color: white;
     text-align: center;
     text-decoration: none;
   }
 
-  .item_5 {
+  .itens_5 {
     flex: 1;
-    margin: 0 0.7%;
-    padding: 10px;
+    margin: 0.7%;
+    padding: 15px;
     background-color: #a6a6a6;
-    width: 26vw;
-    height: 26vh;
+    width: 28vw;
+    height: 28vh;
     font-size: 0.9em;
     color: white;
     text-align: justify;
+    margin-bottom: 4%;
   }
 
-  .item_6 {
+  .itens_6 {
     flex: 1;
-    margin: 0 0.7%;
-    padding: 10px;
+    margin: 0.7%;
+    padding: 15px;
     background-color: #a6a6a6;
-    width: 26vw;
-    height: 26vh;
+    width: 28vw;
+    height: 28vh;
     font-size: 0.9em;
     color: white;
     text-align: start;
     text-align: justify;
+    margin-bottom: 4%;
   }
 
   .image-contain {
-    margin-top: 0.011%;
-    margin-bottom: 0.011%;
+    margin-top: 0.009%;
+    margin-bottom: 0.009%;
   }
   
-  .imggg {
-    width: 20vw;
-    height: 40vh;
+  .img_blue {
+    width: 15vw;
+    height: 17vh;
 
   }
 
-  .txt {
+  .txtt {
     color: white;
     font-size: 0.9em;
     margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .textt {
+  .texxtt {
     text-align: start;
     text-align: justify;
     color: white;
     font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .pss {
+  .parg {
     color:#095b82ef;
-    font-size: 1em;
+    font-size: 1.04em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  .psss {
+  .pssss {
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
+    text-align: center;
   }

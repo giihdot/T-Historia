@@ -1,7 +1,7 @@
 .footer1 {
-    padding: 20px;
+    padding: 25px;
     background-color: #a6a6a6;
-    height: 7 0vh; 
+    height: 107vh; 
     text-align: center;
   }
   
@@ -29,7 +29,7 @@
     background-color: #043f5b;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
     color: white;
   }
@@ -39,17 +39,17 @@
     margin: 0 0.7%;
     padding: 10px;
     background-color: #043f5b;
-    color: white;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
-   
+    color: white;
   }
 
   a {
     text-decoration: none;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .item_3 {
@@ -59,58 +59,58 @@
     background-color: #043f5b;
     width: 26vw;
     height: 26vh;
-    color: white;
-    font-size: 0.65em;
+    font-size: 0.67em;
     text-align: center;
-    text-decoration: none;
+    color: white;
   }
 
   .item_4 {
-    flex: 1;
+   flex: 1;
     margin: 0 0.7%;
     padding: 10px;
     background-color: #043f5b;
     width: 26vw;
     height: 26vh;
-    font-size: 0.65em;
-    color: white;
+    font-size: 0.67em;
     text-align: center;
-    text-decoration: none;
+    color: white;
   }
 
   .item_5 {
     flex: 1;
     margin: 0 0.7%;
-    padding: 10px;
+    padding: 15px;
     background-color: #043f5b;
-    width: 26vw;
-    height: 26vh;
+    width: 28vw;
+    height: 28vh;
     font-size: 0.9em;
     color: white;
     text-align: justify;
+    margin-bottom: 4%;
   }
 
   .item_6 {
     flex: 1;
     margin: 0 0.7%;
-    padding: 10px;
-    background-color :#043f5b;
-    width: 26vw;
-    height: 26vh;
+    padding: 15px;
+    background-color: #043f5b;
+    width: 28vw;
+    height: 28vh;
     font-size: 0.9em;
     color: white;
     text-align: start;
     text-align: justify;
+    margin-bottom: 4%;
   }
 
   .image-contain {
-    margin-top: 0.011%;
-    margin-bottom: 0.011%;
+    margin-top: 0.0019%;
+    margin-bottom: 0.008%;
   }
   
   .imggg {
-    width: 20vw;
-    height: 40vh;
+    width: 15vw;
+    height: 15vh;
 
   }
 
@@ -118,21 +118,26 @@
     color: white;
     font-size: 0.9em;
     margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .textt {
-    text-align: start;
+     text-align: start;
     text-align: justify;
     color: white;
     font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .pss {
     color:#ccc9c9b2;
-    font-size: 1em;
+    font-size: 1.04em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .psss {
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
+    text-align: center;
   }

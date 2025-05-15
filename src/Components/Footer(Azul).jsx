@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer(Azul).css'; 
+import './Footer(Azul).css'
 import Logo from '../assets/COLLAB CINZA.png'
 
 const Footer = () => {
@@ -21,22 +21,22 @@ const Footer = () => {
     <br/>
       {/* Seção com 4 itens lado a lado */}
       <div className="row">
-        <div className="item">
-        <p className='pss'> <b> Sobre a Empresa: </b> </p>
+        <div className="itens">
+        <p className='parg'> <b> Sobre a Empresa: </b> </p>
 
         <br/>
 
-        <p className='psss'> Atendimento ao Cliente </p>
-        <p className='psss'> Blog do Arquivo Bélico </p>
-        <p className='psss'> Canais Oficiais </p>
-        <p className='psss'> Políticas de Privacidade </p>
-        <p className='psss'> Termos de Uso </p>
-        <p className='psss'> Nossas Redes Sociais </p>
+        <p className='pssss'> Atendimento ao Cliente </p>
+        <p className='pssss'> Blog do Arquivo Bélico </p>
+        <p className='pssss'> Canais Oficiais </p>
+        <p className='pssss'> Políticas de Privacidade </p>
+        <p className='pssss'> Termos de Uso </p>
+        <p className='pssss'> Nossas Redes Sociais </p>
         </div>
 
-        <div className="item_2">
-        <p className='pss'> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
-        <p className='pss'> <b> história do mundo: </b> </p>
+        <div className="itens_2">
+        <p className='parg'> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
+        <p className='parg'> <b> história do mundo: </b> </p>
 
         <br/>
 
@@ -48,8 +48,8 @@ const Footer = () => {
         </div>
         
 
-        <div className="item_3">
-        <p className='pss'> <b> Fatos históricos: </b> </p>
+        <div className="itens_3">
+        <p className='parg'> <b> Fatos históricos: </b> </p>
 
         <br/>
         <br/>
@@ -61,8 +61,8 @@ const Footer = () => {
         <a href="https://www.suapesquisa.com/pesquisa/queda_muro_berlim.htm" target="_blank" rel="noopener noreferrer"> 30 anos da Queda do Muro de Berlim </a>
         </div>
 
-        <div className="item_4">
-        <p className='pss'> <b> Outros séculos de seu interesse: </b> </p>
+        <div className="itens_4">
+        <p className='parg'> <b> Outros séculos de seu interesse: </b> </p>
 
         <br/>
         <br/>
@@ -78,34 +78,34 @@ const Footer = () => {
 
       {/* Imagem abaixo dos itens */}
       <div className="image-contain">
-        <img className="imggg" src={Logo} alt="Logo" />
+        <img className="img_blue" src={Logo} alt="Logo" />
       </div>
 
     <br/> 
 
       {/* Seção com mais itens abaixo da imagem */}
-      <div className="row">
-        <div className="item_6">
+      <div className="linhaa">
+        <div className="itens_6">
             <br/>
-          <p className='txt'> ArquivoBelico.com Ltda. – CNPJ/ME 40.59.12/0008-76 </p>
+          <p className='txtt'> ArquivoBelico.com Ltda. – CNPJ/ME 40.59.12/0008-76 </p>
  
-          <p className='txt'> Arquivo Bélico é um site de conhecimento do Grupo As Gatitas e sua razão social é ArquivoBelico.com Ltda. 
+          <p className='txtt'> Arquivo Bélico é um site de conhecimento do Grupo As Gatitas e sua razão social é ArquivoBelico.com Ltda. 
               Ministério da Educação - Cadastur 42.395627.30.0009-5 / 42.395627.30.0009-5 – CNPJ/ME 40.59.12/0008-76. 
               <br/>
               Todos os direitos reservados. Avenida Ana Lombardi, 242, 8º andar, Jardim Canudos, Vinhedo, São Paulo, CEP 13269-540. </p>
 
-          <p className='txt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
+          <p className='txtt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
 
         </div>
 
-        <div className="item_5">
-          <p className='txt'>
+        <div className="itens_5">
+          <p className='txtt'>
           O Arquivo Bélico distribui conhecimento de forma direta pelo seu site (www.arquivobelico.com.br), 
           aplicativo e televendas. Há maiores informações nas redes sociais (Facebook, Instagram, Twitter, LinkedIn, TikTok, etc.).
           Os canais oficiais de atendimento aos clientes são: por meio do telefone (19) 97864-2324 e Atendimento ao Cliente. 
           </p>
 
-          <p className='textt'>
+          <p className='texxtt'>
           O Arquivo Bélico é composto pelas integrantes: <br/>
           Giovanna Ferreira, <br/>
           Maria Clara Duarte, <br/>

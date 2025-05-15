@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
+import Footer from "../Components/Footer(Cinza)";
 import "../Pages/Crise_1929.css"
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 
@@ -220,6 +221,7 @@ return (
             />
           </section>
         </main>
+        <Footer />
       </div>
     </>
   );
