@@ -23,7 +23,7 @@ function HomePage() {
       <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principal">
+        <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h1>
           <p>
@@ -112,7 +112,7 @@ function HomePage() {
             cenário político brasileiro, colocando Getúlio Vargas no poder e
             abrindo caminho para mudanças sociais e econômicas no país.
           </p>
-        </main>
+        </div>
       </div>
       <Footer/>
     </>
