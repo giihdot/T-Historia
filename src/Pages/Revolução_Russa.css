@@ -1,8 +1,8 @@
 .Box-row {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* alinha os itens pelo topo */
-  justify-content: space-between; /* distribui melhor os elementos */
+  align-items: flex-start; 
+  justify-content: space-between; 
   width: 100%;
 }
 .Box-colunm {
@@ -13,44 +13,44 @@
   text-align: justify;
 }
 
-p {
+/* .pRR {
   text-align: justify;
-}
+} */
 
 #Imagem1 {
-  width: 45vw;
-  height: 50vh;
+  width: 35vw;
+  height: 45vh;
 }
 
 #Imagem2 {
-  width: 45vw;
-  height: 50vh;
+  width: 35vw;
+  height: 45vh;
 }
 
 .image {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-
+/* 
 .Colunm {
   display: flex;
   flex-direction: column;
   width: 45vw;
-}
+} */
 
-.junt {
+/* .junt {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.H3-RR {
+/* .H3-RR {
   font-size: 1.5em;
   color: #043f5b;
-}
+} */
 
-.H4-RR {
+/* .H4-RR {
   font-size: 2em;
   color: #043f5b;
-}
+} */
