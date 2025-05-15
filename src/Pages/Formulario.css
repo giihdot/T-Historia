@@ -1,0 +1,111 @@
+/* Área geral do formulário */
+.form-area {
+  background-color: #b0b0b0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Título */
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  color: #003c58;
+  margin-bottom: 10px;
+}
+
+/* Container do formulário */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Cada grupo de pergunta */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label dos campos */
+.form-group label {
+  font-weight: bold;
+  color: #003c58;
+  margin-bottom: 5px;
+}
+
+/* Inputs e selects */
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Textarea limitado e ajustado */
+.form-group textarea {
+  max-height: 150px;
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Botão de envio */
+.form-button {
+  background-color: #003c58;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 20%;
+  transition: background-color 0.3s ease;
+  margin-bottom: -20%;
+}
+
+.form-button:hover {
+  background-color: #002b40;
+}
+
+/* Área do ranking */
+.like-stats {
+  background-color: #003c58;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 2px solid #b0b0b0;
+}
+
+/* Estilo do título do ranking */
+.like-stats h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+/* Lista dos votos */
+.like-stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.like-stats li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
