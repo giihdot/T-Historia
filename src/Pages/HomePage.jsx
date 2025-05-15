@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "../Components/Header(Azul)";
 import Nav from "../Components/NavBar(Azul)";
-// import Footer from "../Components/Footer";
+import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./HomePage.css";
 
@@ -114,6 +114,7 @@ function HomePage() {
           </p>
         </main>
       </div>
+      <Footer/>
     </>
   );
 }

@@ -15,6 +15,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 1;
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px 5px #778084;
@@ -45,15 +46,3 @@ p {
   width: 97vw;
 }
 
-.navegacao {
-  background-color: #043f5b;
-  color: #a6a6a6;
-}
-
-.navegacao a {
-  color: #a6a6a6;
-}
-
-.navegacao a:hover {
-  background-color: #062a3c;
-}
