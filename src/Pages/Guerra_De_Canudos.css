@@ -1,0 +1,64 @@
+body {
+  background-color: #043f5b;
+  margin: 0;
+}
+
+.pagina-containerr {
+  display: flex;
+}
+
+.conteudo-principall {
+  flex: 1;
+  background-color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.H1-PGM {
+  color: #043f5b;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.pp, .ppPGM {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: #333;
+  text-align: justify;
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.grid-container .texto {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.grid-container img,
+.grid-container iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #043f5b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
