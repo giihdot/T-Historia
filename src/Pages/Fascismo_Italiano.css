@@ -22,19 +22,13 @@
 }
 
 .juntIMG:hover img {
-  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
-  filter: brightness(1.1); /* Aumenta o brilho da imagem ao passar o mouse */
+  transform: scale(1.1); 
+  filter: brightness(1.1); 
 }
-
-.ppFI {
-    width: 92vw;
-}
-
 
 .juntppFI3 {
     display: flex;
     flex-direction: row;
-    width: 92vw;
     gap: 5%;
 
 }
@@ -50,10 +44,6 @@
     flex-direction: column;
 }
 
-.ppRESF {
-    width: 92vw;
-} 
-
 .h2titulo {
   color: #043f5b;
-}
+} 
