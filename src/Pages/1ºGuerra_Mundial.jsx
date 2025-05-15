@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
-import Footer from "../Components/Footer(Cinza)"
+import Footer from "../Components/Footer(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import "./1ºGuerra_Mundial.css";
 
@@ -49,15 +49,15 @@ function PrimeiraGuerraMundial() {
         <main className="conteudo-principall">
           {/* Resumo da Wikipedia */}
           <section>
-            <h1 className="H1-PGM"> PRIMEIRA GUERRA MUNDIAL </h1>
+            <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
             <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
             <p className="pp">{resumoWiki}</p>
           </section>
 
           {/* Informações históricas */}
-          <section  className="grid-container">
+          <section className="grid-container">
             <div>
-              <h2>Contexto Hitórico</h2>
+              <h2>Contexto Histórico</h2>
               <p className="ppPGM">
                 A Primeira Guerra Mundial, ocorrida entre 1914 e 1918, foi um
                 dos maiores e mais destrutivos conflitos da história moderna.
@@ -104,33 +104,14 @@ function PrimeiraGuerraMundial() {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
               alt="Batalha de trincheiras da Primeira Guerra"
             />
+          <img
+            className="img2PGM"
+            src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
+            alt="Trincheiras na Primeira Guerra"
+          />
+          </section>  
 
-<<<<<<< HEAD
-      <section className="info-img">
-        <div className="video">
-          <iframe
-            width="100%"
-            height="200"
-            src="https://www.youtube.com/embed/5C3aXzO2aXo"
-            title="Primeira Guerra Mundial - Canal História"
-          ></iframe>
-        </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/WWI_Trenches.gif/320px-WWI_Trenches.gif"
-          alt="Trincheiras na Primeira Guerra"
-        />
-      </section>
-    </main>
-    </div>
-    <Footer />
-=======
-            <img
-              className="img2PGM"
-              src=" https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
-              alt="Trincheiras na Primeira Guerra"
-            />
-          </section>
-
+          {/* Segunda parte do texto */}
           <section>
             <div>
               <p className="ppPGM">
@@ -168,20 +149,20 @@ function PrimeiraGuerraMundial() {
                 compreender o conflito, a violência e a política.
               </p>
             </div>
+
             <h3>
-              Indicação de Livro que relata os acontecimentos da Primeira Grande
-              Guerra:{" "}
+              Indicação de Livro que relata os acontecimentos da Primeira Grande Guerra:
             </h3>
             <img
               className="livroPGM"
               src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
-              alt="Livro - Primiera Guerra Mundial"
+              alt="Livro - Primeira Guerra Mundial"
             />
           </section>
 
+          {/* Filme indicado */}
           <h3>
-            Indicação de Filme que relata os acontecimentos da Primeira Grande
-            Guerra:{" "}
+            Indicação de Filme que relata os acontecimentos da Primeira Grande Guerra:
           </h3>
 
           <section className="info-img">
@@ -190,17 +171,16 @@ function PrimeiraGuerraMundial() {
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
                 title="Filme(Trailer) - 1917"
-              />
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </section>
         </main>
       </div>
->>>>>>> 9e85b4518ed6ba25bf027adc84ce0775b744ce7c
+
+      <Footer />
     </>
   );
 }
