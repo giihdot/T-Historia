@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
+import Footer from "../Components/Footer(Cinza)"
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import "./1ºGuerra_Mundial.css"
 
@@ -109,6 +110,7 @@ function PrimeiraGuerraMundial() {
       </section>
     </main>
     </div>
+    <Footer />
     </>
   );
 }

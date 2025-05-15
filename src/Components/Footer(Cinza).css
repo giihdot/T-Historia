@@ -26,7 +26,7 @@
     flex: 1;
     margin: 0 0.7%;
     padding: 10px;
-    background-color: #a6a6a6;
+    background-color: #043f5b;
     width: 26vw;
     height: 26vh;
     font-size: 0.65em;
@@ -128,7 +128,7 @@
   }
 
   .pss {
-    color:#8d8b8bdf;
+    color:#ccc9c9b2;
     font-size: 1em;
   }
 
