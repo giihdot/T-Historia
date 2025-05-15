@@ -57,7 +57,7 @@ function FascismoItaliano() {
           {/* Informações históricas */}
           <section>
             <div>
-              <h2>Contexto Histórico</h2>
+              <h2 className="h2titulo"> Contexto Histórico</h2>
               <p className="ppFI">
                 O fascismo italiano foi um regime político autoritário e
                 ultranacionalista que se consolidou na Itália sob a liderança de
@@ -144,7 +144,7 @@ function FascismoItaliano() {
             <div>
               <section className="juntppFI3">
                 <section className="juntppFI1">
-                <h2>Ascensão, Consolidação e Queda do Fascismo Italiano</h2>
+                <h2 className="h2titulo"> Ascensão, Consolidação e Queda do Fascismo Italiano</h2>
                 <p className="ppFI2">
                   A consolidação do regime fascista foi acompanhada por uma
                   forte propaganda estatal, que utilizava jornais, rádios,
@@ -197,7 +197,7 @@ function FascismoItaliano() {
                 </section>
 
                 <section className="juntppFI2">
-                <h2>Mussolini e seu aliado Adolf Hitler</h2>
+                <h2 className="h2titulo"> Mussolini e seu aliado Adolf Hitler</h2>
                 <p className="ppFI3">
                   A aliança entre Benito Mussolini e Adolf Hitler foi um dos
                   pilares centrais do Eixo durante a Segunda Guerra Mundial,

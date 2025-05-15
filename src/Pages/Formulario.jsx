@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Nav from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
-import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png"; 
+import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
+import "./Formulario.css"
 
 function Formulario() {
   const [nome, setNome] = useState("");
@@ -10,6 +11,7 @@ function Formulario() {
   const [sexo, setSexo] = useState("");
   const [comentario, setComentario] = useState("");
   const [ranking, setRanking] = useState({});
+  const [menuAberto, setMenuAberto] = useState(false);
 
   useEffect(() => {
     const todasChaves = Object.keys(localStorage);
@@ -28,18 +30,15 @@ function Formulario() {
   }, []);
 
   const enviarFormulario = (e) => {
-    e.preventdefault();
-    alert("Formulário enviado com sucesso!")
-  }
-
-  const [menuAberto, setMenuAberto] = useState(false);
+    e.preventDefault();
+    alert("Formulário enviado com sucesso!");
+  };
 
   const alternarMenu = () => {
     setMenuAberto(!menuAberto);
   };
 
   return (
-
     <>
       <Header
         titulo="ARQUIVO BÉLICO"
@@ -51,31 +50,45 @@ function Formulario() {
         {menuAberto && <Nav />}
 
         <main className="conteudo-principal">
+          <div className="form-area">
+            <h1 className="form-title">Formulário</h1>
 
-          <div style={{ padding: "20px" }}>
-            <Header />
-            <h1>Formulário</h1>
-            <Nav/>
-
-            <form onSubmit={enviarFormulario}>
-              <div>
-                <label>Nome:</label><br />
-                <input value={nome} onChange={(e) => setNome(e.target.value)} required />
+            <form onSubmit={enviarFormulario} className="form-container">
+              <div className="form-group">
+                <label>Nome:</label>
+                <input
+                  value={nome}
+                  onChange={(e) => setNome(e.target.value)}
+                  required
+                />
               </div>
 
-              <div>
-                <label>Idade:</label><br />
-                <input type="number" value={idade} onChange={(e) => setIdade(e.target.value)} required />
+              <div className="form-group">
+                <label>Idade:</label>
+                <input
+                  type="number"
+                  value={idade}
+                  onChange={(e) => setIdade(e.target.value)}
+                  required
+                />
               </div>
 
-              <div>
-                <label>Escolaridade:</label><br />
-                <input value={escolaridade} onChange={(e) => setEscolaridade(e.target.value)} required />
+              <div className="form-group">
+                <label>Escolaridade:</label>
+                <input
+                  value={escolaridade}
+                  onChange={(e) => setEscolaridade(e.target.value)}
+                  required
+                />
               </div>
 
-              <div>
-                <label>Sexo:</label><br />
-                <select value={sexo} onChange={(e) => setSexo(e.target.value)} required>
+              <div className="form-group">
+                <label>Sexo:</label>
+                <select
+                  value={sexo}
+                  onChange={(e) => setSexo(e.target.value)}
+                  required
+                >
                   <option value="">Selecione</option>
                   <option value="Feminino">Feminino</option>
                   <option value="Masculino">Masculino</option>
@@ -83,23 +96,30 @@ function Formulario() {
                 </select>
               </div>
 
-              <div>
-                <label>Comentário:</label><br />
-                <textarea value={comentario} onChange={(e) => setComentario(e.target.value)} required />
+              <div className="form-group">
+                <label>Comentário:</label>
+                <textarea
+                  value={comentario}
+                  onChange={(e) => setComentario(e.target.value)}
+                  required
+                />
               </div>
 
-              <button type="submit">Enviar</button>
+              <button type="submit" className="form-button">
+                Enviar
+              </button>
             </form>
 
-            <hr />
-            <h3>Ranking de Estrelas</h3>
-            <ul>
-              {Object.entries(ranking).map(([estrela, total]) => (
-                <li key={estrela}>
-                  {estrela} estrela(s): {total} voto(s)
-                </li>
-              ))}
-            </ul>
+            <div className="like-stats">
+              <h3>Ranking de Estrelas</h3>
+              <ul>
+                {Object.entries(ranking).map(([estrela, total]) => (
+                  <li key={estrela}>
+                    {estrela} estrela(s): {total} voto(s)
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </main>
       </div>

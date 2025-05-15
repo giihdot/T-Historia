@@ -46,17 +46,17 @@ function PrimeiraGuerraMundial() {
       <div className="pagina-containerr">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principall">
+        <div className="conteudo-principall">
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
             <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
-            <p className="pp">{resumoWiki}</p>
+            <p className="ppP">{resumoWiki}</p>
           </section>
 
-          {/* Informações históricas */}
-          <section className="grid-container">
-            <div>
+                  {/* Informações históricas */}
+          <section className="f-container">
+            <div className="junt-text">
               <h2>Contexto Histórico</h2>
               <p className="ppPGM">
                 A Primeira Guerra Mundial, ocorrida entre 1914 e 1918, foi um
@@ -99,21 +99,24 @@ function PrimeiraGuerraMundial() {
                 século XX e inaugurou uma nova era nas relações internacionais.
               </p>
             </div>
-            <img
-              className="img1PGM"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
-              alt="Batalha de trincheiras da Primeira Guerra"
-            />
-            <img
-              className="img2PGM"
-              src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
-              alt="Trincheiras na Primeira Guerra"
-            />
+            <div className="junt-text">
+              <img
+                className="img1PGM"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
+                alt="Batalha de trincheiras da Primeira Guerra"
+              />
+              <img
+                className="img2PGM"
+                src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
+                alt="Trincheiras na Primeira Guerra"
+              />
+            </div>
           </section>
 
           {/* Segunda parte do texto */}
-          <section>
-            <div>
+
+          <section className="f-containerr">
+            <div className="junt-imag">
               <p className="ppPGM">
                 A Primeira Guerra Mundial envolveu duas grandes alianças
                 militares que dividiram a Europa e, posteriormente, o mundo. De
@@ -148,44 +151,71 @@ function PrimeiraGuerraMundial() {
                 também alterou profundamente a forma como a sociedade passou a
                 compreender o conflito, a violência e a política.
               </p>
+
+              <h4 className="H1-PGM">Pós-Primeira Guerra Mundial (Resumo)</h4>
+              <p>
+                Após o fim da Primeira Guerra Mundial, em 1918, a Europa
+                enfrentou um cenário de destruição, fome e crise econômica.
+                Quatro grandes impérios ruíram (Alemão, Austro-Húngaro, Otomano
+                e Russo), e o mapa europeu foi redesenhado com a criação de
+                novos países.
+              </p>
+
+              <p>
+                O <b>Tratado de Versalhes</b>, assinado em 1919, impôs duras punições à
+                Alemanha, como indenizações financeiras, perda de territórios e
+                redução do exército. Esse tratado gerou ressentimento no povo
+                alemão e contribuiu para a futura ascensão do nazismo. A crise
+                do pós-guerra favoreceu o crescimento de ideologias radicais,
+                como o comunismo na Rússia e o fascismo na Itália. Enquanto
+                isso, os Estados Unidos emergiram como a maior potência
+                econômica do mundo.
+              </p>
+              
             </div>
+            <div className="junt-text">
+              <div className="junt-imag">
+                <h3>
+                  Indicação de Livros que relata os acontecimentos da Primeira
+                  Grande Guerra:
+                </h3>
+                <div className="f-container">
+                  <img
+                    className="livroPGM"
+                    src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
+                    alt="Livro - Primeira Guerra Mundial"
+                  />
+                  <img
+                    className="livroPGM"
+                    src="https://a-static.mlcdn.com.br/1500x1500/livro-a-historia-da-primeira-guerra-mundial-1914-1918/cliquebooks/550200-4/a579153fb0b0a3f990016f46dcba8fea.jpg"
+                    alt="Livro - Primeira Guerra Mundial"
+                  />
+                </div>
+              </div>
 
-            <h3>
-              Indicação de Livros que relata os acontecimentos da Primeira
-              Grande Guerra:
-            </h3>
-            <img
-              className="livroPGM"
-              src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
-              alt="Livro - Primeira Guerra Mundial"
-            />
+              {/* Filme indicado */}
+              <section className="junt-imag">
+                <h3>
+                  Indicação de Filme que relata os acontecimentos da Primeira
+                  Grande Guerra:
+                </h3>
 
-            <img
-              className="livroPGM"
-              src="https://a-static.mlcdn.com.br/1500x1500/livro-a-historia-da-primeira-guerra-mundial-1914-1918/cliquebooks/550200-4/a579153fb0b0a3f990016f46dcba8fea.jpg"
-              alt="Livro - Primeira Guerra Mundial"
-            />
-          </section>
-
-          {/* Filme indicado */}
-          <h3>
-            Indicação de Filme que relata os acontecimentos da Primeira Grande
-            Guerra:
-          </h3>
-
-          <section className="info-img">
-            <div className="video">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
-                title="Filme(Trailer) - 1917"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
+                <section className="info-img">
+                  <div className="video">
+                    <iframe
+                      width="450"
+                      height="210"
+                      src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
+                      title="Filme(Trailer) - 1917"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </section>
+              </section>
             </div>
           </section>
-        </main>
+        </div>
       </div>
 
       <Footer />
