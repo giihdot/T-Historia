@@ -43,10 +43,10 @@ return (
         onMenuClick={alternarMenu}
       />
 
-      <div className="pag-contain">
+      <div className="pagina-containerr">
         {menuAberto && <Nav />}
 
-        <main className="conte-princ">
+        <main className="conteudo-principall">
           <h1> Crise de 1929 </h1>
 
           <section className="resum">

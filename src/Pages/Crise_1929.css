@@ -1,4 +1,4 @@
-.resum {
+/* .resum {
     background-color: #a6a6a6;
     border-radius: 10px 10px 10px solid;
     display: flexbox;
@@ -17,4 +17,17 @@
 .imagens {
     width: 30vw;
     height: 40vh;
+} */
+body {
+  background-color: #043f5b;
+}
+
+.pagina-containerr {
+  display: flex;
+}
+
+.conteudo-principall {
+  flex: 1;
+  padding: 30px;
+  background-color: whitesmoke;
 }
