@@ -1,15 +1,31 @@
+import { useState } from "react";
 // import "./App.css";
-import Navbar from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
+import Nav from "../Components/NavBar(Azul)";
+// import Footer from "../Components/Footer";
+import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import Avaliacao from "../Components/Avaliacao"
 
 
 function Contestado() {
+  const [menuAberto, setMenuAberto] = useState(false);
+  
+    const alternarMenu = () => {
+      setMenuAberto(!menuAberto);
+    };
+
   return (
-    <div>
-      <Header />
-      <h1>Guerra do Contestado</h1>
-      <Navbar />
+    <>
+      <Header
+        titulo="ARQUIVO BÉLICO"
+        imge={Logo_Arma_Cinza}
+        onMenuClick={alternarMenu}
+      />
+
+      <div className="pagina-container">
+        {menuAberto && <Nav />}
+
+        <main className="conteudo-principal">
 
 
         <section>
@@ -55,7 +71,7 @@ function Contestado() {
             </p>
           </div>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Jose_Maria_-_Monge_do_Contestado.jpg/220px-Jose_Maria_-_Monge_do_Contestado.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Jose_Maria_-Monge_do_Contestado.jpg/220px-Jose_Maria-_Monge_do_Contestado.jpg"
             alt="Monge José Maria"
           />
         </section>
@@ -75,7 +91,9 @@ function Contestado() {
           />
           <Avaliacao/>
         </section>
-    </div>
+        </main>
+        </div>
+    </>
   );
 }
 
