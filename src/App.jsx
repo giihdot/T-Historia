@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 //import Crise1929 from "./Pages/Crise_1929";
-//import FascismoItaliano from "./Pages/Fascismo_Italiano";
+import FascismoItaliano from "./Pages/Fascismo_Italiano";
 import GuerraDeCanudos from "./Pages/Guerra_De_Canudos";
 import GuerraDoContestado from "./Pages/Guerra_Do_Contestado";
 import PrimeiraGuerraMundial from "./Pages/1ºGuerra_Mundial";
@@ -16,7 +16,7 @@ import Formulario from "./Pages/Formulario";
       <Routes>
         <Route path="/" element={<HomePage />} />
         {/* <Route path="/CRISE_1929" element={<Crise1929 />} /> */}
-        {/* <Route path="/FASCISMO_ITALIANO" element={<FascismoItaliano />} /> */}
+        <Route path="/FASCISMO_ITALIANO" element={<FascismoItaliano />} />
         <Route path="/CANUDOS" element={<GuerraDeCanudos />} />
         <Route path="/CONTESTADO" element={<GuerraDoContestado />} />
         <Route path="/1º_GUERRA_MUNDIAL" element={<PrimeiraGuerraMundial />} />
