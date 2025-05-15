@@ -1,0 +1,56 @@
+.Box-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* alinha os itens pelo topo */
+  justify-content: space-between; /* distribui melhor os elementos */
+  width: 100%;
+}
+.Box-colunm {
+  margin-top: -1.5%;
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+
+#Imagem1 {
+  width: 45vw;
+  height: 50vh;
+}
+
+#Imagem2 {
+  width: 45vw;
+  height: 50vh;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Colunm {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+.junt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.H3-RR {
+  font-size: 1.5em;
+  color: #043f5b;
+}
+
+.H4-RR {
+  font-size: 2em;
+  color: #043f5b;
+}
