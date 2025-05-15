@@ -22,21 +22,21 @@ const Footer = () => {
       {/* Seção com 4 itens lado a lado */}
       <div className="row">
         <div className="item">
-        <p className='txt'> <b> Sobre a Empresa: </b> </p>
+        <p> <b> Sobre a Empresa: </b> </p>
 
         <br/>
 
-        <p className='txt'> Atendimento ao Cliente </p>
-        <p className='txt'> Blog do Arquivo Bélico </p>
-        <p className='txt'> Canais Oficiais </p>
-        <p className='txt'> Políticas de Privacidade </p>
-        <p className='txt'> Termos de Uso </p>
-        <p className='txt'> Nossas Redes Sociais </p>
+        <p> Atendimento ao Cliente </p>
+        <p> Blog do Arquivo Bélico </p>
+        <p> Canais Oficiais </p>
+        <p> Políticas de Privacidade </p>
+        <p> Termos de Uso </p>
+        <p> Nossas Redes Sociais </p>
         </div>
 
         <div className="item_2">
-        <p className='txt'> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
-        <p className='txt'> <b> história do mundo </b> </p>
+        <p> <b> Arquivo Bélico: Conheça mais sobre a </b> </p>
+        <p> <b> história do mundo </b> </p>
 
         <br/>
 
