@@ -49,8 +49,8 @@ function GuerraDeCanudos() {
 
           <div className="grid-container">
             <div className="texto">
-              <h2 className="H1-PGM">Resumo</h2>
-              <p className="pp">{resumoWiki}</p>
+              <h2 className="H1-GC">Resumo</h2>
+              <p className="ppGC">{resumoWiki}</p>
             </div>
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxK42eZBzpTPz-AFtW3ItdOUEMRzflqBF846_cS2LlwM0qM1kUNJR9Obs2KI_SjzOgOxo&usqp=CAU"
@@ -58,8 +58,32 @@ function GuerraDeCanudos() {
             />
 
             <div className="texto">
-              <p className="pp">
-               
+              <p className="ppGC">
+                A Guerra de Canudos foi um dos conflitos mais marcantes da
+                história do Brasil, ocorrido no sertão da Bahia, no final do
+                século XIX. Ela envolveu o exército brasileiro e os seguidores
+                de Antônio Conselheiro, um líder religioso que fundou o arraial
+                de Canudos. Antônio Conselheiro pregava contra os abusos dos
+                coronéis, os altos impostos e o abandono dos pobres pelo governo
+                republicano recém-instalado no Brasil. Em busca de justiça e
+                esperança, milhares de pessoas humildes, principalmente
+                sertanejos sofridos pela seca e pobreza, se juntaram a ele,
+                formando uma comunidade isolada e autossuficiente. O crescimento
+                de Canudos começou a incomodar as autoridades da região e também
+                o governo federal, que passou a enxergar o movimento como uma
+                ameaça à República. Com isso, o governo decidiu acabar com o
+                arraial, enviando tropas militares. Ao todo, foram quatro
+                expedições militares para destruir Canudos. As três primeiras
+                fracassaram diante da resistência dos sertanejos. Apenas na
+                quarta expedição, com mais de 10 mil soldados e armamentos
+                pesados, o exército conseguiu vencer. O massacre foi brutal:
+                cerca de 25 mil pessoas morreram, incluindo mulheres, crianças e
+                idosos. Antônio Conselheiro morreu pouco antes do fim do
+                conflito. A Guerra de Canudos foi um verdadeiro genocídio contra
+                os pobres do sertão e ficou marcada como símbolo da injustiça
+                social e da violência do Estado contra os mais vulneráveis. Até
+                hoje, ela é lembrada como um dos episódios mais trágicos da
+                história do Brasil.
               </p>
             </div>
             <img
@@ -84,8 +108,6 @@ function GuerraDeCanudos() {
               alt="Gravura da Guerra de Canudos"
             />
           </div>
-
-          <footer>Footer</footer>
         </main>
       </div>
     </>

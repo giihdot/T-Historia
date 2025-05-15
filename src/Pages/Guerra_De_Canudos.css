@@ -16,14 +16,14 @@ body {
   align-items: center;
 }
 
-.H1-PGM {
+.H1-GC {
   color: #043f5b;
   text-align: center;
   font-size: 2em;
   margin: 20px 0;
 }
 
-.pp, .ppPGM {
+.ppGC, .ppGC {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.1em;
   color: #333;
