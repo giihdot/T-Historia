@@ -54,10 +54,10 @@ function PrimeiraGuerraMundial() {
             <p className="ppP">{resumoWiki}</p>
           </section>
 
-                  {/* Informações históricas */}
+          {/* Informações históricas */}
           <section className="f-container">
             <div className="junt-text">
-              <h2>Contexto Histórico</h2>
+              <h2 className="H1-PGM">Contexto Histórico</h2>
               <p className="ppPGM">
                 A Primeira Guerra Mundial, ocorrida entre 1914 e 1918, foi um
                 dos maiores e mais destrutivos conflitos da história moderna.
@@ -114,9 +114,7 @@ function PrimeiraGuerraMundial() {
           </section>
 
           {/* Segunda parte do texto */}
-
           <section className="f-containerr">
-            <article className="f-containerr">
             <div className="junt-imag">
               <p className="ppPGM">
                 A Primeira Guerra Mundial envolveu duas grandes alianças
@@ -144,6 +142,8 @@ function PrimeiraGuerraMundial() {
                 expressionistas que denunciavam a brutalidade do conflito. A
                 desilusão generalizada com a guerra e seus resultados também
                 contribuiu para a instabilidade política nas décadas seguintes.
+              </p>
+              <p className="ppPGM">
                 O sentimento de revanchismo, especialmente na Alemanha,
                 alimentado pelas duras condições do Tratado de Versalhes,
                 preparou o terreno para o surgimento do nazismo e a eclosão da
@@ -153,73 +153,50 @@ function PrimeiraGuerraMundial() {
                 compreender o conflito, a violência e a política.
               </p>
 
-              <h4 className="H1-PGM">Pós-Primeira Guerra Mundial (Resumo)</h4>
-              <p>
-                Após o fim da Primeira Guerra Mundial, em 1918, a Europa
-                enfrentou um cenário de destruição, fome e crise econômica.
-                Quatro grandes impérios ruíram (Alemão, Austro-Húngaro, Otomano
-                e Russo), e o mapa europeu foi redesenhado com a criação de
-                novos países.
-              </p>
-
-              <p>
-                O <b>Tratado de Versalhes</b>, assinado em 1919, impôs duras punições à
-                Alemanha, como indenizações financeiras, perda de territórios e
-                redução do exército. Esse tratado gerou ressentimento no povo
-                alemão e contribuiu para a futura ascensão do nazismo. A crise
-                do pós-guerra favoreceu o crescimento de ideologias radicais,
-                como o comunismo na Rússia e o fascismo na Itália. Enquanto
-                isso, os Estados Unidos emergiram como a maior potência
-                econômica do mundo.
-              </p>
-              
             </div>
-            <div className="junt-text">
-              <div className="junt-imag">
-                <h3>
-                  Indicação de Livros que relata os acontecimentos da Primeira
-                  Grande Guerra:
-                </h3>
-                <div className="f-container">
-                  <img
-                    className="livroPGM"
-                    src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
-                    alt="Livro - Primeira Guerra Mundial"
-                  />
-                  <img
-                    className="livroPGM"
-                    src="https://a-static.mlcdn.com.br/1500x1500/livro-a-historia-da-primeira-guerra-mundial-1914-1918/cliquebooks/550200-4/a579153fb0b0a3f990016f46dcba8fea.jpg"
-                    alt="Livro - Primeira Guerra Mundial"
-                  />
-                </div>
+            <div className="junt-imag">
+              <h3 className="H1-PGM">
+                Indicação de Livros que relata os acontecimentos da Primeira
+                Grande Guerra:
+              </h3>
+              <div className="f-container">
+                <img
+                  className="livroPGM"
+                  src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
+                  alt="Livro - Primeira Guerra Mundial"
+                />
+                <img
+                  className="livroPGM"
+                  src="https://a-static.mlcdn.com.br/1500x1500/livro-a-historia-da-primeira-guerra-mundial-1914-1918/cliquebooks/550200-4/a579153fb0b0a3f990016f46dcba8fea.jpg"
+                  alt="Livro - Primeira Guerra Mundial"
+                />
               </div>
-
-              {/* Filme indicado */}
-              <section className="junt-imag">
-                <h3>
-                  Indicação de Filme que relata os acontecimentos da Primeira
-                  Grande Guerra:
-                </h3>
-
-                <section className="info-img">
-                  <div className="video">
-                    <iframe
-                      width="450"
-                      height="210"
-                      src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
-                      title="Filme(Trailer) - 1917"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                </section>
-              </section>
             </div>
-          </article>
           </section>
+
+          {/* Filme indicado */}
+          <section className="junt-imag">
+            <h3 className="H1-PGMe">
+              Indicação de Filme que relata os acontecimentos da Primeira
+              Grande Guerra:
+            </h3>
+
+
+
+            <iframe className="junt-imags"
+              width="650"
+              height="410"
+              src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
+              title="Filme(Trailer) - 1917"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+
+
+          </section>
+
         </div>
       </div>
-
       <Footer />
     </>
   );

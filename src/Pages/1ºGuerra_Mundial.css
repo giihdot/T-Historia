@@ -15,7 +15,7 @@ body {
 .ppPGM {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.1em;
-  color: #a6a6a6;
+  color: #7b7b7b;
   text-align: justify;
   width: 55vw;
 
@@ -24,7 +24,7 @@ body {
 .ppP {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.1em;
-  color: #a6a6a6;
+  color: #7b7b7b;
   text-align: justify;
 
 } 
@@ -60,12 +60,22 @@ body {
   justify-content: space-around;
 }
 .junt-text {
-  display: flex;
+ display: flex; /*Problema está aqui! Deve estar conflitando com alguma página. */
   flex-direction: column;
   justify-content: space-around;
+  padding: 10px;
 }
 .junt-imag {
   display: flex;
   flex-direction: column;
+   padding: 10px;
 }
 
+.junt-imags {
+  margin-left: 25%;
+}
+
+.H1-PGMe {
+  color: #043f5b;
+  margin-left: 22.5%;
+}
