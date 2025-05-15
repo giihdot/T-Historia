@@ -44,7 +44,7 @@ function GuerraDeCanudos() {
       <div className="pagina-containerr">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principall">
+        <div className="conteudo-principall">
           <h1 className="H1-PGM">Guerra de Canudos</h1>
 
           <div className="grid-container">
@@ -108,7 +108,7 @@ function GuerraDeCanudos() {
               alt="Gravura da Guerra de Canudos"
             />
           </div>
-        </main>
+        </div>
       </div>
     </>
   );
