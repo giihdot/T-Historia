@@ -8,7 +8,7 @@ import GuerraDoContestado from "./Pages/Guerra_Do_Contestado";
 import PrimeiraGuerraMundial from "./Pages/1ºGuerra_Mundial";
 import RevolucaoRussa from "./Pages/Revolução_Russa";
 import Formulario from "./Pages/Formulario";
-//import AsGatitas from "./Pages/AsGatitas";
+import AsGatitas from "./Pages/AsGatitas";
 
  function App() {
   return (
@@ -29,7 +29,7 @@ import Formulario from "./Pages/Formulario";
         <Route path="/REVOLUÇÃO_RUSSA" element={<RevolucaoRussa />} />
         <Route path="/REVOLUÇÃO_1930" element={<Revolucao1930 />} />
         <Route path="/FORMULARIO" element={<Formulario/>}/>
-        {/* <Route path="/AS_GATITAS" element={<AsGatitas />} /> */}
+        <Route path="/AS_GATITAS" element={<AsGatitas />} />
       </Routes>
     </Router>
   );
