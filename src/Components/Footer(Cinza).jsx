@@ -4,7 +4,7 @@ import Logo from '../assets/COLLAB AZUL.png'
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer1">
       {/* Seção de conteúdo acima da linha */}
       <div className="top-section">
         <p className='txt'> <b> Telefone: </b> +55 (19) 97864-2324 </p>
