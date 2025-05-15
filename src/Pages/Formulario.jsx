@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../Components/NavBar";
-import Header from "../Components/Header";
+import Nav from "../Components/NavBar(Azul)";
+import Header from "../Components/Header(Azul)";
+import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png"; 
 
 function Formulario() {
   const [nome, setNome] = useState("");
@@ -27,60 +28,82 @@ function Formulario() {
   }, []);
 
   const enviarFormulario = (e) => {
-    e.preventDefault();
-    alert("Formulário enviado com sucesso!");
+    e.preventdefault();
+    alert("Formulário enviado com sucesso!")
+  }
+
+  const [menuAberto, setMenuAberto] = useState(false);
+
+  const alternarMenu = () => {
+    setMenuAberto(!menuAberto);
   };
 
   return (
-    <div style={{ padding: "20px" }}>
-      <Header />
-      <h1>Formulário</h1>
-      <Navbar />
 
-      <form onSubmit={enviarFormulario}>
-        <div>
-          <label>Nome:</label><br />
-          <input value={nome} onChange={(e) => setNome(e.target.value)} required />
-        </div>
+    <>
+      <Header
+        titulo="ARQUIVO BÉLICO"
+        imge={Logo_Arma_Cinza}
+        onMenuClick={alternarMenu}
+      />
 
-        <div>
-          <label>Idade:</label><br />
-          <input type="number" value={idade} onChange={(e) => setIdade(e.target.value)} required />
-        </div>
+      <div className="pagina-container">
+        {menuAberto && <Nav />}
 
-        <div>
-          <label>Escolaridade:</label><br />
-          <input value={escolaridade} onChange={(e) => setEscolaridade(e.target.value)} required />
-        </div>
+        <main className="conteudo-principal">
 
-        <div>
-          <label>Sexo:</label><br />
-          <select value={sexo} onChange={(e) => setSexo(e.target.value)} required>
-            <option value="">Selecione</option>
-            <option value="Feminino">Feminino</option>
-            <option value="Masculino">Masculino</option>
-            <option value="Outro">Outro</option>
-          </select>
-        </div>
+          <div style={{ padding: "20px" }}>
+            <Header />
+            <h1>Formulário</h1>
+            <Navbar />
 
-        <div>
-          <label>Comentário:</label><br />
-          <textarea value={comentario} onChange={(e) => setComentario(e.target.value)} required />
-        </div>
+            <form onSubmit={enviarFormulario}>
+              <div>
+                <label>Nome:</label><br />
+                <input value={nome} onChange={(e) => setNome(e.target.value)} required />
+              </div>
 
-        <button type="submit">Enviar</button>
-      </form>
+              <div>
+                <label>Idade:</label><br />
+                <input type="number" value={idade} onChange={(e) => setIdade(e.target.value)} required />
+              </div>
 
-      <hr />
-      <h3>Ranking de Estrelas</h3>
-      <ul>
-        {Object.entries(ranking).map(([estrela, total]) => (
-          <li key={estrela}>
-            {estrela} estrela(s): {total} voto(s)
-          </li>
-        ))}
-      </ul>
-    </div>
+              <div>
+                <label>Escolaridade:</label><br />
+                <input value={escolaridade} onChange={(e) => setEscolaridade(e.target.value)} required />
+              </div>
+
+              <div>
+                <label>Sexo:</label><br />
+                <select value={sexo} onChange={(e) => setSexo(e.target.value)} required>
+                  <option value="">Selecione</option>
+                  <option value="Feminino">Feminino</option>
+                  <option value="Masculino">Masculino</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+
+              <div>
+                <label>Comentário:</label><br />
+                <textarea value={comentario} onChange={(e) => setComentario(e.target.value)} required />
+              </div>
+
+              <button type="submit">Enviar</button>
+            </form>
+
+            <hr />
+            <h3>Ranking de Estrelas</h3>
+            <ul>
+              {Object.entries(ranking).map(([estrela, total]) => (
+                <li key={estrela}>
+                  {estrela} estrela(s): {total} voto(s)
+                </li>
+              ))}
+            </ul>
+          </div>
+        </main>
+      </div>
+    </>
   );
 }
 
