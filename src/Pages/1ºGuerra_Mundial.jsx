@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
-import "./1ºGuerra_Mundial.css"
+import "./1ºGuerra_Mundial.css";
 
 function PrimeiraGuerraMundial() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -34,11 +34,9 @@ function PrimeiraGuerraMundial() {
     setMenuAberto(!menuAberto);
   };
 
-
   return (
     <>
-
-      <Header 
+      <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
@@ -48,67 +46,140 @@ function PrimeiraGuerraMundial() {
         {menuAberto && <Nav />}
 
         <main className="conteudo-principall">
-      {/* Resumo da Wikipedia */}
-      <section>
-        <h1 className="H1-PGM"> PRIMEIRA GUERRA MUNDIAL </h1>
-        <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
-        <p className="pp">{resumoWiki}</p>
-      </section>
-      
-      {/* Informações históricas */}
-      <section>
-        <div>
-          <p className="pp">
-            A Primeira Guerra Mundial foi um conflito global que durou de 1914 a
-            1918. Ela começou com o assassinato do arquiduque Francisco Ferdinando
-            da Áustria e rapidamente se transformou em uma guerra envolvendo as
-            principais potências do mundo. Os combates ocorreram principalmente na
-            Europa, com o uso intensivo de trincheiras, gás tóxico e armamento
-            moderno. A guerra terminou com a assinatura do Tratado de Versalhes em
-            1919, que impôs duras punições à Alemanha e redefiniu fronteiras em
-            todo o continente. O conflito resultou em cerca de 20 milhões de mortos
-            e mudou profundamente a política, economia e cultura global.
-          </p>
-        </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Battle_of_the_Somme_1916.jpg"
-          alt="Batalha da Primeira Guerra"
-        />
-      </section>
+          {/* Resumo da Wikipedia */}
+          <section>
+            <h1 className="H1-PGM"> PRIMEIRA GUERRA MUNDIAL </h1>
+            <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
+            <p className="pp">{resumoWiki}</p>
+          </section>
 
-      <section>
-        <div>
-          <p className="pp">
-            A guerra envolveu duas alianças principais: a Tríplice Entente (França,
-            Reino Unido e Rússia) e as Potências Centrais (Alemanha, Áustria-Hungria
-            e Império Otomano). A entrada dos Estados Unidos em 1917 foi decisiva
-            para a vitória da Entente. A guerra causou um impacto psicológico
-            profundo, inspirando obras literárias e culturais e abrindo caminho
-            para a Segunda Guerra Mundial.
-          </p>
-        </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/German_soldier_WWI.jpg/800px-German_soldier_WWI.jpg"
-          alt="Soldado alemão na guerra"
-        />
-      </section>
+          {/* Informações históricas */}
+          <section  className="grid-container">
+            <div>
+              <h2>Contexto Hitórico</h2>
+              <p className="ppPGM">
+                A Primeira Guerra Mundial, ocorrida entre 1914 e 1918, foi um
+                dos maiores e mais destrutivos conflitos da história moderna.
+                Suas causas são complexas e envolvem o crescimento do
+                nacionalismo na Europa, a corrida imperialista por colônias na
+                África e Ásia, o militarismo crescente entre as potências e o
+                sistema de alianças militares que dividiu o continente. De um
+                lado, formou-se a Tríplice Entente, composta por França, Reino
+                Unido e Rússia; do outro, a Tríplice Aliança, formada por
+                Alemanha, Áustria-Hungria e Itália - que mais tarde mudaria de
+                lado - . O estopim da guerra foi o assassinato do arquiduque
+                Francisco Ferdinando da Áustria, herdeiro do Império
+                Austro-Húngaro, por um nacionalista sérvio em Sarajevo, no dia
+                28 de junho de 1914. A partir desse evento, os países envolvidos
+                ativaram suas alianças, mergulhando a Europa em uma guerra de
+                proporções globais. O conflito foi marcado por batalhas
+                sangrentas, principalmente nas trincheiras da frente ocidental,
+                onde os soldados enfrentavam condições precárias, fome, frio e
+                constante bombardeio. Novas tecnologias bélicas, como
+                metralhadoras, aviões, tanques e armas químicas, foram
+                utilizadas em larga escala, aumentando ainda mais a letalidade
+                da guerra. Ao longo dos anos, milhões de soldados e civis
+                morreram, e as economias dos países envolvidos ficaram
+                devastadas. Em 1917, a entrada dos Estados Unidos na guerra ao
+                lado da Tríplice Entente deu novo fôlego ao grupo, contribuindo
+                decisivamente para a derrota dos impérios centrais. A guerra
+                terminou oficialmente em 11 de novembro de 1918, com a rendição
+                da Alemanha. No ano seguinte, foi assinado o Tratado de
+                Versalhes, que impôs severas punições aos alemães, incluindo
+                perdas territoriais, limitações militares e pesadas indenizações
+                financeiras. O ressentimento causado por esse tratado foi um dos
+                fatores que contribuíram para a ascensão do nazismo e,
+                posteriormente, para o início da Segunda Guerra Mundial. Além
+                das consequências políticas, a Primeira Guerra Mundial provocou
+                a queda de grandes impérios, como o Austro-Húngaro, o Otomano, o
+                Russo e o Alemão, redesenhando o mapa da Europa e gerando
+                instabilidade por décadas. Com cerca de 17 milhões de mortos e
+                mais de 20 milhões de feridos, o conflito marcou profundamente o
+                século XX e inaugurou uma nova era nas relações internacionais.
+              </p>
+            </div>
+            <img
+              className="img1PGM"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
+              alt="Batalha de trincheiras da Primeira Guerra"
+            />
 
-      <section className="info-img">
-        <div className="video">
-          <iframe
-            width="100%"
-            height="200"
-            src="https://www.youtube.com/embed/5C3aXzO2aXo"
-            title="Primeira Guerra Mundial - Canal História"
-          ></iframe>
-        </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/WWI_Trenches.gif/320px-WWI_Trenches.gif"
-          alt="Trincheiras na Primeira Guerra"
-        />
-      </section>
-    </main>
-    </div>
+            <img
+              className="img2PGM"
+              src=" https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
+              alt="Trincheiras na Primeira Guerra"
+            />
+          </section>
+
+          <section>
+            <div>
+              <p className="ppPGM">
+                A Primeira Guerra Mundial envolveu duas grandes alianças
+                militares que dividiram a Europa e, posteriormente, o mundo. De
+                um lado estava a Tríplice Entente, formada por França, Reino
+                Unido e Rússia, que buscavam conter o avanço do militarismo
+                alemão e equilibrar o poder europeu. Do outro lado estavam as
+                Potências Centrais, lideradas por Alemanha, Áustria-Hungria e o
+                Império Otomano, com ambições territoriais e desejo de expansão
+                de influência. A guerra se intensificou ao longo dos anos,
+                transformando-se em um conflito total, com mobilização de
+                milhões de soldados e recursos civis. A entrada dos Estados
+                Unidos em 1917, após ataques alemães a navios civis e pela
+                defesa da democracia, foi decisiva para a vitória da Entente,
+                pois forneceu apoio militar, econômico e moral no momento em que
+                os aliados europeus estavam enfraquecidos pelo desgaste da
+                guerra. Além da destruição material e da enorme perda de vidas,
+                a guerra deixou marcas profundas na psique coletiva da
+                humanidade. O trauma vivido nas trincheiras, o sofrimento dos
+                soldados e o luto das famílias marcaram uma geração inteira.
+                Esse impacto psicológico se refletiu intensamente na literatura,
+                no cinema, na arte e na filosofia do pós-guerra. Surgiram obras
+                críticas ao nacionalismo e à guerra, como os romances de Erich
+                Maria Remarque, os poemas de Wilfred Owen, e as pinturas
+                expressionistas que denunciavam a brutalidade do conflito. A
+                desilusão generalizada com a guerra e seus resultados também
+                contribuiu para a instabilidade política nas décadas seguintes.
+                O sentimento de revanchismo, especialmente na Alemanha,
+                alimentado pelas duras condições do Tratado de Versalhes,
+                preparou o terreno para o surgimento do nazismo e a eclosão da
+                Segunda Guerra Mundial em 1939. Assim, a Primeira Guerra Mundial
+                não apenas transformou o cenário geopolítico mundial, como
+                também alterou profundamente a forma como a sociedade passou a
+                compreender o conflito, a violência e a política.
+              </p>
+            </div>
+            <h3>
+              Indicação de Livro que relata os acontecimentos da Primeira Grande
+              Guerra:{" "}
+            </h3>
+            <img
+              className="livroPGM"
+              src="https://www.lpm.com.br/livros/imagens/primeira_guerra_mundial_nova_2019_9788525420404_hd.jpg"
+              alt="Livro - Primiera Guerra Mundial"
+            />
+          </section>
+
+          <h3>
+            Indicação de Filme que relata os acontecimentos da Primeira Grande
+            Guerra:{" "}
+          </h3>
+
+          <section className="info-img">
+            <div className="video">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/_3gy6K7LXHg?si=kWqB4jft0wm891eY"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                title="Filme(Trailer) - 1917"
+              />
+            </div>
+          </section>
+        </main>
+      </div>
     </>
   );
 }
