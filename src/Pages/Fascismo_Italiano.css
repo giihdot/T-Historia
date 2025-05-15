@@ -1,22 +1,29 @@
 .IMG1F {
-    width: 30vw;
-    height: 40vh;
+     width: 25vw;
+    height: 35vh;
+    
 }
 
 .IMG2F {
-    width: 30vw;
-    height: 40vh;
+    width: 25vw;
+    height: 35vh;
 }
 
 .IMG3F {
-    width: 30vw;
-    height: 40vh;
+    width: 25vw;
+    height: 35vh;
 }
 
 .juntIMG {
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    justify-content: center;
+    gap: 5%;
+}
+
+.juntIMG:hover img {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+  filter: brightness(1.1); /* Aumenta o brilho da imagem ao passar o mouse */
 }
 
 .ppFI {
@@ -45,4 +52,8 @@
 
 .ppRESF {
     width: 92vw;
+} 
+
+.h2titulo {
+  color: #043f5b;
 }
