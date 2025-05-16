@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "../Components/Header(Azul)";
 import Nav from "../Components/NavBar(Azul)";
 import Footer from "../Components/Footer(Azul)";
-import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
+import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./Fascismo_Italiano.css";
 
 function FascismoItaliano() {
@@ -39,7 +39,7 @@ function FascismoItaliano() {
     <>
       <Header
         titulo="ARQUIVO BÉLICO"
-        imge={Logo_Arma_Azul}
+        imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
@@ -188,8 +188,10 @@ function FascismoItaliano() {
                   consequências políticas, sociais e culturais continuaram a ser
                   sentidas por décadas. O fascismo italiano tornou-se símbolo de
                   autoritarismo, intolerância e repressão, e seu estudo é
-                  fundamental para evitar o retorno de ideologias semelhantes. A
-                  memória histórica do período é constantemente debatida na
+                  fundamental para evitar o retorno de ideologias semelhantes. 
+                  </p>
+                  <p className="ppFI2">
+                  A memória histórica do período é constantemente debatida na
                   Itália contemporânea, com iniciativas de preservação da
                   verdade histórica e combate ao negacionismo e à banalização da
                   violência do regime.

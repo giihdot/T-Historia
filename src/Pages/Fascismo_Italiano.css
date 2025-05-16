@@ -1,49 +1,89 @@
-.IMG1F {
-     width: 25vw;
-    height: 35vh;
-    
+/* Fundo geral da página em cinza neutro */
+body {
+  background-color: #a6a6a6;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #062a3c;
+  line-height: 1.6;
 }
 
-.IMG2F {
-    width: 25vw;
-    height: 35vh;
+/* Container geral da página */
+.pagina-containerr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
-.IMG3F {
-    width: 25vw;
-    height: 35vh;
+/* Conteúdo principal com fundo claro e sombra suave */
+.conteudo-principall {
+  flex: 1;
+  padding: 30px;
+  background-color: whitesmoke;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  max-width: 1200px;
+  animation: fadeIn 0.6s ease-in-out;
 }
 
-.juntIMG {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5%;
+/* Parágrafos padrão da seção fascismo */
+.ppFI, .ppFI2, .ppFI3, .ppRESF {
+  font-size: 1.1em;
+  color: #333;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
-.juntIMG:hover img {
-  transform: scale(1.1); 
-  filter: brightness(1.1); 
-}
-
-.juntppFI3 {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-
-}
-
-.juntppFI1 {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.juntppFI2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.h2titulo {
+/* Títulos das seções */
+.h2titulo, .H1-PGM {
   color: #043f5b;
-} 
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  border-left: 5px solid #043f5b;
+  padding-left: 12px;
+}
+
+/* Grupo de imagens com espaçamento e alinhamento central */
+.juntIMG {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Estilo padrão das imagens com borda arredondada e sombra */
+.IMG1F,
+.IMG2F,
+.IMG3F {
+  width: 22vw;
+  height: 32vh;
+  object-fit: cover;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover para todas as imagens do grupo */
+.juntIMG:hover img {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Seção de dois blocos lado a lado */
+.juntppFI3 {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 30px;
+}
+
+/* Blocos de texto organizados em colunas */
+.juntppFI1,
+.juntppFI2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 48%;
+  min-width: 300px;
+}
+
