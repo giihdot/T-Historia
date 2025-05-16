@@ -3,9 +3,9 @@ import Header from "../Components/Header(Azul)";
 import Nav from "../Components/NavBar(Azul)";
 import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
-import F1 from "../assets/F1.png";
-import F2 from "../assets/F2.png";
-import F3 from "../assets/F3.png";
+import F1 from "../assets/F1(I).png";
+import F2 from "../assets/F2(I).png";
+import F3 from "../assets/F3(I).png";
 import "./Fascismo_Italiano.css";
 
 function FascismoItaliano() {
@@ -53,7 +53,7 @@ function FascismoItaliano() {
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">FASCISMO ITALIANO</h1>
-            <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
+            <h3 className="H1-PGe">Resumo (Wikipedia)</h3>
             <p className="ppRESF">{resumoWiki}</p>
           </section>
 
