@@ -86,16 +86,16 @@ function RevoluçãoRussa() {
                 mil pessoas. Esse acontecimento chocou a população russa, que,
                 indignada com a ação do czar, conduziu uma série de revoltas
                 contra o governo.
-              </p>
-              <p className="pRR">
+      
                 As revoltas conduzidas pela população em reação ao Domingo
                 Sangrento foram o que se chamou de Revolução de 1905, entendida
                 como um ensaio para a Revolução Russa de 1917. Durante a
                 Revolução de 1905, surgiram os sovietes, os conselhos formados
                 pelos trabalhadores operários.
               </p>
-
-              <p className="pRR">
+            </div>
+          </div>
+          <p className="pRR">
                 A Revolução Russa de 1917 teve suas raízes na Revolução
                 Industrial, que criou o proletariado, expôs os trabalhadores à
                 exploração extrema (o chamado “capitalismo selvagem”) e
@@ -105,8 +105,6 @@ function RevoluçãoRussa() {
                 científico, defendia uma revolução armada para destruir o
                 capitalismo e implantar o comunismo.
               </p>
-            </div>
-          </div>
           <p className="pRR">
             No início do século XX, a Rússia era um país atrasado economicamente
             (agrário e pouco industrializado), socialmente desigual (com uma
@@ -217,7 +215,7 @@ function RevoluçãoRussa() {
             Vladmir Lênin, defendiam uma revolução socialista imediata, fruto da
             aliança de operários e camponeses.
           </p>
-          <br/>
+
           <img id="Imagem2" src={Bolc}></img>
           </div>
         </div>
