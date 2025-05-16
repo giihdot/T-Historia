@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Header from "../Components/Header(Azul)";
-import Nav from "../Components/NavBar(Azul)";
+import Header from "../Components/Header(Cinza)";
+import Nav from "../Components/NavBar(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import "./Guerra_De_Canudos.css";
 
