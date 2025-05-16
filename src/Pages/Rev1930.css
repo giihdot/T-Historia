@@ -97,7 +97,7 @@ transform: scale(1.03);
 }
 
 /* Estilo do iframe do vídeo */
-iframe {
+.Ifra {
   width: 100%;
   max-width: 760px;
   height: 420px;

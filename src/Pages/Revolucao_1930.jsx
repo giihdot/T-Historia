@@ -136,7 +136,7 @@ function Revolucao1930() {
             Vargas se sentiu pressionado e cometeu suicídio em 1954, evitando a instauração de um regime ditatorial pelo menos até o Golpe Cívico-Militar de 1964.
           </p>
 
-          <iframe
+          <iframe className="Ifra"
             width="560"
             height="315"
             src="https://youtu.be/lEu4Lib4Y10?si=jVTglAUYVOtvF9o6"
