@@ -3,6 +3,9 @@ import Header from "../Components/Header(Azul)";
 import Nav from "../Components/NavBar(Azul)";
 import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
+import F1 from "../assets/F1.png";
+import F2 from "../assets/F2.png";
+import F3 from "../assets/F3.png";
 import "./Fascismo_Italiano.css";
 
 function FascismoItaliano() {
@@ -122,17 +125,17 @@ function FascismoItaliano() {
             <section className="juntIMG">
               <img
                 className="IMG1F"
-                src="https://averdade.org.br/wp-content/uploads/2016/11/mussoline.jpg"
+                src={F1}
                 alt="Benito Mussolini discursando"
               />
               <img
                 className="IMG2F"
-                src="https://diplomatique.org.br/wp-content/uploads/2022/11/image_processing20221027-25360-1yoqg4m.jpeg"
+                src={F2}
                 alt="Marcha sobre Roma"
               />
               <img
                 className="IMG3F"
-                src="https://www.politize.com.br/wp-content/uploads/2024/07/fascismo-entenda-o-conceito.jpg"
+                src={F3}
                 alt="Mussolini e seu aliado Adolf Hitler"
               />
             </section>
