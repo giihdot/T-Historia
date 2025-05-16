@@ -3,6 +3,9 @@ import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
 import Footer from "../Components/Footer(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
+import Imag1 from "../assets/F1PG.png";
+import Imag2 from "../assets/F2PG.png";
+import Imag3 from "../assets/F3PG.png";
 import "./1ºGuerra_Mundial.css";
 
 function PrimeiraGuerraMundial() {
@@ -102,12 +105,17 @@ function PrimeiraGuerraMundial() {
             <div className="junt-text">
               <img
                 className="img1PGM"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWhNLDzD4_NMJzkcrGLVHK88vlxCtoXShnQ&s"
+                src={Imag1}
                 alt="Batalha de trincheiras da Primeira Guerra"
               />
               <img
                 className="img2PGM"
-                src="https://historiamilitaremdebate.com.br/wp-content/uploads/2022/08/B-7-1024x589.jpg"
+                src={Imag2}
+                alt="Movimentação dos soldados na Primeira Guerra"
+              />
+              <img
+                className="img2PGM"
+                src={Imag3}
                 alt="Trincheiras na Primeira Guerra"
               />
             </div>
@@ -162,18 +170,27 @@ function PrimeiraGuerraMundial() {
                   alt="Livro - Primeira Guerra Mundial"
                 />
               </div>
+              <p className="ppPG">
+                Dois livros importantes que abordam a Primeira Guerra Mundial são "Primeira Guerra Mundial: 
+                Uma Breve Introdução", de Michael Howard, e "1914-1918: A História da Primeira Guerra Mundial", 
+                de David Stevenson. O primeiro é mais curto e direto, ideal para quem busca uma explicação rápida e 
+                clara sobre as causas, o desenvolvimento e as consequências da guerra. Já a obra de Stevenson é mais longa e detalhada, 
+                voltada para leitores que desejam um estudo aprofundado sobre o conflito, abordando aspectos políticos, 
+                sociais e militares com riqueza de informações. Ambos os livros são ótimos, 
+                cada um com uma proposta diferente: um para introduzir o tema, outro para explorá-lo em profundidade.
+              </p>
             </div>
           </section>
 
           <p className="ppPGM">
-                O sentimento de revanchismo, especialmente na Alemanha,
-                alimentado pelas duras condições do Tratado de Versalhes,
-                preparou o terreno para o surgimento do nazismo e a eclosão da
-                Segunda Guerra Mundial em 1939. Assim, a Primeira Guerra Mundial
-                não apenas transformou o cenário geopolítico mundial, como
-                também alterou profundamente a forma como a sociedade passou a
-                compreender o conflito, a violência e a política.
-              </p>
+            O sentimento de revanchismo, especialmente na Alemanha,
+            alimentado pelas duras condições do Tratado de Versalhes,
+            preparou o terreno para o surgimento do nazismo e a eclosão da
+            Segunda Guerra Mundial em 1939. Assim, a Primeira Guerra Mundial
+            não apenas transformou o cenário geopolítico mundial, como
+            também alterou profundamente a forma como a sociedade passou a
+            compreender o conflito, a violência e a política.
+          </p>
 
           {/* Filme indicado */}
           <section className="junt-imag">
