@@ -143,15 +143,6 @@ function PrimeiraGuerraMundial() {
                 desilusão generalizada com a guerra e seus resultados também
                 contribuiu para a instabilidade política nas décadas seguintes.
               </p>
-              <p className="ppPGM">
-                O sentimento de revanchismo, especialmente na Alemanha,
-                alimentado pelas duras condições do Tratado de Versalhes,
-                preparou o terreno para o surgimento do nazismo e a eclosão da
-                Segunda Guerra Mundial em 1939. Assim, a Primeira Guerra Mundial
-                não apenas transformou o cenário geopolítico mundial, como
-                também alterou profundamente a forma como a sociedade passou a
-                compreender o conflito, a violência e a política.
-              </p>
 
             </div>
             <div className="junt-imag">
@@ -173,6 +164,16 @@ function PrimeiraGuerraMundial() {
               </div>
             </div>
           </section>
+
+          <p className="ppPGM">
+                O sentimento de revanchismo, especialmente na Alemanha,
+                alimentado pelas duras condições do Tratado de Versalhes,
+                preparou o terreno para o surgimento do nazismo e a eclosão da
+                Segunda Guerra Mundial em 1939. Assim, a Primeira Guerra Mundial
+                não apenas transformou o cenário geopolítico mundial, como
+                também alterou profundamente a forma como a sociedade passou a
+                compreender o conflito, a violência e a política.
+              </p>
 
           {/* Filme indicado */}
           <section className="junt-imag">
