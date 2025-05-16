@@ -4,7 +4,7 @@ import Nav from "../Components/NavBar(Azul)";
 import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import Slider from "../Components/SliderImagem";
-import "./Revolução_Russa.css";
+import "./Revolucao_Russa.css";
 import RevRS1 from "../assets/RevRS1.png"
 import RevRS2 from "../assets/RevRS2.png"
 import Bolc from "../assets/Bolc.png"
