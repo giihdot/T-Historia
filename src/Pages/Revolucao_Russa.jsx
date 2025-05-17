@@ -54,7 +54,7 @@ function RevoluçãoRussa() {
         <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
-          <h3 className="H3-RR"> Resumo (Wikipedia) </h3>
+          <h3 className="H3-RRs"> Resumo (Wikipedia) </h3>
           <p className="pRR"> {resumoWiki} </p>
 
           <h1 className="H3-RR"> Contexto Histórico </h1>
