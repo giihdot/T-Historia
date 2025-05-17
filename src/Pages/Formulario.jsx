@@ -49,9 +49,9 @@ function Formulario() {
       <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principal">
+        <section className="conteudo-principal">
           <div className="form-area">
-            <h1 className="form-title">Formulário</h1>
+            <h1 className="form-title">Formulário do Usuário </h1>
 
             <form onSubmit={enviarFormulario} className="form-container">
               <div className="form-group">
@@ -121,7 +121,7 @@ function Formulario() {
               </ul>
             </div>
           </div>
-        </main>
+        </section>
       </div>
     </>
   );
