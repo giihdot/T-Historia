@@ -53,7 +53,7 @@ function PrimeiraGuerraMundial() {
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
-            <h3 className="H1-PGM">Resumo (Wikipedia)</h3>
+            <h3 className="H1-e">Resumo (Wikipedia)</h3>
             <p className="ppP">{resumoWiki}</p>
           </section>
 

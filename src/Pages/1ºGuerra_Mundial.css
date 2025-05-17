@@ -58,6 +58,14 @@ body {
   border-left: 4px solid #043f5b; /* pequeno destaque lateral */
 }
 
+.H1-e {
+  color: #043f5b; /* cor original mantida */
+  margin-bottom: 18px;
+  font-size: 1.25em;
+  font-weight: bold;
+
+}
+
 /* Centraliza o subtítulo final */
 .H1-PGMe {
   text-align: center;
