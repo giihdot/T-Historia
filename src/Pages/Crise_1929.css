@@ -42,7 +42,7 @@ body {
 .F-Colunm {
   display: flex;
   flex-direction: column;
-  width: 38vw;
+  width: 34vw;
   justify-content: space-around;
 }
 
