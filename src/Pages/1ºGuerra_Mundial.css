@@ -90,7 +90,7 @@ body {
 
 /* Tamanho fixo para livros */
 .livroPGM {
-  width: 16vw;
+  width: 14vw;
   height: auto;
 }
 
@@ -115,6 +115,7 @@ body {
 /* Inverte direção dos itens */
 .f-containerr {
   flex-direction: row-reverse;
+  
 }
 
 /* Blocos internos com layout flexível e boa largura */
