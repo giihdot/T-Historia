@@ -49,6 +49,7 @@ body {
 .pHome {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.1em;
+  text-align: justify;
   color: #062a3c;
 }
 
