@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
+import IM1 from "../assets/F1(GCN).png";
+import IM2 from "../assets/F2(GCN).png";
+import IM3 from "../assets/F3(GCN).png";
 import "./Guerra_De_Canudos.css";
 
 function GuerraDeCanudos() {
@@ -45,20 +48,16 @@ function GuerraDeCanudos() {
         {menuAberto && <Nav />}
 
         <div className="conteudo-principall">
-          <h1 className="H1-PGM">Guerra de Canudos</h1>
+          <h1 className="H1-CN">Guerra de Canudos</h1>
 
-          <div className="grid-container">
-            <div className="texto">
-              <h2 className="H1-GC">Resumo</h2>
-              <p className="ppGC">{resumoWiki}</p>
-            </div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxK42eZBzpTPz-AFtW3ItdOUEMRzflqBF846_cS2LlwM0qM1kUNJR9Obs2KI_SjzOgOxo&usqp=CAU"
-              alt="Imagem de Canudos"
-            />
 
-            <div className="texto">
-              <p className="ppGC">
+          <h2 className="h1-Ce">Resumo (Wikipédia)</h2>
+          <p className="ppC">{resumoWiki}</p>
+
+          <section className="fle-R">
+            <div className="fle-C">
+              <h2 className="H1-CN">Contexto</h2>
+              <p className="ppCN">
                 A Guerra de Canudos foi um dos conflitos mais marcantes da
                 história do Brasil, ocorrido no sertão da Bahia, no final do
                 século XIX. Ela envolveu o exército brasileiro e os seguidores
@@ -86,32 +85,47 @@ function GuerraDeCanudos() {
                 história do Brasil.
               </p>
             </div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR19FGJvdsQxqmkd2FvIm9inrN2il1SXR5bWBRoOIa7STCAZb-3DIJGo_pqzzLv3JiUr1s&usqp=CAU"
-              alt="Antônio Conselheiro"
-            />
+            <div className="fle-C">
+              <img id="IM"
+                src={IM1}
+                alt="Imagem de Canudos"
+              />
 
-            <div className="video">
-              <iframe
-                width="100%"
-                height="315"
-                src="https://www.youtube.com/embed/34iCBr9r1CY?si=g7rT95A5mR_j7kYN"
-                title="Guerra de Canudos - Canal História"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
+              <img id="IM"
+                src={IM2}
+                alt="Indivíduos de Canudos"
+              />
             </div>
-            <img
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivxOZdVVbu3kCKavmbDv2mglI_RfUeM4yhqBxKoqqQuAGr9a8kzcrZQR62mAdcvaCd6Mpv8jXLzDtU_zF-pq-LJzmyTQPoipkwnye4r4qAovDXsNExxocj02Xrout1t_QZV_kC8ybI1yTp/s1600/5o_Batalhao_da_Policia_Militar_da_Bahia.jpg"
-              alt="Gravura da Guerra de Canudos"
-            />
-          </div>
+          </section>
+
+          <p className="ppCN">
+            PRECISO DE MAIS INFORMAÇÕES AQUI, KAMILLY! (APENAS PARA CONTINUAR O CSS, ESTOU ESCREVENDO E OCUPANDO COM PALAVRAS ESSA ÁREA!)
+          </p>
+
+          <center> <img id="IM"
+            src={IM3}
+            alt="Canudos"
+          /> </center>
+
+          <p className="ppCN">
+            PRECISO DE MAIS INFORMAÇÕES AQUI, KAMILLY! (APENAS PARA CONTINUAR O CSS, ESTOU ESCREVENDO E OCUPANDO COM PALAVRAS ESSA ÁREA!)
+          </p>
+
+          <center><iframe id="frame"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/34iCBr9r1CY?si=g7rT95A5mR_j7kYN"
+            title="Guerra de Canudos - Canal História"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe> </center>
         </div>
       </div>
     </>
   );
 }
+
+// A guerra de Canudos terá apenas essas informações?  É bem pouco!!
 
 export default GuerraDeCanudos;

@@ -1,54 +1,85 @@
-/* body {
-  background-color: #043f5b;
+/* Fundo geral da página em cinza neutro */
+body {
+  background-color: #a6a6a6;
   margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #062a3c;
+  line-height: 1.6;
 }
 
+/* Container geral da página */
 .pagina-containerr {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
+/* Conteúdo principal com fundo claro e sombra suave */
 .conteudo-principall {
   flex: 1;
-  background-color: whitesmoke;
   padding: 30px;
-  
-}
-
-.H1-GC {
-  color: #043f5b;
-  text-align: center;
-  font-size: 2em;
-  margin: 20px 0;
-}
-
-.ppGC, .ppGC {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.1em;
-  color: #333;
-  text-align: justify;
-  margin: 10px 0;
-  max-width: 100%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
   max-width: 1200px;
-  margin: 20px auto;
+  animation: fadeIn 0.6s ease-in-out;
 }
 
-.grid-container .texto {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
+.H1-CN {
+  color: #043f5b;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  border-left: 5px solid #043f5b;
+  padding-left: 12px;
 }
 
-.grid-container img,
-.grid-container iframe {
+.h1-Ce {
+  color: #043f5b;
+  margin-bottom: 18px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.ppCN,
+.ppC {
+  font-size: 1.15em;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+
+#IM {
   width: 100%;
+  max-width: 500px;
   height: auto;
-  border-radius: 8px;
-} */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#IM:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
 
+.fle-C {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 34vw;
+}
+
+.fle-R {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#frame {
+  width: 100%;
+  max-width: 800px;
+  height: 70vh;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
