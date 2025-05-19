@@ -1,0 +1,71 @@
+/* Estiliza o corpo da página com fundo azul escuro, fonte clássica e cor base neutra */
+body {
+    background-color: #6a6a6a;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+/* Container geral da página com flexbox e adaptação para telas menores */
+.pagina-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Área principal do conteúdo com fundo claro, sombra e bordas suaves */
+.conteudo-principal {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    /* sombra sutil */
+    max-width: 1200px;
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+.H1-GC {
+    color: #043f5b;
+    margin-bottom: 18px;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-left: 12px;
+    border-left: 4px solid #043f5b;
+    /* pequeno destaque lateral */
+}
+
+.H1-c {
+    color: #043f5b;
+    margin-bottom: 18px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.ppCO {
+    font-size: 1.15em;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.FC {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+#Ig {
+   width: 30vw;
+   height: 35vh;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Ig:hover {
+    transform: scale(1.04);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
