@@ -1,6 +1,6 @@
 /* Estiliza o corpo da página com fundo azul escuro, fonte clássica e cor base neutra */
 body {
-  background-color: #043f5b; /*azul escuro principal*/
+  background-color: #043f5b; 
   margin: 0;
   font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
@@ -18,7 +18,7 @@ body {
 .conteudo-principall {
   flex: 1;
   padding: 30px;
-  background-color: #f9f9f9; /* mantém o fundo claro */
+  background-color: #f9f9f9; 
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* sombra sutil */
   max-width: 1200px;
   animation: fadeIn 0.7s ease-in-out;
@@ -27,7 +27,7 @@ body {
 /* Parágrafos com espaçamento confortável e boa leitura */
 .ppPGM, .ppP {
   font-size: 1.15em;
-  color: #333; /* mantém o tom escuro original */
+  color: #333; 
   line-height: 1.8;
   text-align: justify;
   margin-bottom: 24px;
@@ -37,7 +37,7 @@ body {
   font-size: 0.8em;
   padding: 7px;
   background-color: #043f5b;
-  color: #ffffff; /* mantém o tom escuro original */
+  color: #ffffff; 
   line-height: 1.8;
   text-align: justify;
   margin-bottom: 24px;
@@ -50,7 +50,7 @@ body {
 
 /* Títulos com destaque na cor azul já utilizada */
 .H1-PGM, .H1-PGMe {
-  color: #043f5b; /* cor original mantida */
+  color: #043f5b; 
   margin-bottom: 18px;
   font-size: 1.8em;
   font-weight: bold;
@@ -59,7 +59,7 @@ body {
 }
 
 .H1-e {
-  color: #043f5b; /* cor original mantida */
+  color: #043f5b; 
   margin-bottom: 18px;
   font-size: 1.25em;
   font-weight: bold;
