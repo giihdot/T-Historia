@@ -94,11 +94,13 @@ body {
 
   .fle-C {
     width: 90%;
+    margin-left: 10%;
   }
 
   #IM {
     width: 90%;
     height: auto;
+    margin-top: 5%;
   }
 
   #frame {
