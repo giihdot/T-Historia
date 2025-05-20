@@ -95,3 +95,92 @@ body {
   min-width: 300px;
 }
 
+/* Tablets (entre 600px e 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .IMG1F,
+  .IMG2F,
+  .IMG3F {
+    width: 50vw;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  .juntppFI3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .juntppFI1,
+  .juntppFI2 {
+    width: 90%;
+  }
+
+  .conteudo-principall {
+    padding: 20px;
+  }
+
+  .h2titulo,
+  .H1-PGM {
+    font-size: 1.4em;
+  }
+
+  .juntIMG {
+    flex-direction: column;
+    margin-left: 23%;
+  }
+}
+
+/* Celulares (até 599px) */
+@media (max-width: 599px) {
+  .pagina-containerr {
+    flex-direction: row; /* mantém navegação lateral */
+    flex-wrap: nowrap;
+  }
+
+  .conteudo-principall {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .juntIMG {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .IMG1F,
+  .IMG2F,
+  .IMG3F {
+    width: 85vw;
+    height: auto;
+  }
+
+  .juntppFI3 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .juntppFI1,
+  .juntppFI2 {
+    width: 95%;
+  }
+
+  .h2titulo,
+  .H1-PGM {
+    font-size: 1.3em;
+    padding-left: 8px;
+    border-left: 4px solid #043f5b;
+  }
+
+  .H1-PGe {
+    font-size: 1.1em;
+  }
+
+  .ppFI,
+  .ppFI2,
+  .ppFI3,
+  .ppRESF {
+    font-size: 1em;
+  }
+}
