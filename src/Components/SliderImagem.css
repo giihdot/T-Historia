@@ -48,3 +48,33 @@
     right: 10px;
   }
   
+
+  /* Tablets (600px a 1024px) */
+@media (max-width: 1024px) {
+  .carousel {
+    max-width: 80%;
+    margin-top: 3%;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* Celulares (até 599px) */
+@media (max-width: 599px) {
+  .carousel {
+    max-width: 95%;
+    margin-top: 5%;
+  }
+
+  .slides img {
+    height: auto;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
