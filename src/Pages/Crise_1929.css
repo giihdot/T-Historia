@@ -96,3 +96,96 @@ width: 55vw;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
  margin-left: 18.1%;
 }
+
+/* Tablets (600px a 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .F-Colunm,
+  .F-Colunme {
+    width: 48vw;
+  }
+
+  .F-Row {
+    flex-direction: column;
+  }
+
+  #Img,
+  #Img29 {
+    width: 80vw;
+    height: auto;
+  }
+  
+  #Img {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .IfraM {
+    width: 90%;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .H1-c29, .H1-c1929 {
+    font-size: 1.4em;
+    padding-left: 8px;
+  }
+
+  .ppC19 {
+    font-size: 1em;
+    width: 90vw;
+  }
+}
+
+/* Celulares (até 599px) */
+@media (max-width: 599px) {
+  .pagina-containerr {
+    flex-direction: row; /* mantém navegação lateral */
+    flex-wrap: nowrap;
+  }
+
+  .conteudo-principall {
+    padding: 15px;
+  }
+
+  .F-Colunm,
+  .F-Colunme {
+    width: 100%;
+  }
+
+  .F-Row,
+  .F-Rowe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Img,
+  #Img29 {
+    width: 90vw;
+    height: auto;
+  }
+
+
+  .IfraM {
+    width: 95%;
+    height: 240px;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  .H1-c29 {
+    font-size: 1.3em;
+    padding-left: 6px;
+    border-left: 3px solid #043f5b;
+  }
+
+  .H1-c1929 {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .ppC19 {
+    font-size: 0.95em;
+  }
+}
