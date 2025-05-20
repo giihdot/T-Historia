@@ -6,6 +6,7 @@ import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_Do_Contestado.css"
 import Ig1 from "../assets/F1(GCO).png";
 import Ig2 from "../assets/F2(GCO).png";
+import Ig3 from "../assets/F3(GCO).png";
 
 function Contestado() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -67,7 +68,7 @@ function Contestado() {
             isso, milhares de camponeses foram expulsos de suas terras sem
             indenização.
           </p>
-          <div className="FR">
+          <div className="Row-F">
             <div className="FC">
               <p className="ppCO"> A empresa ainda recebeu grandes áreas como
                 pagamento, vendendo-as depois para fazendeiros ricos. Os
@@ -88,14 +89,16 @@ function Contestado() {
               </p>
             </div>
             <section className="FC">
-              <img id="Ig"
-                src={Ig1}
-                alt="Soldados na Guerra do Contestado"
-              />
-              <img id="Ig"
-                src={Ig2}
-                alt="Cavalaria do contestado"
-              />
+              <center>
+                <img id="Ig"
+                  src={Ig1}
+                  alt="Soldados na Guerra do Contestado"
+                />
+                <img id="Ig"
+                  src={Ig2}
+                  alt="Cavalaria do contestado"
+                />
+              </center>
             </section>
           </div>
 
@@ -118,12 +121,16 @@ function Contestado() {
             um povo abandonado por justiça, dignidade e fé..
           </p>
 
-          <img
-            src="https://memoriapolitica.alesc.sc.gov.br/uploads/imagem/arquivo/A_Guerra_do_Contestado.jpeg"
-            alt="Monge José Maria"
-          />
+          <center>
+            <img id="img3"
+              src={Ig3}
+              alt="Monge José Maria"
+            />
+          </center>
 
-
+          <p className="ppCO">
+            PRECISO DE MAIS INFORMAÇÕES AQUI, KAMILLY! (APENAS PARA CONTINUAR O CSS, ESTOU ESCREVENDO E OCUPANDO COM PALAVRAS ESSA ÁREA!)
+          </p>
 
           <div className="video">
             <iframe
@@ -137,10 +144,6 @@ function Contestado() {
               allowfullscreen
             ></iframe>
           </div>
-          <img
-            src="https://www.uninter.com/noticias/wp-content/uploads/2019/08/noticias_contestado4.jpg"
-            alt="Mapa da Guerra do Contestado"
-          />
           <Avaliacao />
 
         </div >
