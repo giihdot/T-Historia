@@ -67,3 +67,49 @@ body {
 
 
 
+/* Tablets (600px a 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .conteudo-principal {
+    padding: 20px;
+    font-size: 1em;
+  }
+
+  .H4-HomePage {
+    width: 90vw;
+    font-size: 0.8em;
+  }
+
+  .parallax-content {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+}
+
+/* Celulares (até 599px) */
+@media (max-width: 599px) {
+  .pagina-container {
+    flex-direction: row; /* mantém a navegação lateral */
+    flex-wrap: nowrap;
+  }
+
+  .conteudo-principal {
+    padding: 20px;
+    font-size: 0.95em;
+  }
+
+  .H4-HomePage {
+    width: 85vw;
+    font-size: 0.75em;
+    padding: 8px;
+  }
+
+ 
+  .parallax-content {
+    font-size: 1.2rem;
+    padding: 0 15px;
+  }
+
+  .pHome {
+    font-size: 1em;
+  }
+}
