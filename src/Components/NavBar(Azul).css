@@ -33,3 +33,38 @@
   padding: 30px;
   background-color: whitesmoke;
 }
+
+/* Tablets (largura entre 600px e 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .navegacao {
+    width: 20vw; 
+    padding: 15px;
+  }
+
+  .navegacao a {
+    font-size: 1em;
+    padding: 10px 0;
+  }
+
+  .conteudo-principal {
+    padding: 20px;
+  }
+}
+
+/* Celulares (largura até 599px) */
+@media (max-width: 599px) {
+
+  .navegacao {
+    width: 20vw; 
+    padding: 15px;
+  }
+
+  .navegacao a {
+    font-size: 0.9em;
+    padding: 10px 0;
+  }
+
+  .conteudo-principal {
+    padding: 15px;
+  }
+}
