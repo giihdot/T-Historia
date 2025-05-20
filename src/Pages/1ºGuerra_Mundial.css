@@ -147,3 +147,95 @@ iframe.junt-imags {
   margin-top: 20px;
 }
 
+/* Tablets (largura entre 600px e 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .conteudo-principall {
+    padding: 20px;
+    font-size: 1em;
+  }
+
+  .livroPGM {
+    width: 25vw;
+    height: 40vh;
+  }
+
+  .img1PGM, .img2PGM {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  .H1-PGM, .H1-PGMe {
+    font-size: 1.5em;
+  }
+
+  .f-container,
+  .f-containerr {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .junt-text,
+  .junt-imag {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  iframe.junt-imags {
+    height: 320px;
+  }
+}
+
+/* Celulares (até 599px) */
+@media (max-width: 599px) {
+  .pagina-containerr {
+    flex-direction: row; /* mantém navegação lateral */
+    flex-wrap: nowrap;
+  }
+
+  .conteudo-principall {
+    padding: 15px;
+    font-size: 0.95em;
+  }
+
+  .livroPGM {
+    width: 40vw;
+  }
+
+  .img1PGM, .img2PGM {
+    max-width: 100%;
+  }
+
+  .H1-PGM, .H1-PGMe {
+    font-size: 1.3em;
+    text-align: center;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .H1-e {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .f-container,
+  .f-containerr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .junt-text,
+  .junt-imag {
+    flex: 1 1 100%;
+    padding: 10px;
+  }
+
+  iframe.junt-imags {
+    height: 250px;
+  }
+
+  .ppPGM, .ppP, .ppPG {
+    font-size: 1em;
+  }
+}
