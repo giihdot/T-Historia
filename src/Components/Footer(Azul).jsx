@@ -93,7 +93,8 @@ const Footer = () => {
               Ministério da Educação - Cadastur 42.395627.30.0009-5 / 42.395627.30.0009-5 – CNPJ/ME 40.59.12/0008-76. 
               <br/>
               Todos os direitos reservados. Avenida Ana Lombardi, 242, 8º andar, Jardim Canudos, Vinhedo, São Paulo, CEP 13269-540. </p>
-
+<br/>
+<br/>
           <p className='txtt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
 
         </div>
