@@ -23,9 +23,10 @@
   }
   
   /* Tablets (largura entre 600px e 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 800px) and (min-width: 600px) {
   .navegacaoo {
-    width: 20vw; 
+    width: 90vw; 
+    flex-direction: column;
     padding: 15px;
   }
 
@@ -43,8 +44,10 @@
 @media (max-width: 599px) {
  
  .navegacaoo {
-    width: 20vw; 
+    width: 90vw; 
+    flex-direction: column;
     padding: 15px;
+   
   }
 
   .navegacaoo a {
