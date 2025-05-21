@@ -8,6 +8,7 @@ import Imag2 from "../assets/F2PG.png";
 import Imag3 from "../assets/F3PG.png";
 import Avaliacao from "../Components/Avaliacao";
 import "./1ºGuerra_Mundial.css";
+import "../App.css";
 
 function PrimeiraGuerraMundial() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -41,16 +42,17 @@ function PrimeiraGuerraMundial() {
 
   return (
     <>
+    <main className="Cor-Azul">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagiina-containerr">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <div className="conteudoo-principall">
+        <div className="conteudo-principal">
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
@@ -218,6 +220,7 @@ function PrimeiraGuerraMundial() {
         </div>
       </div>
       <Footer />
+      </main>
     </>
   );
 }
