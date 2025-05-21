@@ -147,3 +147,72 @@ a {
 }
 
 
+/* Para telas até 599px (celulares pequenos) */
+@media (max-width: 599px) {
+  .footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linhaa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itens, .itens_2, .itens_3, .itens_4, .itens_5, .itens_6 {
+    width: 90vw;
+    height: auto;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+
+  .img_blue {
+    width: 40vw;
+    height: auto;
+  }
+
+  .txtt, .texxtt, .parg, .pssss {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+/* Para telas até 800px (tablets e celulares maiores) */
+@media (max-width: 800px) and (min-width: 699px) {
+  .footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linhaa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itens, .itens_2, .itens_3, .itens_4, .itens_5, .itens_6 {
+    width: 80vw;
+    height: auto;
+    font-size: 0.85em;
+    margin-bottom: 15px;
+  }
+
+  .img_blue {
+    width: 30vw;
+    height: auto;
+  }
+
+  .txtt, .texxtt, .parg, .pssss {
+    font-size: 0.95em;
+    text-align: center;
+  }
+}
