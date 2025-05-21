@@ -119,11 +119,11 @@ function AsGatitas() {
           <img src={CollabCinza} alt="Logo Arma Cinza" className="logs1" />
           <img src={LogoArmaCinza} alt="Logo Collab Cinza" className="logs2" /> 
         </div>
-<<<<<<< HEAD
+
         <Avaliacao/>
-=======
+
         </section>
->>>>>>> 7ac9132214c094edcf1ebbc90d7934f18005c0c1
+
       </section>
       <Footer />
     </div>
