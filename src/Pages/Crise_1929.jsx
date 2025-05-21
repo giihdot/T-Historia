@@ -11,6 +11,7 @@ import F4 from "../assets/F4(C29).png";
 import F5 from "../assets/F5(C29).png";
 import F6 from "../assets/F6(C29).png";
 import Avaliacao from "../Components/Avaliacao";
+import Tema from "../Components/Tema";
 
 function Crise1929() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -49,6 +50,8 @@ function Crise1929() {
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="pagina-containerr">
         {menuAberto && <Nav />}

@@ -12,8 +12,7 @@ import LogoGatitas from '../assets/Logo As Gatitas - SENAI - Copia.jpg';
 import LogoArmaCinza from '../assets/LOGO - ARMA CINZA.png';
 import CollabCinza from '../assets/COLLAB CINZA.png'
 import Avaliacao from "../Components/Avaliacao";
-
-
+import Tema from "../Components/Tema";
 
 const members = [
   {
@@ -61,6 +60,8 @@ function AsGatitas() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <br/>
       <br/>
@@ -118,8 +119,17 @@ function AsGatitas() {
           <img src={LogoGatitas} alt="Logo Gatitas" className="logs" />
           <img src={CollabCinza} alt="Logo Arma Cinza" className="logs1" />
           <img src={LogoArmaCinza} alt="Logo Collab Cinza" className="logs2" /> 
+<<<<<<< HEAD
         </div>       
         </section>
+=======
+        </div>
+
+        <Avaliacao/>
+
+        </section>
+
+>>>>>>> 9a7acd964d38e1a0e5cd8d426a55c1f0b3daf6ac
       </section>
       <Footer />
     </div>

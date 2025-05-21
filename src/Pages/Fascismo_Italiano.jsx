@@ -8,6 +8,8 @@ import F2 from "../assets/F2(I).png";
 import F3 from "../assets/F3(I).png";
 import "./Fascismo_Italiano.css";
 import Avaliacao from "../Components/Avaliacao";
+import Tema from "../Components/Tema";
+
 
 function FascismoItaliano() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -46,6 +48,8 @@ function FascismoItaliano() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="paginaa-containerr">
         {menuAberto && <Nav />}

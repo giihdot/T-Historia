@@ -7,6 +7,8 @@ import IM2 from "../assets/F2(GCN).png";
 import IM3 from "../assets/F3(GCN).png";
 import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_De_Canudos.css";
+import Tema from "../Components/Tema";
+
 
 function GuerraDeCanudos() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -44,6 +46,8 @@ function GuerraDeCanudos() {
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="paagina-containerr">
         {menuAberto && <Nav />}
