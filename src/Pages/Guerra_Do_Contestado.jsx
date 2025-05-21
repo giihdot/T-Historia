@@ -7,6 +7,7 @@ import "./Guerra_Do_Contestado.css";
 import Ig1 from "../assets/F1(GCO).png";
 import Ig2 from "../assets/F2(GCO).png";
 import Ig3 from "../assets/F3(GCO).png";
+import "../App.css";
 
 function Contestado() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -39,16 +40,17 @@ function Contestado() {
 
   return (
     <>
+    <main className="Cor-Cinza">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-contaiiner">
+      <div className="container-pagina">
         {menuAberto && <Nav />}
 
-        <div className="conteudoo-prinncipal">
+        <div className="principal-conteudo">
           <section>
             <h2 className="H1-GC">GUERRA DO CONTESTADO</h2>
             <Avaliacao/>
@@ -145,6 +147,7 @@ function Contestado() {
           </div>
         </div>
       </div>
+      </main>
     </>
   );
 }
