@@ -11,6 +11,9 @@ import Bolc from "../assets/Bolc.png"
 import Menc from "../assets/Menc.png"
 import Avaliacao from "../Components/Avaliacao";
 import "../App.css";
+import Tema from "../Components/Tema";
+
+
 
 function RevoluçãoRussa() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -51,7 +54,11 @@ function RevoluçãoRussa() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="pagina-container">
+
+      <Tema/>
+
         {menuAberto && <Nav />}
 
         <div className="conteudo-principal">

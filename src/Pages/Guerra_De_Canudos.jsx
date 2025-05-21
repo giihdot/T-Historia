@@ -8,6 +8,8 @@ import IM3 from "../assets/F3(GCN).png";
 import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_De_Canudos.css";
 import "../App.css";
+import Tema from "../Components/Tema";
+
 
 function GuerraDeCanudos() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -47,7 +49,12 @@ function GuerraDeCanudos() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="pagina-container">
+
+      <Tema/>
+
+  
         {menuAberto && <Nav />}
         <div className="conteudo-principal">
           <h1 className="H1-CN">Guerra de Canudos</h1>

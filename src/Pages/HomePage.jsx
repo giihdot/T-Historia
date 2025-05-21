@@ -5,6 +5,9 @@ import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./HomePage.css";
 import "../App.css";
+import Tema from "../Components/Tema";
+
+
 
 function HomePage() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -22,7 +25,12 @@ function HomePage() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="pagina-container">
+
+      <Tema/>
+
+ 
         {menuAberto && <Nav />}
 
         <div className="conteudo-principal">

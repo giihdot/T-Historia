@@ -9,6 +9,9 @@ import F3 from "../assets/F3(I).png";
 import "./Fascismo_Italiano.css";
 import Avaliacao from "../Components/Avaliacao";
 import "../App.css";
+import Tema from "../Components/Tema";
+
+
 
 function FascismoItaliano() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -49,7 +52,12 @@ function FascismoItaliano() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="pagina-container">
+
+      <Tema/>
+
+  
         {menuAberto && <Nav />}
 
         <main className="conteudo-principal">

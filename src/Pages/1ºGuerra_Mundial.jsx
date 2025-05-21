@@ -9,6 +9,8 @@ import Imag3 from "../assets/F3PG.png";
 import Avaliacao from "../Components/Avaliacao";
 import "./1ºGuerra_Mundial.css";
 import "../App.css";
+import Tema from "../Components/Tema";
+
 
 function PrimeiraGuerraMundial() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -49,7 +51,12 @@ function PrimeiraGuerraMundial() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="pagina-container">
+
+      <Tema/>
+
+     
         {menuAberto && <Nav />}
 
         <div className="conteudo-principal">

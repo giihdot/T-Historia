@@ -181,9 +181,12 @@ body {
   }
 
   .imagens {
-    width: 40vw;
-    height: auto;
-  }
+    width: 30vw;
+    height: 30vh;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-bottom: 15px;
+}
 
   .logs, .logs1, .logs2 {
     width: 15vw;

@@ -52,6 +52,7 @@ a {
   text-decoration: none;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
 }
 
 .itens_3 {
@@ -87,7 +88,7 @@ a {
   background-color: #a6a6a6;
   width: 28vw;
   height: 36vh;
-  font-size: 0.9em;
+  font-size: 1em;
   color: white;
   text-align: justify;
   margin-bottom: 4%;
@@ -100,7 +101,7 @@ a {
   background-color: #a6a6a6;
   width: 28vw;
   height: 36vh;
-  font-size: 0.9em;
+  font-size: 1em;
   color: white;
   text-align: start;
   text-align: justify;
@@ -135,15 +136,15 @@ a {
 
 .parg {
   color: #095b82ef;
-  font-size: 1.04em;
+  font-size: 1.4em;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .pssss {
   color: white;
-  font-size: 0.9em;
-  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2em;
 }
 
 
@@ -153,25 +154,81 @@ a {
     align-items: center;
   }
 
-  .itens,
-  .itens_2,
-  .itens_3,
-  .itens_4 {
-    width: 90vw;
-    height: auto;
-    font-size: 0.4em;
+
+  .itens_2 {
+        flex: 1;
+        margin: 0 0.7%;
+        padding: 10px;
+        background-color: #a6a6a6;
+        width: 26vw;
+        height: 34vh;
+        font-size: 0.62em;
+        text-align: center;
+        color: white;
   }
 
-  .a {
-    font-size: 0.5em;
-  }
-
-  .img_blue {
-    width: 70vw;
-    height: auto;
-  }
+  .itens_3 {
+    flex: 1;
+    margin: 0.7%;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 26vw;
+    height: 34vh;
+    color: white;
+    font-size: 0.60em;
+    text-align: center;
+    text-decoration: none;
 }
 
+  .itens_5 {
+    flex: 1;
+    margin: 0 0.7%;
+    padding: 15px;
+    background-color: #a6a6a6;
+    width: 28vw;
+    height: 36vh;
+    font-size: 0.75em;
+    color: white;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+  .itens_6 {
+    flex: 1;
+    margin: 0.7%;
+    padding: 15px;
+    background-color: #a6a6a6;
+    width: 28vw;
+    height: 36vh;
+    font-size: 0.75em;
+    color: white;
+    text-align: start;
+    text-align: justify;
+    margin-bottom: 4%;
+  }
+
+  .itens {
+    flex: 1;
+    margin: 0 0.7%;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 26vw;
+    height: 34vh;
+    font-size: 0.70em;
+    text-align: center;
+    color: white;
+}
+
+
+  .img_blue {
+    width: 25vw;
+    height: 15vh;
+}
+
+.parg {
+  font-size: 0.9em;
+}
+}
 
 @media (min-width: 699px) and (max-width: 800px) {
   .top-section {

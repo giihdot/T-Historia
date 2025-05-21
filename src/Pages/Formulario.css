@@ -81,12 +81,12 @@
   width: 38.15vw;
   justify-content: center;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  margin-top: 30%;
+  margin-top: 31%;
 }
 
 .form-button:hover {
   background-color: #002a40;
-  transform: scale(1.02);
+  transform: sc0ale(1.02);
 }
 
 /* Área de estatísticas de avaliação */

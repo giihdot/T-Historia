@@ -8,6 +8,9 @@ import Ig1 from "../assets/F1(GCO).png";
 import Ig2 from "../assets/F2(GCO).png";
 import Ig3 from "../assets/F3(GCO).png";
 import "../App.css";
+import Tema from "../Components/Tema";
+
+
 
 function Contestado() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -47,7 +50,13 @@ function Contestado() {
         onMenuClick={alternarMenu}
       />
 
+
       <div className="container-pagina">
+
+      <Tema/>
+
+      <div className="pagina-contaiiner">
+
         {menuAberto && <Nav />}
 
         <div className="principal-conteudo">
@@ -146,6 +155,7 @@ function Contestado() {
             ></iframe>
           </div>
         </div>
+      </div>
       </div>
       </main>
     </>
