@@ -1,11 +1,3 @@
-/* Fundo geral da página em cinza neutro */
-body {
-  background-color: #a6a6a6;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #062a3c;
-  line-height: 1.6;
-}
 
 /* Container geral da página */
 .paagina-containerr {

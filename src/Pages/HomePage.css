@@ -1,9 +1,3 @@
-/* Estiliza o corpo da página com fundo azul escuro, fonte clássica e cor base neutra */
-body {
-  background-color: #778084; 
-  margin: 0;
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
-}
 
 /* Container geral da página com flexbox e adaptação para telas menores */
 .paggina-container {
