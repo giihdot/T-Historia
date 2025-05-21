@@ -26,7 +26,10 @@ body {
 }
 
 /* Parágrafos padrão da seção fascismo */
-.ppFI, .ppFI2, .ppFI3, .ppRESF {
+.ppFI,
+.ppFI2,
+.ppFI3,
+.ppRESF {
   font-size: 1.1em;
   color: #333;
   text-align: justify;
@@ -35,7 +38,8 @@ body {
 
 
 /* Títulos das seções */
-.h2titulo, .H1-PGM {
+.h2titulo,
+.H1-PGM {
   color: #043f5b;
   font-size: 1.6em;
   font-weight: bold;
@@ -44,7 +48,7 @@ body {
   padding-left: 12px;
 }
 
-.H1-PGe{
+.H1-PGe {
   color: #043f5b;
   font-size: 1.2em;
   font-weight: bold;
@@ -97,6 +101,7 @@ body {
 
 /* Tablets (entre 600px e 1024px) */
 @media (max-width: 800px) and (min-width: 600px) {
+
   .IMG1F,
   .IMG2F,
   .IMG3F {
@@ -115,10 +120,6 @@ body {
     width: 90%;
   }
 
-  .conteudo-principall {
-    padding: 20px;
-  }
-
   .h2titulo,
   .H1-PGM {
     font-size: 1.4em;
@@ -128,16 +129,28 @@ body {
     flex-direction: column;
     margin-left: 23%;
   }
+
+  .paginaa-containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+  }
+/* 
+  .conteudo-principall {
+    padding: 15px;
+    max-width: 100%;
+  } */
 }
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
- .paginaa-containerr {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 5px;
-}
+  .paginaa-containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+  }
 
   .conteudo-principall {
     padding: 15px;
