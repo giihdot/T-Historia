@@ -48,7 +48,7 @@ function Formulario() {
       />
       <Tema/>
 
-      <div className="pagina-contaiineer">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
         <section className="conteudo-principal">
