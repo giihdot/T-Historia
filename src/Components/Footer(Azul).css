@@ -202,17 +202,17 @@ a {
   .itens, .itens_2, .itens_3, .itens_4, .itens_5, .itens_6 {
     width: 80vw;
     height: auto;
-    font-size: 0.85em;
+    font-size: 0.3em;
     margin-bottom: 15px;
   }
 
   .img_blue {
-    width: 30vw;
+    width: 40vw;
     height: auto;
   }
 
   .txtt, .texxtt, .parg, .pssss {
-    font-size: 0.95em;
+    font-size: 0.4em;
     text-align: center;
   }
 }
