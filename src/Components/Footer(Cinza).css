@@ -158,16 +158,16 @@ a {
   }
 
   .item, .item_2, .item_3, .item_4 {
-    width: 50vw;
+    width: 80vw;
     height: auto;
-    font-size: 0.4em; /* Aplica o tamanho correto em telas pequenas */
+    font-size: 0.2em; 
     margin-bottom: 15px;
   }
 
   .item_5, .item_6 {
     width: 50vw;
     height: auto;
-    font-size: 0.5em; /* Aplica o tamanho correto em telas pequenas */
+    font-size: 0.3em; 
     margin-bottom: 15px;
   }
 
