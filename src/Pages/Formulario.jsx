@@ -46,7 +46,6 @@ function Formulario() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
-
       <Tema/>
 
       <div className="pagina-contaiineer">
