@@ -95,7 +95,7 @@ const Footer = () => {
               Todos os direitos reservados. Avenida Ana Lombardi, 242, 8º andar, Jardim Canudos, Vinhedo, São Paulo, CEP 13269-540. </p>
 <br/>
 <br/>
-          <p className='txtt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
+          <p className='txtt'> Copyright 1992-2024, ArquivoBélico.com Ltda </p>
 
         </div>
 
