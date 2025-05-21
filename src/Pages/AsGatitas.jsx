@@ -116,12 +116,9 @@ function AsGatitas() {
           <img src={LogoGatitas} alt="Logo Gatitas" className="logs" />
           <img src={CollabCinza} alt="Logo Arma Cinza" className="logs1" />
           <img src={LogoArmaCinza} alt="Logo Collab Cinza" className="logs2" /> 
-<<<<<<< HEAD
+
         </div>
         <Avaliacao/>
-=======
-        </div>       
->>>>>>> fa3bbe74c0d9d9b5a31c55fda01095c271c0b1d4
         </section>
       </section>
       <Footer />
