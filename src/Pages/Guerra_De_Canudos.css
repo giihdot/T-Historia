@@ -22,8 +22,10 @@ body {
   padding: 30px;
   background-color: whitesmoke;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  max-width: 1500px;
+  max-width: 1400px;
+  align-content: center;
   animation: fadeIn 0.6s ease-in-out;
+ 
 }
 
 .H1-CN {

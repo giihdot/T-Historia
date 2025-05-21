@@ -46,7 +46,6 @@ function GuerraDeCanudos() {
 
       <div className="paagina-containerr">
         {menuAberto && <Nav />}
-
         <div className="conteuudo-principall">
           <h1 className="H1-CN">Guerra de Canudos</h1>
 
@@ -121,6 +120,7 @@ function GuerraDeCanudos() {
             allowFullScreen
           ></iframe> </center>
         </div>
+    
       </div>
     </>
   );
