@@ -45,7 +45,7 @@ function Contestado() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <main className="pagina-container">
         {menuAberto && <Nav />}
 
         <div className="conteudo-principal">
@@ -144,7 +144,7 @@ function Contestado() {
           </div>
           <Avaliacao />
         </div>
-      </div>
+      </main>
     </>
   );
 }
