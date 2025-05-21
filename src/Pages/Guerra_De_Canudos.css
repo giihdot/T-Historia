@@ -108,7 +108,7 @@ body {
     height: 400px;
   }
 
-  .conteudo-principall {
+  .conteuudo-principall {
     padding: 20px;
   }
 
@@ -128,12 +128,12 @@ body {
 
 /* Dispositivos pequenos (celulares) */
 @media (max-width: 599px) {
-  .pagina-containerr {
+  .paagina-containerr {
     flex-direction: row; /* Mantém navegação lateral visível */
     flex-wrap: nowrap;
   }
 
-  .conteudo-principall {
+  .conteuudo-principall {
     padding: 16px;
     max-width: 100%;
   }
