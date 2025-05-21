@@ -3,6 +3,7 @@ import Nav from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./Formulario.css"
+import Tema from "../Components/Tema";
 
 function Formulario() {
   const [nome, setNome] = useState("");
@@ -45,6 +46,7 @@ function Formulario() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
+      <Tema/>
 
       <div className="pagina-contaiineer">
         {menuAberto && <Nav />}
