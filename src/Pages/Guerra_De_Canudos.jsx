@@ -9,6 +9,7 @@ import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_De_Canudos.css";
 import "../App.css";
 import Tema from "../Components/Tema";
+import Footer from '../Components/Footer(Cinza)'
 
 
 function GuerraDeCanudos() {
@@ -130,8 +131,8 @@ function GuerraDeCanudos() {
           ></iframe> </center>
         </div>
       </div>
-      {/* COLOCAR O FOOTER AQUI */}
       </main>
+      <Footer/>
     </>
   );
 }
