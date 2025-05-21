@@ -148,7 +148,7 @@ iframe.junt-imags {
 }
 
 /* Tablets (largura entre 600px e 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 800px) and (min-width: 600px) {
   .conteudoo-principall {
     padding: 20px;
     font-size: 1em;
@@ -190,7 +190,7 @@ iframe.junt-imags {
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
   .pagiina-containerr {
-    flex-direction: row; /* mantém navegação lateral */
+    flex-direction: column; 
     flex-wrap: nowrap;
   }
 
