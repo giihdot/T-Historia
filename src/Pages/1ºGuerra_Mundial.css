@@ -6,7 +6,7 @@ body {
 }
 
 /* Container geral da página com flexbox e adaptação para telas menores */
-.pagina-containerr {
+.pagiina-containerr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 /* Área principal do conteúdo com fundo claro, sombra e bordas suaves */
-.conteudo-principall {
+.conteudoo-principall {
   flex: 1;
   padding: 30px;
   background-color: #f9f9f9; 
@@ -149,7 +149,7 @@ iframe.junt-imags {
 
 /* Tablets (largura entre 600px e 1024px) */
 @media (max-width: 1024px) and (min-width: 600px) {
-  .conteudo-principall {
+  .conteudoo-principall {
     padding: 20px;
     font-size: 1em;
   }
@@ -189,12 +189,12 @@ iframe.junt-imags {
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  .pagina-containerr {
+  .pagiina-containerr {
     flex-direction: row; /* mantém navegação lateral */
     flex-wrap: nowrap;
   }
 
-  .conteudo-principall {
+  .conteudoo-principall {
     padding: 15px;
     font-size: 0.95em;
   }

@@ -46,10 +46,10 @@ function PrimeiraGuerraMundial() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-containerr">
+      <div className="pagiina-containerr">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principall">
+        <div className="conteudoo-principall">
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
