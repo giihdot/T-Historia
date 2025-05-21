@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
+import Footer from '../Components/Footer(Azul)'
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import "./Rev1930.css"
 import Avaliacao from "../Components/Avaliacao";
@@ -162,6 +163,7 @@ function Revolucao1930() {
 
         </div>
       </div>
+      <Footer/>
       </main>
     </>
   );
