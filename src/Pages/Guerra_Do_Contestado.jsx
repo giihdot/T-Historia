@@ -45,10 +45,10 @@ function Contestado() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <div className="pagina-contaiiner">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principal">
+        <div className="conteudo-prinncipal">
           <section>
             <h2 className="H1-GC">GUERRA DO CONTESTADO</h2>
             <h3 className="H1-c">Resumo (Wikipédia)</h3>
