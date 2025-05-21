@@ -6,6 +6,7 @@ import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import Imag1 from "../assets/F1PG.png";
 import Imag2 from "../assets/F2PG.png";
 import Imag3 from "../assets/F3PG.png";
+import Avaliacao from "../Components/Avaliacao";
 import "./1ºGuerra_Mundial.css";
 
 function PrimeiraGuerraMundial() {
@@ -53,6 +54,7 @@ function PrimeiraGuerraMundial() {
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
+            <Avaliacao/>
             <h3 className="H1-e">Resumo (Wikipedia)</h3>
             <p className="ppP">{resumoWiki}</p>
           </section>

@@ -11,6 +11,7 @@ import Kamilly from '../assets/KAMILLY.jpeg';
 import LogoGatitas from '../assets/Logo As Gatitas - SENAI - Copia.jpg';
 import LogoArmaCinza from '../assets/LOGO - ARMA CINZA.png';
 import CollabCinza from '../assets/COLLAB CINZA.png'
+import Avaliacao from "../Components/Avaliacao";
 
 
 
@@ -117,6 +118,7 @@ function AsGatitas() {
           <img src={LogoArmaCinza} alt="Logo Arma Cinza" className="logo" />
           <img src={CollabCinza} alt="Logo Collab Cinza" className="logo" />
         </div>
+        <Avaliacao/>
       </section>
       <Footer />
     </div>

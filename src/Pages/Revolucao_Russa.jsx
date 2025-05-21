@@ -9,6 +9,7 @@ import RevRS1 from "../assets/RevRS1.png"
 import RevRS2 from "../assets/RevRS2.png"
 import Bolc from "../assets/Bolc.png"
 import Menc from "../assets/Menc.png"
+import Avaliacao from "../Components/Avaliacao";
 
 function RevoluçãoRussa() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -54,6 +55,7 @@ function RevoluçãoRussa() {
         <div className="conteudo-prinncipal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
+          <Avaliacao/>
           <h3 className="H3-RRs"> Resumo (Wikipedia) </h3>
           <p className="pRR"> {resumoWiki} </p>
 

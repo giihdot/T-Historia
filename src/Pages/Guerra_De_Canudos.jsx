@@ -5,6 +5,7 @@ import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import IM1 from "../assets/F1(GCN).png";
 import IM2 from "../assets/F2(GCN).png";
 import IM3 from "../assets/F3(GCN).png";
+import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_De_Canudos.css";
 
 function GuerraDeCanudos() {
@@ -49,7 +50,7 @@ function GuerraDeCanudos() {
 
         <div className="conteuudo-principall">
           <h1 className="H1-CN">Guerra de Canudos</h1>
-
+          <Avaliacao/>
 
           <h2 className="h1-Ce">Resumo (Wikipédia)</h2>
           <p className="ppC">{resumoWiki}</p>
