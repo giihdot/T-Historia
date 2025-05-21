@@ -8,7 +8,7 @@ body {
 /* Container geral da página com flexbox e adaptação para telas menores */
 .pagina-contaiiner {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding: 20px;
   gap: 20px;

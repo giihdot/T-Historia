@@ -11,8 +11,9 @@ body {
 .paagina-containerr {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
+  gap: 20px;
 }
 
 /* Conteúdo principal com fundo claro e sombra suave */
