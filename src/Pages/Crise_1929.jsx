@@ -374,8 +374,6 @@ function Crise1929() {
           ></iframe>
 
         </div>
-<<<<<<< HEAD
-=======
         <p className="H1-c29">5. Criação de Agências Governamentais e Programas de Assistência</p>
         <p className="ppC19">
           O New Deal criou várias agências governamentais para lidar com os problemas econômicos e sociais:
@@ -424,10 +422,7 @@ function Crise1929() {
         >
 
         </iframe>
-        
-
->>>>>>> 7ac9132214c094edcf1ebbc90d7934f18005c0c1
-      </div>
+          </div>
       <Footer />
     </>
   );
