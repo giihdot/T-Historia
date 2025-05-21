@@ -48,7 +48,7 @@ function Contestado() {
       <div className="pagina-contaiiner">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-prinncipal">
+        <div className="conteudoo-prinncipal">
           <section>
             <h2 className="H1-GC">GUERRA DO CONTESTADO</h2>
             <h3 className="H1-c">Resumo (Wikipédia)</h3>
@@ -130,10 +130,10 @@ function Contestado() {
           Após uma luta sangrenta, o governo derrotou os sertanejos, e os dois
           estados fizeram um acordo, estabelecendo os limites.
           </p>
-          <div className="video">
+          <div className="videoo">
             <iframe
-              width="560"
-              height="315"
+              width="540"
+              height="305"
               src="https://www.youtube.com/embed/5n6kplSnks4?si=lDLpSt8i5ufO3EXY"
               title="YouTube video player"
               frameborder="0"
