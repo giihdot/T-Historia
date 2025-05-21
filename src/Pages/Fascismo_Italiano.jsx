@@ -8,6 +8,7 @@ import F2 from "../assets/F2(I).png";
 import F3 from "../assets/F3(I).png";
 import "./Fascismo_Italiano.css";
 import Avaliacao from "../Components/Avaliacao";
+import "../App.css";
 
 function FascismoItaliano() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -41,16 +42,17 @@ function FascismoItaliano() {
 
   return (
     <>
+     <main className="Cor-Cinza">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
-      <div className="paginaa-containerr">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <main className="conteudo-principall">
+        <main className="conteudo-principal">
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">FASCISMO ITALIANO</h1>
@@ -269,6 +271,7 @@ function FascismoItaliano() {
         </main>
       </div>
       <Footer />
+      </main>
     </>
   );
 }
