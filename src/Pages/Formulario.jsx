@@ -46,7 +46,7 @@ function Formulario() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <div className="pagina-contaiineer">
         {menuAberto && <Nav />}
 
         <section className="conteudo-principal">
