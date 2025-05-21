@@ -9,6 +9,7 @@ import Ig2 from "../assets/F2(GCO).png";
 import Ig3 from "../assets/F3(GCO).png";
 import "../App.css";
 import Tema from "../Components/Tema";
+import Footer from '../Components/Footer(Azul)'
 
 
 
@@ -157,6 +158,7 @@ function Contestado() {
       </div>
       </div>
       </main>
+      <Footer/>
     </>
   );
 }
