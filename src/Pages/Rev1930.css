@@ -1,26 +1,5 @@
 
 
-/* Container geral da página com flexbox e adaptação para telas menores */
-.pagina-containe {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
-}
-
-/* Área principal do conteúdo com fundo claro, sombra e bordas suaves */
-.conteudo-principa {
-  flex: 1;
-  padding: 30px;
-  background-color: #f9f9f9;
-  /* mantém o fundo claro */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  /* sombra sutil */
-  max-width: 1200px;
-  animation: fadeIn 0.7s ease-in-out;
-}
-
 .H1-R3 {
   color: #043f5b;
   /* cor original mantida */
@@ -104,16 +83,7 @@ transform: scale(1.03);
 
 /* Tablets (entre 600px e 1024px) */
 @media (max-width: 1024px) and (min-width: 600px) {
-  .pagina-containe {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .conteudo-principa {
-    padding: 24px;
-    max-width: 95%;
-  }
-
+  
   .Flex-R {
     flex-direction: column;
     align-items: center;
@@ -145,18 +115,7 @@ transform: scale(1.03);
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  .pagina-containe {
-    flex-direction: column;
-    align-items: center;
-    padding: 12px;
-    gap: 16px;
-  }
-
-  .conteudo-principa {
-    padding: 16px;
-    max-width: 100%;
-  }
-
+  
   .Flex-R {
     flex-direction: column;
     align-items: center;

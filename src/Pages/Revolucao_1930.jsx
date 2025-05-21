@@ -7,6 +7,7 @@ import Avaliacao from "../Components/Avaliacao";
 import F1 from "../assets/F1(RV30).png"
 import F2 from "../assets/F2(RV30).png"
 import F3 from "../assets/F3(RV30).png"
+import "../App.css";
 
 function Revolucao1930() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -40,16 +41,17 @@ function Revolucao1930() {
 
   return (
     <>
+     <main className="Cor-Azul">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-containe">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principa">
+        <div className="conteudo-principal">
           <h1 className="H1-R3">Revolução de 1930</h1>
           <Avaliacao/>
 
@@ -153,6 +155,7 @@ function Revolucao1930() {
 
         </div>
       </div>
+      </main>
     </>
   );
 }
