@@ -10,6 +10,7 @@ import RevRS2 from "../assets/RevRS2.png"
 import Bolc from "../assets/Bolc.png"
 import Menc from "../assets/Menc.png"
 import Avaliacao from "../Components/Avaliacao";
+import "../App.css";
 
 function RevoluçãoRussa() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -43,16 +44,17 @@ function RevoluçãoRussa() {
 
   return (
     <>
+      <main className="Cor-Cinza">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-conntainer">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-prinncipal">
+        <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
           <Avaliacao/>
@@ -224,6 +226,7 @@ function RevoluçãoRussa() {
         </div>
       </div>
       <Footer />
+      </main>
     </>
   );
 }
