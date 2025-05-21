@@ -53,8 +53,6 @@ function Crise1929() {
 
       <Tema/>
 
-      <Tema/>
-
       <div className="pagina-container">
         {menuAberto && <Nav />}
 
