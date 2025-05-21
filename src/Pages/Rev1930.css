@@ -1,9 +1,4 @@
-body {
-  background-color: #043f5b;
-  /*azul escuro principal*/
-  margin: 0;
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
-}
+
 
 /* Container geral da página com flexbox e adaptação para telas menores */
 .pagina-containe {
