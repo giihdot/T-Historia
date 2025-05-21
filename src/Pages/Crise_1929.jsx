@@ -247,16 +247,18 @@ function Crise1929() {
 
 
 
-        <iframe className="IfraM "
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?app=desktop&v=Qi1mesXHuq8"
-          title="Crise de 1929"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <iframe className="IfraM"
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/a668_kZazmg?si=Hm7udZK-qpS8HLAX" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+
+        </iframe>
         
 
       </div>
