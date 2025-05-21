@@ -20,10 +20,10 @@ function HomePage() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <div className="paggina-container">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principal">
+        <div className="conteudo-pprincipal">
           {/* Texto introdutório */}
           <h1 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h1>
           <p className="pHome">
