@@ -4,6 +4,7 @@ import Nav from "../Components/NavBar(Azul)";
 import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./HomePage.css";
+import "../App.css";
 
 function HomePage() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -14,16 +15,17 @@ function HomePage() {
 
   return (
     <>
+    <main className="Cor-Cinza">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
-      <div className="paggina-container">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-pprincipal">
+        <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H3-HomePage">Bem-vindo à Nossa Plataforma</h1>
           <p className="pHome">
@@ -115,6 +117,7 @@ function HomePage() {
         </div>
       </div>
       <Footer/>
+      </main>
     </>
   );
 }
