@@ -109,7 +109,12 @@ function Formulario() {
                 Enviar
               </button>
             </form>
-
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
             <div className="like-stats">
               <h3>Ranking de Estrelas</h3>
               <ul>

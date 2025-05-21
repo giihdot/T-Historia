@@ -16,8 +16,6 @@ body {
   animation: fadeIn 0.6s ease-in-out;
 }
 
-
-
 /* Título principal */
 .form-title {
   text-align: justify;
@@ -86,8 +84,9 @@ body {
   font-weight: bold;
   cursor: pointer;
   width: 38.15vw;
+  justify-content: center;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  margin-top: 55%;
+  margin-top: 30%;
 }
 
 .form-button:hover {
@@ -127,3 +126,45 @@ body {
   font-size: 15px;
 }
 
+@media (max-width: 1024px) and (min-width: 600px) {
+
+/* Botão de envio */
+.form-button {
+  display: flex;
+  background-color: #003c58;
+  color: white;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 38.15vw;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 56%;
+}
+}
+
+@media (max-width: 599px) {
+/* Botão de envio */
+.form-button {
+  display: flex;
+  background-color: #003c58;
+  color: white;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 38.15vw;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 90%;
+}
+
+.form-button:hover {
+  background-color: #002a40;
+  transform: scale(1.02);
+}
+
+}
