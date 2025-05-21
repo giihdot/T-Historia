@@ -88,15 +88,15 @@ width: 55vw;
 
 
 /* Estilo do iframe do vídeo */
-.IfraM {
-  width: 100%;
-  max-width: 760px;
-  height: 420px;
-  border: none;
-  margin-top: 40px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
- margin-left: 18.1%;
-}
+  .IfraM {
+    width: 100%;
+    max-width: 760px;
+    height: 420px;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  margin-left: 18.1%;
+  }
 
 /* Tablets (600px a 800px) */
 @media (max-width: 800px) and (min-width: 600px) {
@@ -189,4 +189,13 @@ width: 55vw;
   .ppC19 {
     font-size: 0.95em;
   }
+
+  .IfraM {
+  width: 60vw;
+  max-width: 100%;
+  height: 60vh;
+  border: none;
+  margin-top: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
 }

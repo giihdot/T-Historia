@@ -51,6 +51,7 @@ function Contestado() {
         <div className="conteudoo-prinncipal">
           <section>
             <h2 className="H1-GC">GUERRA DO CONTESTADO</h2>
+            <Avaliacao/>
             <h3 className="H1-c">Resumo (Wikipédia)</h3>
             <p className="ppCO">{resumoWiki}</p>
           </section>
@@ -142,7 +143,6 @@ function Contestado() {
               allowfullscreen
             ></iframe>
           </div>
-          <Avaliacao />
         </div>
       </div>
     </>

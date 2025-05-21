@@ -3,6 +3,7 @@ import Header from "../Components/Header(Cinza)";
 import Nav from "../Components/NavBar(Cinza)";
 import Logo_Arma_Azul from "../assets/LOGO - ARMA AZUL.png";
 import "./Rev1930.css"
+import Avaliacao from "../Components/Avaliacao";
 import F1 from "../assets/F1(RV30).png"
 import F2 from "../assets/F2(RV30).png"
 import F3 from "../assets/F3(RV30).png"
@@ -50,6 +51,7 @@ function Revolucao1930() {
 
         <div className="conteudo-principa">
           <h1 className="H1-R3">Revolução de 1930</h1>
+          <Avaliacao/>
 
           <h2 className="H1-R30"> Resumo (Wikipédia) </h2>
 
