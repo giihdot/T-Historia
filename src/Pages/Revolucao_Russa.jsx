@@ -54,12 +54,11 @@ function RevoluçãoRussa() {
         onMenuClick={alternarMenu}
       />
 
+<Tema/>
 
       <div className="pagina-container">
 
-      <Tema/>
-
-        {menuAberto && <Nav />}
+      {menuAberto && <Nav />}
 
         <div className="conteudo-principal">
           {/* Texto introdutório */}

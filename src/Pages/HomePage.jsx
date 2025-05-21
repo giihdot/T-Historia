@@ -24,11 +24,9 @@ function HomePage() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
-
+<Tema/>
 
       <div className="pagina-container">
-
-      <Tema/>
 
  
         {menuAberto && <Nav />}

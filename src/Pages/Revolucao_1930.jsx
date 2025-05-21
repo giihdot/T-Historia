@@ -52,11 +52,11 @@ function Revolucao1930() {
         onMenuClick={alternarMenu}
       />
 
+<Tema/>
 
       <div className="pagina-container">
 
-      <Tema/>
-
+      
         {menuAberto && <Nav />}
 
         <div className="conteudo-principal">

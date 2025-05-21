@@ -50,10 +50,9 @@ function Contestado() {
         onMenuClick={alternarMenu}
       />
 
+<Tema/>
 
       <div className="container-pagina">
-
-      <Tema/>
 
       <div className="pagina-contaiiner">
 
