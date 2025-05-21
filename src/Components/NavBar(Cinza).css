@@ -23,9 +23,9 @@
   }
   
   /* Tablets (largura entre 600px e 1024px) */
-@media (max-width: 800px) and (min-width: 600px) {
+@media (max-width: 900px) and (min-width: 600px) {
   .navegacaoo {
-    width: 90vw; 
+    width: 92vw; 
     flex-direction: column;
     padding: 15px;
   }
@@ -35,16 +35,13 @@
     padding: 10px 0;
   }
 
-  .conteudo-principal {
-    padding: 20px;
-  }
 }
 
 /* Celulares (largura até 599px) */
 @media (max-width: 599px) {
  
  .navegacaoo {
-    width: 90vw; 
+    width: 87vw; 
     flex-direction: column;
     padding: 15px;
    
@@ -55,7 +52,5 @@
     padding: 10px 0;
   }
 
-  .conteudo-principal {
-    padding: 15px;
-  }
+
 }
