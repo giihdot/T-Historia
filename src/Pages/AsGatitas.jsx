@@ -11,7 +11,6 @@ import Kamilly from '../assets/KAMILLY.jpeg';
 import LogoGatitas from '../assets/Logo As Gatitas - SENAI - Copia.jpg';
 import LogoArmaCinza from '../assets/LOGO - ARMA CINZA.png';
 import CollabCinza from '../assets/COLLAB CINZA.png'
-import Avaliacao from "../Components/Avaliacao";
 
 
 
@@ -67,7 +66,6 @@ function AsGatitas() {
       <br/>
 
       <h2 className="collab-title"> NOSSO TIME </h2>
-
       <br/>
       <br/>
 
