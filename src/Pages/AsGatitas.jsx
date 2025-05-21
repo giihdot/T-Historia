@@ -113,12 +113,17 @@ function AsGatitas() {
 
       <section className="collab">
         <h2 className="collab-title"> COLABORAÇÃO </h2>
+        <section className="photos">
         <div className="logos">
-          <img src={LogoGatitas} alt="Logo Gatitas" className="logo" />
-          <img src={LogoArmaCinza} alt="Logo Arma Cinza" className="logo" />
-          <img src={CollabCinza} alt="Logo Collab Cinza" className="logo" />
+          <img src={LogoGatitas} alt="Logo Gatitas" className="logs" />
+          <img src={CollabCinza} alt="Logo Arma Cinza" className="logs1" />
+          <img src={LogoArmaCinza} alt="Logo Collab Cinza" className="logs2" /> 
         </div>
+<<<<<<< HEAD
         <Avaliacao/>
+=======
+        </section>
+>>>>>>> 7ac9132214c094edcf1ebbc90d7934f18005c0c1
       </section>
       <Footer />
     </div>

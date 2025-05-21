@@ -374,6 +374,59 @@ function Crise1929() {
           ></iframe>
 
         </div>
+<<<<<<< HEAD
+=======
+        <p className="H1-c29">5. Criação de Agências Governamentais e Programas de Assistência</p>
+        <p className="ppC19">
+          O New Deal criou várias agências governamentais para lidar com os problemas econômicos e sociais:
+          Tennessee Valley Authority (TVA): A TVA foi criada para promover o desenvolvimento econômico no vale do Tennessee, uma das áreas mais pobres dos EUA, com a construção de represas e a geração de eletricidade para as áreas rurais.
+        </p>
+
+        <center><img id="Img29"
+                src={F6}
+                alt="Imagem de Crise de 29"
+              /> </center>
+
+        <p className="H1-c29">Resultados e críticas</p>
+        <p className="ppC19"> <strong>Resultados positivos: </strong> O New Deal ajudou a aliviar os efeitos da Grande Depressão, reduziu o desemprego, estabilizou o sistema bancário e criou uma rede de segurança social que ainda existe hoje.
+        </p>
+        <p className="ppC19"> <strong>Críticas: </strong>O New Deal também foi alvo de críticas, principalmente por não ter conseguido acabar completamente com a Grande Depressão. Alguns críticos, como o economista Herbert Hoover e figuras conservadoras, alegavam que o governo estava intervindo
+          demais na economia. Já alguns críticos mais à esquerda, como Huey Long, achavam que as reformas não iam longe o suficiente para atender às necessidades da população mais pobre.
+          Após a Crise de 1929, o mundo enfrentou uma grave recessão econômica. A recuperação foi lenta e marcada por transformações políticas e econômicas importantes:
+          Recuperação nos EUA: O presidente Franklin D. Roosevelt implementou o New Deal, que trouxe reformas financeiras, programas de empregos e segurança social. A verdadeira recuperação, no entanto, veio com a Segunda Guerra Mundial, que gerou crescimento
+          econômico através da mobilização industrial.
+        </p>
+
+        <p className="ppC19"> <strong>Impacto global: </strong>Na Europa, a crise levou ao colapso de economias e ao crescimento de regimes autoritários, como o nazismo e o fascismo. Na América Latina, a crise provocou a adoção de políticas de substituição de importações e maior intervenção estatal.
+        </p>
+
+        <p className="ppC19"> <strong>Mudanças sociais e econômicas: </strong> A crise gerou grande desemprego e pobreza, mas também resultou na expansão do Estado de bem-estar social e na criação de programas como a Segurança Social e o seguro-desemprego nos EUA.
+        </p>
+
+        <p className="ppC19"> <strong>Regulação financeira:</strong> Houve uma maior intervenção estatal na economia, com a criação de instituições como a SEC para regular o mercado financeiro e a FDIC para proteger os depósitos bancários.
+        </p>
+
+        <p className="ppC19"> <strong> Crescimento de movimentos autoritários: </strong>O descontentamento com a crise favoreceu o crescimento de movimentos populistas e autoritários, como o nazismo na Alemanha e o fascismo na Itália.
+
+        </p>
+
+
+
+        <iframe className="IfraM"
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/a668_kZazmg?si=Hm7udZK-qpS8HLAX" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+
+        </iframe>
+        
+
+>>>>>>> 7ac9132214c094edcf1ebbc90d7934f18005c0c1
       </div>
       <Footer />
     </>
