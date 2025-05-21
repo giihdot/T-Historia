@@ -155,7 +155,7 @@ a {
   .top-section, .row {
     flex-direction: column;
     align-items: center;
-  }
+  
 
   .item, .item_2, .item_3, .item_4 {
     width: 80vw;
@@ -176,32 +176,28 @@ a {
     height: auto;
   }
 }
-
+}
 
 @media (min-width: 699px) and (max-width: 800px) {
-  .footer1 {
-    height: 145vh;
-  }
-  .item, .item_2, .item_3, .item_4 {
-    width: 40vw;
-    height: 30vh;
-    font-size: 0.53em;
+  .top-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
-  .item_5, .item_6 {
-    width: 45vw;
-    height: 34vh;
-    font-size: 0.65em;
+  .item,
+  .item_2,
+  .item_3,
+  .item_4,
+  .item_5,
+  .item_6 {
+    width: 40vw;
+    height: auto;
+    font-size: 0.85em;
   }
 
   .imggg {
-    width: 23vw;
-    height: 20vh;
-  }
-
-  .textt, .txt, .pss, .psss {
-    font-size: 0.95em;
+    width: 25vw;
+    height: auto;
   }
 }
-
-
