@@ -24,7 +24,7 @@
   background-color: #062a3c;
 }
 
-.pagina-container {
+/* .pagina-container {
   display: flex;
 }
 
@@ -32,10 +32,10 @@
   flex: 1;
   padding: 30px;
   background-color: whitesmoke;
-}
+} */
 
 /* Tablets (largura entre 600px e 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 800px) and (min-width: 600px) {
   .navegacao {
     width: 20vw; 
     padding: 15px;
@@ -46,9 +46,9 @@
     padding: 10px 0;
   }
 
-  .conteudo-principal {
+  /* .conteudo-principal {
     padding: 20px;
-  }
+  } */
 }
 
 /* Celulares (largura até 599px) */
@@ -64,7 +64,7 @@
     padding: 10px 0;
   }
 
-  .conteudo-principal {
+  /* .conteudo-principal {
     padding: 15px;
-  }
+  } */
 }
