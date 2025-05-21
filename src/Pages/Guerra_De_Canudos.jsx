@@ -44,10 +44,10 @@ function GuerraDeCanudos() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-containerr">
+      <div className="paagina-containerr">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principall">
+        <div className="conteuudo-principall">
           <h1 className="H1-CN">Guerra de Canudos</h1>
 
 

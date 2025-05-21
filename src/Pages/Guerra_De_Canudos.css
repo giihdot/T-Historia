@@ -8,7 +8,7 @@ body {
 }
 
 /* Container geral da página */
-.pagina-containerr {
+.paagina-containerr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 }
 
 /* Conteúdo principal com fundo claro e sombra suave */
-.conteudo-principall {
+.conteuudo-principall {
   flex: 1;
   padding: 30px;
   background-color: whitesmoke;
