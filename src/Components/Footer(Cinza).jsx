@@ -96,7 +96,7 @@ const Footer = () => {
           <br />
           <br />
           <br />
-          <p className='txt'> Copyright 1992-2024, MademesVoyage.com Ltda </p>
+          <p className='txt'> Copyright 1992-2024, ArquivoBélico.com Ltda </p>
 
         </div>
 
