@@ -45,10 +45,10 @@ function Revolucao1930() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-containerr">
+      <div className="pagina-containe">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principall">
+        <div className="conteudo-principa">
           <h1 className="H1-R3">Revolução de 1930</h1>
 
           <h2 className="H1-R30"> Resumo (Wikipédia) </h2>

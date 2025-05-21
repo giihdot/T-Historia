@@ -6,7 +6,7 @@ body {
 }
 
 /* Container geral da página com flexbox e adaptação para telas menores */
-.pagina-containerr {
+.pagina-containe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 /* Área principal do conteúdo com fundo claro, sombra e bordas suaves */
-.conteudo-principall {
+.conteudo-principa {
   flex: 1;
   padding: 30px;
   background-color: #f9f9f9;
@@ -109,12 +109,12 @@ transform: scale(1.03);
 
 /* Tablets (entre 600px e 1024px) */
 @media (max-width: 1024px) and (min-width: 600px) {
-  .pagina-containerr {
+  .pagina-containe {
     flex-direction: column;
     align-items: center;
   }
 
-  .conteudo-principall {
+  .conteudo-principa {
     padding: 24px;
     max-width: 95%;
   }
@@ -150,14 +150,14 @@ transform: scale(1.03);
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  .pagina-containerr {
+  .pagina-containe {
     flex-direction: column;
     align-items: center;
     padding: 12px;
     gap: 16px;
   }
 
-  .conteudo-principall {
+  .conteudo-principa {
     padding: 16px;
     max-width: 100%;
   }
