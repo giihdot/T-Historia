@@ -7,6 +7,7 @@ import IM2 from "../assets/F2(GCN).png";
 import IM3 from "../assets/F3(GCN).png";
 import Avaliacao from "../Components/Avaliacao";
 import "./Guerra_De_Canudos.css";
+import "../App.css";
 
 function GuerraDeCanudos() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -39,15 +40,16 @@ function GuerraDeCanudos() {
 
   return (
     <>
+    <main className="Cor-Azul">
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
 
-      <div className="paagina-containerr">
+      <div className="pagina-container">
         {menuAberto && <Nav />}
-        <div className="conteuudo-principall">
+        <div className="conteudo-principal">
           <h1 className="H1-CN">Guerra de Canudos</h1>
           <Avaliacao/>
 
@@ -121,8 +123,9 @@ function GuerraDeCanudos() {
             allowFullScreen
           ></iframe> </center>
         </div>
-    
       </div>
+      {/* COLOCAR O FOOTER AQUI */}
+      </main>
     </>
   );
 }

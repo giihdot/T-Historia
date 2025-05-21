@@ -1,24 +1,4 @@
 
-/* Container geral da página */
-.paagina-containerr {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-  gap: 20px;
-}
-
-/* Conteúdo principal com fundo claro e sombra suave */
-.conteuudo-principall {
-  flex: 1;
-  padding: 30px;
-  background-color: whitesmoke;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-  max-width: 1400px;
-  align-content: center;
-  animation: fadeIn 0.6s ease-in-out;
- 
-}
 
 .H1-CN {
   color: #043f5b;
@@ -101,10 +81,7 @@
     height: 400px;
   }
 
-  .conteuudo-principall {
-    padding: 20px;
-  }
-
+  
   .H1-CN {
     font-size: 1.4em;
   }
@@ -121,16 +98,7 @@
 
 /* Dispositivos pequenos (celulares) */
 @media (max-width: 599px) {
-  .paagina-containerr {
-    flex-direction: column; 
-    flex-wrap: nowrap;
-  }
-
-  .conteuudo-principall {
-    padding: 16px;
-    max-width: 100%;
-  }
-
+  
   .fle-R {
     flex-direction: column;
     align-items: center;
