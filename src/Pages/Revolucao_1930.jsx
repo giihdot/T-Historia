@@ -7,6 +7,8 @@ import Avaliacao from "../Components/Avaliacao";
 import F1 from "../assets/F1(RV30).png"
 import F2 from "../assets/F2(RV30).png"
 import F3 from "../assets/F3(RV30).png"
+import Tema from "../Components/Tema";
+
 
 function Revolucao1930() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -45,6 +47,8 @@ function Revolucao1930() {
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="pagina-containe">
         {menuAberto && <Nav />}

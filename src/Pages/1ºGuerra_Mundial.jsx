@@ -8,6 +8,7 @@ import Imag2 from "../assets/F2PG.png";
 import Imag3 from "../assets/F3PG.png";
 import Avaliacao from "../Components/Avaliacao";
 import "./1ºGuerra_Mundial.css";
+import Tema from "../Components/Tema";
 
 function PrimeiraGuerraMundial() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -46,6 +47,8 @@ function PrimeiraGuerraMundial() {
         imge={Logo_Arma_Azul}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="pagiina-containerr">
         {menuAberto && <Nav />}

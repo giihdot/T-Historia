@@ -7,6 +7,8 @@ import "./Guerra_Do_Contestado.css";
 import Ig1 from "../assets/F1(GCO).png";
 import Ig2 from "../assets/F2(GCO).png";
 import Ig3 from "../assets/F3(GCO).png";
+import Tema from "../Components/Tema";
+
 
 function Contestado() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -44,6 +46,8 @@ function Contestado() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="pagina-contaiiner">
         {menuAberto && <Nav />}

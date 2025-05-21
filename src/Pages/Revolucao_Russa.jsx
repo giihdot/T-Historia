@@ -10,6 +10,8 @@ import RevRS2 from "../assets/RevRS2.png"
 import Bolc from "../assets/Bolc.png"
 import Menc from "../assets/Menc.png"
 import Avaliacao from "../Components/Avaliacao";
+import Tema from "../Components/Tema";
+
 
 function RevoluçãoRussa() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -48,6 +50,8 @@ function RevoluçãoRussa() {
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
+
+      <Tema/>
 
       <div className="pagina-conntainer">
         {menuAberto && <Nav />}
