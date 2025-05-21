@@ -20,7 +20,7 @@ const Footer = () => {
     <br/>
     <br/>
       {/* Seção com 4 itens lado a lado */}
-      <div className="row">
+      <div className="linhaa">
         <div className="itens">
         <p className='parg'> <b> Sobre a Empresa: </b> </p>
 
