@@ -8,7 +8,7 @@ body {
 }
 
 /* Container geral da página */
-.pagina-containerr {
+.paginaa-containerr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -96,7 +96,7 @@ body {
 }
 
 /* Tablets (entre 600px e 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 800px) and (min-width: 600px) {
   .IMG1F,
   .IMG2F,
   .IMG3F {
@@ -132,10 +132,12 @@ body {
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  .pagina-containerr {
-    flex-direction: row; /* mantém navegação lateral */
-    flex-wrap: nowrap;
-  }
+ .paginaa-containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
 
   .conteudo-principall {
     padding: 15px;

@@ -46,7 +46,7 @@ function FascismoItaliano() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-containerr">
+      <div className="paginaa-containerr">
         {menuAberto && <Nav />}
 
         <main className="conteudo-principall">
