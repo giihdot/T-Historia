@@ -7,7 +7,7 @@
   background-color: #043f5b;
   color: #a6a6a6;
   padding: 10px;
-  /* width: 12vw; */
+  width: 12vw;
 }
 
 .navegacao a {
@@ -20,7 +20,7 @@
 .navegacao a:hover {
   text-decoration: none;
   align-items: center;
-  padding: 25px;
+  /* padding: 10px; */
   background-color: #062a3c;
 }
 

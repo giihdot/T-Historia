@@ -1,11 +1,13 @@
 .navegacaoo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: #a6a6a6;
-    color: #043f5b;
-    padding: 10px;
-    width: 12vw;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #a6a6a6;
+  color: #043f5b;
+  padding: 10px;
+  width: 12vw;
   }
   
   .navegacaoo a {
@@ -18,7 +20,7 @@
   .navegacaoo a:hover {
     text-decoration: none;
     align-items: center;
-    padding: 25px;
+    /* padding: 25px; */
     background-color: #848383;
   }
   
