@@ -1,19 +1,4 @@
 
-.pagina-containerr {
-  display: flex;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
-}
-
-.conteudo-principall {
-  flex: 1;
-  padding: 30px;
-  background-color: whitesmoke;
-}
-
 .H1-c29 {
   color: #043f5b;
   /* cor original mantida */
@@ -141,15 +126,7 @@ width: 55vw;
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  /* .pagina-containerr { */
-    /* flex-direction: column;  */
-    /* flex-wrap: nowrap; */
-  /* } */
-
-  .conteudo-principall {
-    padding: 15px;
-  }
-
+  
   .F-Colunm,
   .F-Colunme {
     width: 100%;
