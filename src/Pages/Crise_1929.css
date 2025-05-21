@@ -5,6 +5,11 @@ body {
 
 .pagina-containerr {
   display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
 }
 
 .conteudo-principall {
@@ -97,8 +102,8 @@ width: 55vw;
  margin-left: 18.1%;
 }
 
-/* Tablets (600px a 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+/* Tablets (600px a 800px) */
+@media (max-width: 800px) and (min-width: 600px) {
   .F-Colunm,
   .F-Colunme {
     width: 48vw;
@@ -140,10 +145,10 @@ width: 55vw;
 
 /* Celulares (até 599px) */
 @media (max-width: 599px) {
-  .pagina-containerr {
-    flex-direction: row; /* mantém navegação lateral */
-    flex-wrap: nowrap;
-  }
+  /* .pagina-containerr { */
+    /* flex-direction: column;  */
+    /* flex-wrap: nowrap; */
+  /* } */
 
   .conteudo-principall {
     padding: 15px;
