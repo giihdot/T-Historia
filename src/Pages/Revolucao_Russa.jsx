@@ -48,10 +48,10 @@ function RevoluçãoRussa() {
         onMenuClick={alternarMenu}
       />
 
-      <div className="pagina-container">
+      <div className="pagina-conntainer">
         {menuAberto && <Nav />}
 
-        <div className="conteudo-principal">
+        <div className="conteudo-prinncipal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
           <h3 className="H3-RRs"> Resumo (Wikipedia) </h3>
