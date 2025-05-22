@@ -80,8 +80,9 @@
 }
 
 .videoo {
-  width: 78vw;
-  height: 60vh;
+  width: 50vw;
+  height: 45vh;
+  align-self: center;
 }
 
 /* Tablets (largura entre 600px e 1024px) */
