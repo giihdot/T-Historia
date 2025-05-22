@@ -39,7 +39,7 @@ function Avaliacao({ idPagina }) {
           style={{
             fontSize: "30px",
             cursor: "pointer",
-            color: numero <= estrelas ? "blue" : "gray",
+            color: numero <= estrelas ? "#043f5b" : "gray",
           }}
         >
           {/* Símbolo da estrela (★) */}
