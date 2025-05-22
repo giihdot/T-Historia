@@ -44,7 +44,7 @@ function Contestado() {
 
   return (
     <>
-    <main className="Cor-Cinza">
+    {/* <main className="Cor-Cinza"> */}
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
@@ -52,7 +52,6 @@ function Contestado() {
       />
 
 <Tema/>
-
 
       <div className="container-pagina">
 
@@ -155,7 +154,7 @@ function Contestado() {
           </div>
         </div>
       </div>
-      </main>
+      {/* </main> */}
       <Footer/>
     </>
   );
