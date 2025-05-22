@@ -58,7 +58,7 @@ function Crise1929() {
 
         <div className="conteudo-principal">
           <h1 className="H1-c29"> Crise de 1929 </h1>
-          <Avaliacao />
+          
 
           <h2 className="H1-c1929"> Resumo (Wikipédia) </h2>
           <p className="ppC19"> {resumoWiki}</p>
@@ -353,7 +353,7 @@ function Crise1929() {
             populistas e autoritários, como o nazismo na Alemanha e o fascismo
             na Itália.
           </p>
-
+<Avaliacao />
           <iframe
             className="IfraM"
             width="560"

@@ -59,7 +59,7 @@ function FascismoItaliano() {
           {/* Resumo da Wikipedia */}
           <section>
             <h1 className="H1-PGM">FASCISMO ITALIANO</h1>
-            <Avaliacao />
+            
             <h3 className="H1-PGe">Resumo (Wikipedia)</h3>
             <p className="ppRESF">{resumoWiki}</p>
           </section>
@@ -269,6 +269,11 @@ function FascismoItaliano() {
                   </p>
                 </section>
               </section>
+              <br/>
+              <br/>
+              <Avaliacao />
+              <br/>
+              <br/>
               <div className="videoF">
                <iframe 
                   width="570"

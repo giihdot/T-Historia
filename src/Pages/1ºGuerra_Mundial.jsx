@@ -59,7 +59,6 @@ function PrimeiraGuerraMundial() {
             {/* Resumo da Wikipedia */}
             <section>
               <h1 className="H1-PGM">PRIMEIRA GUERRA MUNDIAL</h1>
-              <Avaliacao />
               <h3 className="H1-e">Resumo (Wikipedia)</h3>
               <p className="ppP">{resumoWiki}</p>
             </section>
@@ -204,6 +203,8 @@ function PrimeiraGuerraMundial() {
               forma como a sociedade passou a compreender o conflito, a
               violência e a política.
             </p>
+
+           <Avaliacao /> 
 
             {/* Filme indicado */}
             <section className="junt-imag">

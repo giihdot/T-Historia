@@ -60,7 +60,7 @@ function RevoluçãoRussa() {
         <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
-          <Avaliacao />
+          
           <h3 className="H3-RRs"> Resumo (Wikipedia) </h3>
           <p className="pRR"> {resumoWiki} </p>
 
@@ -223,6 +223,11 @@ function RevoluçãoRussa() {
               <img id="Imagem2" src={Bolc}></img>
             </div>
           </div>
+          <br/>
+          <br/>
+          <br/>
+          <Avaliacao />
+          <br/>
           <br/>
           <br/>
           <div className="videoRR">

@@ -1,81 +1,64 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Nav from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./Formulario.css";
 import Tema from "../Components/Tema";
+import Raking_Curt from "../Components/Ranking_Curt"
 
 function Formulario() {
-  // Estados para armazenar os valores dos campos do formulário
-  const [nome, setNome] = useState(""); // Nome do usuário
-  const [idade, setIdade] = useState(""); // Idade do usuário
-  const [escolaridade, setEscolaridade] = useState(""); // Escolaridade do usuário
-  const [sexo, setSexo] = useState(""); // Sexo do usuário
-  const [comentario, setComentario] = useState(""); // Comentário do usuário
+  // seus estados anteriores do formulário
+  const [nome, setNome] = useState("");
+  const [idade, setIdade] = useState("");
+  const [escolaridade, setEscolaridade] = useState("");
+  const [sexo, setSexo] = useState("");
+  const [comentario, setComentario] = useState("");
 
-  // Estado para armazenar o número de votos de cada estrela (ranking)
-  const [ranking, setRanking] = useState({});
+  const [rankingLikes, setRankingLikes] = useState({});
 
-  // Estado para controlar se o menu lateral está aberto ou fechado
   const [menuAberto, setMenuAberto] = useState(false);
 
-  // Hook que roda apenas uma vez após o componente ser montado
   useEffect(() => {
-    // Pega todas as chaves salvas no localStorage
+    // Carregar ranking curtidas e descuidas
     const todasChaves = Object.keys(localStorage);
+    const ranking = {};
 
-    // Cria um objeto para contar os votos por quantidade de estrelas
-    const votos = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
-
-    // Para cada chave do localStorage
     todasChaves.forEach((chave) => {
-      // Se a chave começar com "avaliacao_", significa que é um dado de avaliação por estrelas
-      if (chave.startsWith("avaliacao_")) {
-        // Pega o número de estrelas salvo e converte para número inteiro
-        const voto = parseInt(localStorage.getItem(chave));
-
-        // Se for um número válido de estrela (1 a 5), conta no objeto de votos
-        if (votos[voto] !== undefined) {
-          votos[voto]++;
-        }
+      if (chave.startsWith("likes_")) {
+        const id = chave.substring(6); // tira "likes_"
+        const likes = parseInt(localStorage.getItem(chave)) || 0;
+        if (!ranking[id]) ranking[id] = { likes: 0, dislikes: 0 };
+        ranking[id].likes = likes;
+      }
+      if (chave.startsWith("dislikes_")) {
+        const id = chave.substring(9); // tira "dislikes_"
+        const dislikes = parseInt(localStorage.getItem(chave)) || 0;
+        if (!ranking[id]) ranking[id] = { likes: 0, dislikes: 0 };
+        ranking[id].dislikes = dislikes;
       }
     });
 
-    // ATENÇÃO: Esse ranking soma todos os votos de todas as páginas, porque cada uma salva com uma chave única:
-    // Exemplo de chaves no localStorage:
-    // - avaliacao_pagina_guerra_canudos
-    // - avaliacao_pagina_era_vargas
-    // - avaliacao_pagina_guerra_fria
-    // Cada página gera seu valor individual, mas o Formulário soma tudo para mostrar o total geral por estrela
+    setRankingLikes(ranking);
+  }, []);
 
-    // Atualiza o estado do ranking com os votos contados
-    setRanking(votos);
-  }, []); // Executa apenas uma vez
-
-  // Função chamada ao enviar o formulário
+  // Função para enviar o formulário (igual a que você já tem)
   const enviarFormulario = (e) => {
-    e.preventDefault(); // Evita que a página recarregue ao enviar
+    e.preventDefault();
 
-    // Cria um objeto com os dados do usuário preenchido no formulário
     const dadosUsuario = {
       nome,
       idade,
       escolaridade,
       sexo,
       comentario,
-      data: new Date().toLocaleString(), // Salva a data e hora de envio
+      data: new Date().toLocaleString(),
     };
 
-    // Cria uma chave única para o localStorage baseada no timestamp atual
     const chaveUnica = `formulario_${Date.now()}`;
-
-    // Converte os dados para string e salva no localStorage
     localStorage.setItem(chaveUnica, JSON.stringify(dadosUsuario));
 
-    // Alerta que o envio foi concluído com sucesso
     alert("Formulário enviado com sucesso!");
 
-    // Limpa os campos após o envio
     setNome("");
     setIdade("");
     setEscolaridade("");
@@ -83,36 +66,29 @@ function Formulario() {
     setComentario("");
   };
 
-  // Função para abrir ou fechar o menu lateral
   const alternarMenu = () => {
-    setMenuAberto(!menuAberto); // Troca entre verdadeiro e falso
+    setMenuAberto(!menuAberto);
   };
 
-  // Retorno do JSX (estrutura visual)
   return (
     <>
-      {/* Cabeçalho da página com logo, título e botão de menu */}
       <Header
-        titulo="ARQUIVO BÉLICO" // Define o texto do cabeçalho
-        imge={Logo_Arma_Cinza} // Imagem do logo
-        onMenuClick={alternarMenu} // Função para alternar o menu
+        titulo="ARQUIVO BÉLICO"
+        imge={Logo_Arma_Cinza}
+        onMenuClick={alternarMenu}
       />
 
-      {/* Componente para trocar tema ou visual */}
       <Tema />
 
-      {/* Container principal da página */}
       <div className="pagina-container">
-        {/* Se o menu estiver aberto, mostra o componente de navegação lateral */}
         {menuAberto && <Nav />}
 
-        {/* Área que contém o formulário e o ranking */}
         <div className="form-area">
           <h1 className="form-title">Formulário do Usuário</h1>
 
-          {/* Formulário em si */}
           <form onSubmit={enviarFormulario} className="form-container">
-            {/* Campo do nome */}
+            {/* seus inputs aqui */}
+
             <div className="form-group">
               <label>Nome:</label>
               <input
@@ -122,7 +98,6 @@ function Formulario() {
               />
             </div>
 
-            {/* Campo da idade */}
             <div className="form-group">
               <label>Idade:</label>
               <input
@@ -133,7 +108,6 @@ function Formulario() {
               />
             </div>
 
-            {/* Campo da escolaridade */}
             <div className="form-group">
               <label>Escolaridade:</label>
               <input
@@ -143,7 +117,6 @@ function Formulario() {
               />
             </div>
 
-            {/* Campo de seleção do sexo */}
             <div className="form-group">
               <label>Sexo:</label>
               <select
@@ -158,7 +131,6 @@ function Formulario() {
               </select>
             </div>
 
-            {/* Campo do comentário */}
             <div className="form-group">
               <label>Comentário:</label>
               <textarea
@@ -168,7 +140,6 @@ function Formulario() {
               />
             </div>
 
-            {/* Botão para enviar o formulário */}
             <button type="submit" className="form-button">
               Enviar
             </button>
@@ -178,23 +149,11 @@ function Formulario() {
           <br />
           <br />
 
-          {/* Seção que mostra o ranking de estrelas com contagem */}
-          <div className="like-stats">
-            <h3>Ranking de Estrelas</h3>
-            <ul>
-              {/* Converte o objeto "ranking" em pares [estrela, total] e exibe */}
-              {Object.entries(ranking).map(([estrela, total]) => (
-                <li key={estrela}>
-                  {estrela} estrela(s): {total} voto(s)
-                </li>
-              ))}
-            </ul>
-          </div>
+          <Raking_Curt/>
         </div>
       </div>
     </>
   );
 }
 
-// Exporta o componente para ser usado em outros arquivos
 export default Formulario;

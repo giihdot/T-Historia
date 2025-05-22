@@ -1,0 +1,36 @@
+.botoes-curtida {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  justify-content: center;
+}
+
+.botao-curtir,
+.botao-descurtir {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.botao-curtir {
+  background-color: #043f5b;
+  color: white;
+  margin-left: -15%;
+}
+
+.botao-curtir:hover {
+  background-color: #a6a6a6;
+}
+
+.botao-descurtir {
+  background-color: #043f5b;
+  color: white;
+  margin-left: 20%;
+}
+
+.botao-descurtir:hover {
+  background-color: #a6a6a6;
+}
+

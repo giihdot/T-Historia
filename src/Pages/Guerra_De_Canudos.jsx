@@ -55,7 +55,7 @@ function GuerraDeCanudos() {
           {menuAberto && <Nav />}
           <div className="conteudo-principal">
             <h1 className="H1-CN">Guerra de Canudos</h1>
-            <Avaliacao />
+           
 
             <h2 className="h1-Ce">Resumo (Wikipédia)</h2>
             <p className="ppC">{resumoWiki}</p>
@@ -167,6 +167,9 @@ function GuerraDeCanudos() {
               de diversas outras violências e barbaridades praticadas pelas
               forças armadas ao final do confronto.
             </p>
+            <br/>
+             <Avaliacao />
+             <br/>
             <center>
               <iframe
                 id="frame"
