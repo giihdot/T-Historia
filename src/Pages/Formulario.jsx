@@ -169,7 +169,6 @@ function Formulario() {
               </button>
             </form>
 
-            {/* Quebra de linha para afastar a seção seguinte */}
             <br />
             <br />
             <br />
