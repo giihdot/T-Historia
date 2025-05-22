@@ -22,3 +22,39 @@
     background-color: #043f5b;
     color: #a6a6a6;
 }
+
+/* Dispositivos médios (tablets) */
+@media (max-width: 800px) and (min-width: 600px) {
+ .botao-tema {
+    width: 15vw;
+    height: 7vh;
+    position:absolute;
+    top: 27%;
+    left: 79%;
+    z-index: 2000;
+    padding: 10px 15px;
+    background-color: #043f5b;
+    color: #a6a6a6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+}
+
+/* Dispositivos pequenos (celulares) */
+@media (max-width: 599px) {
+  .botao-tema {
+    width: 17vw;
+    height: 7vh;
+    position:absolute;
+    top: 20%;
+    left: 79%;
+    z-index: 2000;
+    padding: 10px 15px;
+    background-color: #043f5b;
+    color: #a6a6a6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ 
+} }
