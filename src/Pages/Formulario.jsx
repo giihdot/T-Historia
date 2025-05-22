@@ -100,7 +100,7 @@ function Formulario() {
         {menuAberto && <Nav />}
 
         {/* Seção com o conteúdo principal da página */}
-        <section className="conteudo-principal">
+        
           {/* Área que contém o formulário e o ranking */}
           <div className="form-area">
             <h1 className="form-title">Formulário do Usuário</h1>
@@ -186,7 +186,7 @@ function Formulario() {
               </ul>
             </div>
           </div>
-        </section>
+        
       </div>
     </>
   );
