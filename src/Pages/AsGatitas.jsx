@@ -75,10 +75,25 @@ function AsGatitas() {
         {menuAberto && <Nav />}
 
         {members.map((member, index) => (
-          <div key={index} className="card">
-            <img src={member.image} alt={member.name} className="imagens" />
-            <h2 className="name">{member.name}</h2>
-            <p className="description">{member.description}</p>
+        // Percorre o array 'members' e para cada item (chamado de 'member'), executa o que está dentro do bloco.
+        // 'index' é o índice atual da iteração, usado como chave única para cada elemento do React.
+
+        <div key={index} className="card">
+          {/* A prop 'key' é necessária no React para ajudar a identificar cada item da lista. */}
+
+          <img src={member.image} alt={member.name} className="imagens" />
+          {/* Exibe a imagem do membro. 
+              - 'src' define o caminho da imagem (vindo do objeto member).
+              - 'alt' é o texto alternativo (acessibilidade), aqui usando o nome do membro.
+              - 'className="imagens"' aplica estilos via CSS. */}
+
+          <h2 className="name">{member.name}</h2>
+          {/* Exibe o nome do membro em um título <h2>. 
+              A classe 'name' pode ser usada para estilizar o texto. */}
+
+          <p className="description">{member.description}</p>
+          {/* Mostra uma descrição do membro em um parágrafo <p>. 
+              A classe 'description' também permite estilização separada. */}
           </div>
         ))}
       </div>

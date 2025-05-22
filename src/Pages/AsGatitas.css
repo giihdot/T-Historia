@@ -17,8 +17,12 @@ body {
 }
 
 .grid {
-  display: grid;
+  display: grid; /* Define o elemento como um container de grid, permitindo o uso do Grid Layout. */
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  /* Cria colunas responsivas:
+   - 'repeat(auto-fit, ...)' faz com que o grid crie automaticamente o maior número possível de colunas que caibam no container.
+   - 'minmax(260px, 1fr)' define que cada coluna deve ter no mínimo 260px de largura e pode crescer até ocupar uma fração igual do espaço disponível.
+   - Isso garante que as colunas se ajustem de forma flexível ao tamanho da tela, mantendo um mínimo de largura para cada item. */
   gap: 30px;
 }
 
