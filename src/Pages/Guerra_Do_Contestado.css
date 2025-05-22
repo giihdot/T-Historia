@@ -79,6 +79,11 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
 }
 
+.videoo {
+  width: 78vw;
+  height: 60vh;
+}
+
 /* Tablets (largura entre 600px e 1024px) */
 @media (max-width: 800px) and (min-width: 600px) {
   .Row-F {
@@ -111,6 +116,11 @@
 
   .ppCO {
     font-size: 1.05em;
+  }
+
+  .videoo {
+    width: 90vw;
+    height: 60vh;
   }
 }
 
@@ -148,5 +158,10 @@
 
   .ppCO {
     font-size: 1em;
+  }
+
+  .videoo {
+    width: 95vw;
+    height: 60vh;
   }
 }
