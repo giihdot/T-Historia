@@ -111,6 +111,10 @@ function AsGatitas() {
         </p>
       </section>
 
+      <br/>
+      <hr></hr>
+      <br/>
+
       <section className="collab">
         <h2 className="collab-title"> COLABORAÇÃO </h2>
         <section className="photos">
@@ -121,6 +125,10 @@ function AsGatitas() {
         </div>
         </section>
       </section>
+
+      <br/>
+      <hr></hr>
+      <br/>
 
       <section className="vid">
       <h2 className="collab-title"> VÍDEO </h2> 
