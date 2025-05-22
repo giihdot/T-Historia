@@ -53,9 +53,8 @@ function Contestado() {
 
 <Tema/>
 
-      <div className="container-pagina">
 
-      <div className="pagina-contaiiner">
+      <div className="container-pagina">
 
         {menuAberto && <Nav />}
 
@@ -155,7 +154,6 @@ function Contestado() {
             ></iframe>
           </div>
         </div>
-      </div>
       </div>
       </main>
       <Footer/>
