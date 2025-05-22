@@ -45,7 +45,7 @@ function Revolucao1930() {
 
   return (
     <>
-     <main className="Cor-Azul">
+     {/* <main className="Cor-Azul"> */}
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Azul}
@@ -164,7 +164,7 @@ function Revolucao1930() {
         </div>
       </div>
       <Footer/>
-      </main>
+      {/* </main> */}
     </>
   );
 }

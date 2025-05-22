@@ -1,25 +1,24 @@
 .botao-tema {
-    width: 20vw;
+    width: 15vw;
     height: 7vh;
-    position: relative;
-    top: 37px;
-    left: 40%;
+    position:absolute;
+    top: 22%;
+    left: 72.5%;
     z-index: 2000;
     padding: 10px 15px;
-    background-color: #062a3c;
+    background-color: #043f5b;
     color: #a6a6a6;
     border: none;
-    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .botao-tema.tema-claro {
-    background-color: #062a3c;
-    color: #a6a6a6;
+    background-color: #a6a6a6;
+    color: #043f5b;
 }
 
 .botao-tema.tema-escuro {
-    background-color: #a6a6a6;
-    color: #062a3c;
+    background-color: #043f5b;
+    color: #a6a6a6;
 }

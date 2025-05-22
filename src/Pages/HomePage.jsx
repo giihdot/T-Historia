@@ -18,7 +18,7 @@ function HomePage() {
 
   return (
     <>
-    <main className="Cor-Cinza">
+    {/* <main className="Cor-Cinza"> */}
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
@@ -123,7 +123,7 @@ function HomePage() {
         </div>
       </div>
       <Footer/>
-      </main>
+      {/* </main> */}
     </>
   );
 }

@@ -43,7 +43,7 @@ function PrimeiraGuerraMundial() {
 
   return (
     <>
-      <main className="Cor-Azul">
+      {/* <main className="Cor-Azul"> */}
         <Header
           titulo="ARQUIVO BÉLICO"
           imge={Logo_Arma_Azul}
@@ -225,7 +225,7 @@ function PrimeiraGuerraMundial() {
           </div>
         </div>
         <Footer />
-      </main>
+      {/* </main> */}
     </>
   );
 }
