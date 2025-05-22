@@ -21,6 +21,7 @@ function Avaliacao({ idPagina }) {
     // Atualiza o estado com a quantidade de estrelas clicadas
     setEstrelas(quantidade);
     // Salva a quantidade de estrelas no localStorage com a chave esperada pelo ranking
+    // IMPORTANTE: a chave contém o idPagina — isso garante que cada página tenha sua avaliação separada
     localStorage.setItem(`avaliacao_${idPagina}`, quantidade);
   };
 

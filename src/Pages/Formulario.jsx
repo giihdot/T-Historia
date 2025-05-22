@@ -41,6 +41,13 @@ function Formulario() {
       }
     });
 
+    // ATENÇÃO: Esse ranking soma todos os votos de todas as páginas, porque cada uma salva com uma chave única:
+    // Exemplo de chaves no localStorage:
+    // - avaliacao_pagina_guerra_canudos
+    // - avaliacao_pagina_era_vargas
+    // - avaliacao_pagina_guerra_fria
+    // Cada página gera seu valor individual, mas o Formulário soma tudo para mostrar o total geral por estrela
+
     // Atualiza o estado do ranking com os votos contados
     setRanking(votos);
   }, []); // Executa apenas uma vez
@@ -99,94 +106,91 @@ function Formulario() {
         {/* Se o menu estiver aberto, mostra o componente de navegação lateral */}
         {menuAberto && <Nav />}
 
-        {/* Seção com o conteúdo principal da página */}
-        
-          {/* Área que contém o formulário e o ranking */}
-          <div className="form-area">
-            <h1 className="form-title">Formulário do Usuário</h1>
+        {/* Área que contém o formulário e o ranking */}
+        <div className="form-area">
+          <h1 className="form-title">Formulário do Usuário</h1>
 
-            {/* Formulário em si */}
-            <form onSubmit={enviarFormulario} className="form-container">
-              {/* Campo do nome */}
-              <div className="form-group">
-                <label>Nome:</label>
-                <input
-                  value={nome}
-                  onChange={(e) => setNome(e.target.value)}
-                  required
-                />
-              </div>
-
-              {/* Campo da idade */}
-              <div className="form-group">
-                <label>Idade:</label>
-                <input
-                  type="number"
-                  value={idade}
-                  onChange={(e) => setIdade(e.target.value)}
-                  required
-                />
-              </div>
-
-              {/* Campo da escolaridade */}
-              <div className="form-group">
-                <label>Escolaridade:</label>
-                <input
-                  value={escolaridade}
-                  onChange={(e) => setEscolaridade(e.target.value)}
-                  required
-                />
-              </div>
-
-              {/* Campo de seleção do sexo */}
-              <div className="form-group">
-                <label>Sexo:</label>
-                <select
-                  value={sexo}
-                  onChange={(e) => setSexo(e.target.value)}
-                  required
-                >
-                  <option value="">Selecione</option>
-                  <option value="Feminino">Feminino</option>
-                  <option value="Masculino">Masculino</option>
-                  <option value="Outro">Outro</option>
-                </select>
-              </div>
-
-              {/* Campo do comentário */}
-              <div className="form-group">
-                <label>Comentário:</label>
-                <textarea
-                  value={comentario}
-                  onChange={(e) => setComentario(e.target.value)}
-                  required
-                />
-              </div>
-
-              {/* Botão para enviar o formulário */}
-              <button type="submit" className="form-button">
-                Enviar
-              </button>
-            </form>
-
-            <br />
-            <br />
-            <br />
-
-            {/* Seção que mostra o ranking de estrelas com contagem */}
-            <div className="like-stats">
-              <h3>Ranking de Estrelas</h3>
-              <ul>
-                {/* Converte o objeto "ranking" em pares [estrela, total] e exibe */}
-                {Object.entries(ranking).map(([estrela, total]) => (
-                  <li key={estrela}>
-                    {estrela} estrela(s): {total} voto(s)
-                  </li>
-                ))}
-              </ul>
+          {/* Formulário em si */}
+          <form onSubmit={enviarFormulario} className="form-container">
+            {/* Campo do nome */}
+            <div className="form-group">
+              <label>Nome:</label>
+              <input
+                value={nome}
+                onChange={(e) => setNome(e.target.value)}
+                required
+              />
             </div>
+
+            {/* Campo da idade */}
+            <div className="form-group">
+              <label>Idade:</label>
+              <input
+                type="number"
+                value={idade}
+                onChange={(e) => setIdade(e.target.value)}
+                required
+              />
+            </div>
+
+            {/* Campo da escolaridade */}
+            <div className="form-group">
+              <label>Escolaridade:</label>
+              <input
+                value={escolaridade}
+                onChange={(e) => setEscolaridade(e.target.value)}
+                required
+              />
+            </div>
+
+            {/* Campo de seleção do sexo */}
+            <div className="form-group">
+              <label>Sexo:</label>
+              <select
+                value={sexo}
+                onChange={(e) => setSexo(e.target.value)}
+                required
+              >
+                <option value="">Selecione</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outro">Outro</option>
+              </select>
+            </div>
+
+            {/* Campo do comentário */}
+            <div className="form-group">
+              <label>Comentário:</label>
+              <textarea
+                value={comentario}
+                onChange={(e) => setComentario(e.target.value)}
+                required
+              />
+            </div>
+
+            {/* Botão para enviar o formulário */}
+            <button type="submit" className="form-button">
+              Enviar
+            </button>
+          </form>
+
+          <br />
+          <br />
+          <br />
+
+          {/* Seção que mostra o ranking de estrelas com contagem */}
+          <div className="like-stats">
+            <h3>Ranking de Estrelas</h3>
+            <ul>
+              {/* Converte o objeto "ranking" em pares [estrela, total] e exibe */}
+              {Object.entries(ranking).map(([estrela, total]) => (
+                <li key={estrela}>
+                  {estrela} estrela(s): {total} voto(s)
+                </li>
+              ))}
+            </ul>
           </div>
-        
+        </div>
       </div>
     </>
   );
