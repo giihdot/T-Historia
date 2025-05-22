@@ -141,18 +141,15 @@ function Contestado() {
           Após uma luta sangrenta, o governo derrotou os sertanejos, e os dois
           estados fizeram um acordo, estabelecendo os limites.
           </p>
-          <div className="videoo">
-            <iframe
-              width="540"
-              height="305"
+            <iframe className="videoo"
               src="https://www.youtube.com/embed/5n6kplSnks4?si=lDLpSt8i5ufO3EXY"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
-            ></iframe>
-          </div>
+            >
+            </iframe>
         </div>
       </div>
       </main>
