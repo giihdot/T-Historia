@@ -18,7 +18,7 @@ function RankingCurtidas() {
       // Verifica se a chave é de curtida (começa com "curtidas_")
       if (chave.startsWith("curtidas_")) {
         // Extrai o ID da página (remove o prefixo)
-        const id = chave.replace("curtidas_", "");
+        const id = chave.replace("curtidas_", ""); //sado para substituir parte de uma string por outra
 
         // Pega o número de curtidas salvas no localStorage para esse ID
         const curtidas = parseInt(localStorage.getItem(chave)) || 0;
