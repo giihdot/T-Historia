@@ -155,4 +155,16 @@ transform: scale(1.03);
   .ppR30, .ppR30e {
     font-size: 0.95em;
   }
+
+  .Ifra {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .Ifra {
+    max-width: 120%;
+    margin-left: 0;
+  }
 }
