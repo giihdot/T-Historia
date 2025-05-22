@@ -50,5 +50,4 @@ function Avaliacao({ idPagina }) {
   );
 }
 
-// Exporta o componente Avaliacao para ser usado em outras partes do projeto
 export default Avaliacao;
