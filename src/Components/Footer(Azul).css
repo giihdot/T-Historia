@@ -3,7 +3,7 @@
   background-color: #043f5b;
   height: 90vh;
   text-align: center;
-  height: 135vh;
+  height: 142vh;
 }
 
 .top-section {
@@ -87,7 +87,7 @@ a {
   padding: 15px;
   background-color: #a6a6a6;
   width: 28vw;
-  height: 36vh;
+  height: 30vh;
   font-size: 1em;
   color: white;
   text-align: justify;
@@ -100,7 +100,7 @@ a {
   padding: 15px;
   background-color: #a6a6a6;
   width: 28vw;
-  height: 36vh;
+  height: 30vh;
   font-size: 1em;
   color: white;
   text-align: start;
@@ -154,6 +154,12 @@ a {
     align-items: center;
   }
 
+  .footer {
+    padding: 25px;
+    background-color: #043f5b;
+    text-align: center;
+    height: 145vh;
+}
 
   .itens_2 {
         flex: 1;
@@ -167,18 +173,18 @@ a {
         color: white;
   }
 
-  .itens_3 {
-    flex: 1;
-    margin: 0.7%;
-    padding: 10px;
-    background-color: #a6a6a6;
-    width: 26vw;
-    height: 34vh;
-    color: white;
-    font-size: 0.60em;
-    text-align: center;
-    text-decoration: none;
-}
+      .itens_3 {
+        flex: 1;
+        margin: 0.7%;
+        padding: 10px;
+        background-color: #a6a6a6;
+        width: 26vw;
+        height: 34vh;
+        color: white;
+        font-size: 0.57em;
+        text-align: center;
+        text-decoration: none;
+    }
 
   .itens_5 {
     flex: 1;
@@ -230,12 +236,26 @@ a {
 }
 }
 
+.pssss {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+
 @media (min-width: 699px) and (max-width: 800px) {
   .top-section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  .footer {
+    padding: 25px;
+    background-color: #043f5b;
+    height: 90vh;
+    text-align: center;
+    height: 165vh;
+}
 
   .itens,
   .itens_2,
@@ -249,7 +269,7 @@ a {
   }
 
   .img_blue {
-    width: 25vw;
-    height: auto;
-  }
+    width: 17vw;
+    height: 20vh;
+}
 }
