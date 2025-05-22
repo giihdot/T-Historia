@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./Tema.css"; // Certifique-se de ter criado esse arquivo também
+import "./Tema.css";
 
 function BotaoTema() {
   const [temaClaro, setTemaClaro] = useState(true);
