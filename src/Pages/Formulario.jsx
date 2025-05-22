@@ -1,64 +1,50 @@
-import React, { useState, useEffect } from "react";
+
+import { useState} from "react";
 import Nav from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import "./Formulario.css";
 import Tema from "../Components/Tema";
-import Raking_Curt from "../Components/Ranking_Curt"
+import Raking_Curt from "../Components/Ranking_Curt";
 
+// Função principal do componente Formulário
 function Formulario() {
-  // seus estados anteriores do formulário
-  const [nome, setNome] = useState("");
-  const [idade, setIdade] = useState("");
-  const [escolaridade, setEscolaridade] = useState("");
-  const [sexo, setSexo] = useState("");
-  const [comentario, setComentario] = useState("");
+  // Estados que armazenam os valores dos campos do formulário
+  const [nome, setNome] = useState(""); // Nome digitado
+  const [idade, setIdade] = useState(""); // Idade digitada
+  const [escolaridade, setEscolaridade] = useState(""); // Escolaridade
+  const [sexo, setSexo] = useState(""); // Sexo
+  const [comentario, setComentario] = useState(""); // Comentário
 
-  const [rankingLikes, setRankingLikes] = useState({});
-
+  // Estado para abrir ou fechar o menu lateral
   const [menuAberto, setMenuAberto] = useState(false);
 
-  useEffect(() => {
-    // Carregar ranking curtidas e descuidas
-    const todasChaves = Object.keys(localStorage);
-    const ranking = {};
 
-    todasChaves.forEach((chave) => {
-      if (chave.startsWith("likes_")) {
-        const id = chave.substring(6); // tira "likes_"
-        const likes = parseInt(localStorage.getItem(chave)) || 0;
-        if (!ranking[id]) ranking[id] = { likes: 0, dislikes: 0 };
-        ranking[id].likes = likes;
-      }
-      if (chave.startsWith("dislikes_")) {
-        const id = chave.substring(9); // tira "dislikes_"
-        const dislikes = parseInt(localStorage.getItem(chave)) || 0;
-        if (!ranking[id]) ranking[id] = { likes: 0, dislikes: 0 };
-        ranking[id].dislikes = dislikes;
-      }
-    });
 
-    setRankingLikes(ranking);
-  }, []);
-
-  // Função para enviar o formulário (igual a que você já tem)
+  // Função chamada quando o formulário for enviado
   const enviarFormulario = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Impede o comportamento padrão do formulário (recarregar página)
 
+    // Monta um objeto com os dados do formulário
     const dadosUsuario = {
       nome,
       idade,
       escolaridade,
       sexo,
       comentario,
-      data: new Date().toLocaleString(),
+      data: new Date().toLocaleString(), // Adiciona a data e hora atual
     };
 
+    // Cria uma chave única usando o timestamp
     const chaveUnica = `formulario_${Date.now()}`;
+
+    // Salva os dados no localStorage
     localStorage.setItem(chaveUnica, JSON.stringify(dadosUsuario));
 
+    // Mostra um alerta de sucesso
     alert("Formulário enviado com sucesso!");
 
+    // Limpa os campos do formulário
     setNome("");
     setIdade("");
     setEscolaridade("");
@@ -66,29 +52,36 @@ function Formulario() {
     setComentario("");
   };
 
+  // Função para abrir ou fechar o menu lateral
   const alternarMenu = () => {
-    setMenuAberto(!menuAberto);
+    setMenuAberto(!menuAberto); // Inverte o estado do menu
   };
 
+  // JSX que será exibido na tela
   return (
     <>
+      {/* Cabeçalho com título, logo e botão do menu */}
       <Header
         titulo="ARQUIVO BÉLICO"
         imge={Logo_Arma_Cinza}
         onMenuClick={alternarMenu}
       />
 
+      {/* Componente de tema claro/escuro */}
       <Tema />
 
+      {/* Container geral da página */}
       <div className="pagina-container">
+        {/* Renderiza o menu lateral se estiver aberto */}
         {menuAberto && <Nav />}
 
+        {/* Área principal do formulário */}
         <div className="form-area">
           <h1 className="form-title">Formulário do Usuário</h1>
 
+          {/* Formulário HTML controlado pelos estados */}
           <form onSubmit={enviarFormulario} className="form-container">
-            {/* seus inputs aqui */}
-
+            {/* Campo nome */}
             <div className="form-group">
               <label>Nome:</label>
               <input
@@ -98,6 +91,7 @@ function Formulario() {
               />
             </div>
 
+            {/* Campo idade */}
             <div className="form-group">
               <label>Idade:</label>
               <input
@@ -108,6 +102,7 @@ function Formulario() {
               />
             </div>
 
+            {/* Campo escolaridade */}
             <div className="form-group">
               <label>Escolaridade:</label>
               <input
@@ -117,6 +112,7 @@ function Formulario() {
               />
             </div>
 
+            {/* Campo sexo com opções */}
             <div className="form-group">
               <label>Sexo:</label>
               <select
@@ -131,6 +127,7 @@ function Formulario() {
               </select>
             </div>
 
+            {/* Campo comentário */}
             <div className="form-group">
               <label>Comentário:</label>
               <textarea
@@ -140,16 +137,19 @@ function Formulario() {
               />
             </div>
 
+            {/* Botão de envio do formulário */}
             <button type="submit" className="form-button">
               Enviar
             </button>
           </form>
 
+          {/* Espaço em branco entre o formulário e o ranking */}
           <br />
           <br />
           <br />
 
-          <Raking_Curt/>
+          {/* Componente que exibe o ranking de curtidas e descurtidas */}
+          <Raking_Curt />
         </div>
       </div>
     </>
