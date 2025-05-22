@@ -109,8 +109,15 @@
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
 }
 
+.videoRR{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 /* Tablets (600px a 1024px) */
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 800px) and (min-width: 600px) {
   .Box-row,
   .junt {
     flex-direction: column;

@@ -67,6 +67,7 @@ function AsGatitas() {
       <br/>
 
       <h2 className="collab-title"> NOSSO TIME </h2>
+      <Avaliacao/>
       <br/>
       <br/>
 
@@ -110,6 +111,10 @@ function AsGatitas() {
         </p>
       </section>
 
+      <br/>
+      <hr></hr>
+      <br/>
+
       <section className="collab">
         <h2 className="collab-title"> COLABORAÇÃO </h2>
         <section className="photos">
@@ -117,11 +122,31 @@ function AsGatitas() {
           <img src={LogoGatitas} alt="Logo Gatitas" className="logs" />
           <img src={CollabCinza} alt="Logo Arma Cinza" className="logs1" />
           <img src={LogoArmaCinza} alt="Logo Collab Cinza" className="logs2" /> 
-
         </div>
-        <Avaliacao/>
         </section>
       </section>
+
+      <br/>
+      <hr></hr>
+      <br/>
+
+      <section className="vid">
+      <h2 className="collab-title"> VÍDEO </h2> 
+      <center>
+      <iframe className="gatit-canudos"
+      width="570" 
+      height="355" 
+      src="https://www.youtube.com/embed/5qjuKCqjaP4?si=LsrsvdBPGI0f7SCp" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen
+      >
+      </iframe>
+      </center>
+      </section>
+
       <Footer />
     </div>
   );

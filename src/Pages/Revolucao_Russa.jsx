@@ -5,15 +5,13 @@ import Footer from "../Components/Footer(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
 import Slider from "../Components/SliderImagem";
 import "./Revolucao_Russa.css";
-import RevRS1 from "../assets/RevRS1.png"
-import RevRS2 from "../assets/RevRS2.png"
-import Bolc from "../assets/Bolc.png"
-import Menc from "../assets/Menc.png"
+import RevRS1 from "../assets/RevRS1.png";
+import RevRS2 from "../assets/RevRS2.png";
+import Bolc from "../assets/Bolc.png";
+import Menc from "../assets/Menc.png";
 import Avaliacao from "../Components/Avaliacao";
 import "../App.css";
 import Tema from "../Components/Tema";
-
-
 
 function RevoluçãoRussa() {
   const [resumoWiki, setResumoWiki] = useState("");
@@ -54,16 +52,15 @@ function RevoluçãoRussa() {
         onMenuClick={alternarMenu}
       />
 
-<Tema/>
+      <Tema />
 
       <div className="pagina-container">
-
-      {menuAberto && <Nav />}
+        {menuAberto && <Nav />}
 
         <div className="conteudo-principal">
           {/* Texto introdutório */}
           <h1 className="H4-RR">REVOLUÇÃO RUSSA </h1>
-          <Avaliacao/>
+          <Avaliacao />
           <h3 className="H3-RRs"> Resumo (Wikipedia) </h3>
           <p className="pRR"> {resumoWiki} </p>
 
@@ -95,26 +92,23 @@ function RevoluçãoRussa() {
                 russa, e essa violência pode ter causado a morte de até cinco
                 mil pessoas. Esse acontecimento chocou a população russa, que,
                 indignada com a ação do czar, conduziu uma série de revoltas
-                contra o governo.
-      
-                As revoltas conduzidas pela população em reação ao Domingo
-                Sangrento foram o que se chamou de Revolução de 1905, entendida
-                como um ensaio para a Revolução Russa de 1917. Durante a
-                Revolução de 1905, surgiram os sovietes, os conselhos formados
-                pelos trabalhadores operários.
+                contra o governo. As revoltas conduzidas pela população em
+                reação ao Domingo Sangrento foram o que se chamou de Revolução
+                de 1905, entendida como um ensaio para a Revolução Russa de
+                1917. Durante a Revolução de 1905, surgiram os sovietes, os
+                conselhos formados pelos trabalhadores operários.
               </p>
             </div>
           </div>
           <p className="pRR">
-                A Revolução Russa de 1917 teve suas raízes na Revolução
-                Industrial, que criou o proletariado, expôs os trabalhadores à
-                exploração extrema (o chamado “capitalismo selvagem”) e
-                incentivou o surgimento das ideias socialistas. No século XIX,
-                os operários começaram a se organizar e surgiram os primeiros
-                sindicatos e teorias socialistas. Karl Marx, com o socialismo
-                científico, defendia uma revolução armada para destruir o
-                capitalismo e implantar o comunismo.
-              </p>
+            A Revolução Russa de 1917 teve suas raízes na Revolução Industrial,
+            que criou o proletariado, expôs os trabalhadores à exploração
+            extrema (o chamado “capitalismo selvagem”) e incentivou o surgimento
+            das ideias socialistas. No século XIX, os operários começaram a se
+            organizar e surgiram os primeiros sindicatos e teorias socialistas.
+            Karl Marx, com o socialismo científico, defendia uma revolução
+            armada para destruir o capitalismo e implantar o comunismo.
+          </p>
           <p className="pRR">
             No início do século XX, a Rússia era um país atrasado economicamente
             (agrário e pouco industrializado), socialmente desigual (com uma
@@ -125,8 +119,8 @@ function RevoluçãoRussa() {
             uma assembleia com poderes limitados.
           </p>
           <div className="image">
-          <img id="Imagem1" src={RevRS1}></img>
-          <img id="Imagem1" src={RevRS2}></img>
+            <img id="Imagem1" src={RevRS1}></img>
+            <img id="Imagem1" src={RevRS2}></img>
           </div>
           <p className="pRR">
             A Primeira Guerra Mundial agravou a crise russa, com derrotas
@@ -210,25 +204,39 @@ function RevoluçãoRussa() {
             dividiu o partido em dois grupos:
           </p>
           <div className="junt">
-          <div className="Colunm">
-          <p className="pRR">
-            <strong> Mencheviques: </strong> grupo liderado por Julius Martov,
-            entendia que o socialismo deveria ser construído com base no
-            controle das instituições por meio da política e do desenvolvimento
-            econômico.
-          </p>
-          <img id="Imagem2" src={Menc}></img>
-          </div>
-          <div className="Colunm">
-          <p className="pRR">
-            <strong> Bolcheviques: </strong> por outro lado, liderados por
-            Vladmir Lênin, defendiam uma revolução socialista imediata, fruto da
-            aliança de operários e camponeses.
-          </p>
+            <div className="Colunm">
+              <p className="pRR">
+                <strong> Mencheviques: </strong> grupo liderado por Julius
+                Martov, entendia que o socialismo deveria ser construído com
+                base no controle das instituições por meio da política e do
+                desenvolvimento econômico.
+              </p>
+              <img id="Imagem2" src={Menc}></img>
+            </div>
+            <div className="Colunm">
+              <p className="pRR">
+                <strong> Bolcheviques: </strong> por outro lado, liderados por
+                Vladmir Lênin, defendiam uma revolução socialista imediata,
+                fruto da aliança de operários e camponeses.
+              </p>
 
-          <img id="Imagem2" src={Bolc}></img>
+              <img id="Imagem2" src={Bolc}></img>
+            </div>
           </div>
-        </div>
+          <br/>
+          <br/>
+          <div className="videoRR">
+          <iframe 
+            width="570"
+            height="320"
+            src="https://www.youtube.com/embed/24WFtpN0_RA?si=JoAd_ZrmCF8EGDEp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          </div>
         </div>
       </div>
       <Footer />
