@@ -21,7 +21,7 @@
   background-color: #f9f9f9; 
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* sombra sutil */
   max-width: 1200px;
-  animation: fadeIn 0.7s ease-in-out;
+
 }
 
 @media (max-width: 800px) and (min-width: 600px) {
