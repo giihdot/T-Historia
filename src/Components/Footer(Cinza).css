@@ -85,7 +85,7 @@ a {
   padding: 15px;
   background-color: #043f5b;
   width: 28vw;
-  height: 36vh;
+  height: 34vh;
   font-size: 0.9em;
   color: white;
   text-align: justify;
@@ -98,7 +98,7 @@ a {
   padding: 15px;
   background-color: #043f5b;
   width: 28vw;
-  height: 36vh;
+  height: 34vh;
   font-size: 0.9em;
   color: white;
   text-align: start;
@@ -147,16 +147,17 @@ a {
 
 
 @media (max-width: 599px) {
-  .footer1 {
-    height: 145vh;
-    width: 100vw;
-    padding: 7px;
-  }
-
-  .top-section, .row {
+  .top-section {
     flex-direction: column;
     align-items: center;
   }
+
+  .footer1 {
+    padding: 25px;
+    background-color: #a6a6a6;
+    text-align: center;
+    height: 145vh;
+}
 
   .item_3 {
     flex: 1;
@@ -177,9 +178,36 @@ a {
     background-color: #043f5b;
     width: 26vw;
     height: 34vh;
-    font-size: 0.62em;
+    font-size: 0.58em;
     text-align: center;
     color: white;
+}
+
+.item_5 {
+    flex: 1;
+    margin: 0 0.7%;
+    padding: 15px;
+    background-color: #043f5b;
+    width: 28vw;
+    height: 34vh;
+    font-size: 0.75em;
+    color: white;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+.item_6 {
+    flex: 1;
+    margin: 0 0.7%;
+    padding: 15px;
+    background-color: #043f5b;
+    width: 28vw;
+    height: 34vh;
+    font-size: 0.70em;
+    color: white;
+    text-align: start;
+    text-align: justify;
+    margin-bottom: 3%;
 }
 
 .item {
@@ -195,9 +223,9 @@ a {
 }
 
   .imggg {
-    width: 50vw;
-    height: auto;
-  }
+    width: 20vw;
+    height: 18vh;
+}
 }
 
 
@@ -216,11 +244,11 @@ a {
   .item_6 {
     width: 40vw;
     height: auto;
-    font-size: 0.85em;
+    font-size: 0.80em;
   }
 
   .imggg {
     width: 25vw;
-    height: auto;
+    height: 20vh;
   }
 }
