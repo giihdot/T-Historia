@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Nav from "../Components/NavBar(Azul)";
 import Header from "../Components/Header(Azul)";
 import Logo_Arma_Cinza from "../assets/LOGO - ARMA CINZA.png";
