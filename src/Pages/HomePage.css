@@ -58,7 +58,7 @@
 }
 
 /* Celulares (até 599px) */
-@media (max-width: 599px) {
+@media (max-width: 400px) {
   
   .H4-HomePage {
     width: 85vw;
@@ -66,6 +66,9 @@
     padding: 8px;
   }
 
+  .conteudo-principal {
+        margin-top: 15%;
+    }
  
   .parallax-content {
     font-size: 1.2rem;

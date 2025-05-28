@@ -150,7 +150,7 @@ a {
 }
 
 
-@media (max-width: 599px) {
+@media (max-width: 400px) {
   .top-section {
     flex-direction: column;
     align-items: center;
@@ -161,87 +161,92 @@ a {
     background-color: #043f5b;
     text-align: center;
     height: 145vh;
-}
-
-  .itens_2 {
-        flex: 1;
-        margin: 0 0.7%;
-        padding: 10px;
-        background-color: #a6a6a6;
-        width: 26vw;
-        height: 34vh;
-        font-size: 0.62em;
-        text-align: center;
-        color: white;
   }
 
-      .itens_3 {
-        flex: 1;
-        margin: 0.7%;
-        padding: 10px;
-        background-color: #a6a6a6;
-        width: 26vw;
-        height: 34vh;
-        color: white;
-        font-size: 0.57em;
-        text-align: center;
-        text-decoration: none;
-    }
+  .itens_2 {
+    flex: 1;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 26vw;
+    height: 40vh;
+    font-size: 0.57em;
+    text-align: center;
+    color: white;
+  }
+
+  .itens_3 {
+    flex: 1;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 26vw;
+    height: 40vh;
+    font-size: 0.49em;
+    text-align: center;
+    color: white;
+  }
+
+  .itens_4 {
+    flex: 1;
+    padding: 10px;
+    background-color: #a6a6a6;
+    width: 26vw;
+    height: 40vh;
+    font-size: 0.57em;
+    text-align: center;
+    color: white;
+
+  }
 
   .itens_5 {
     flex: 1;
-    margin: 0 0.7%;
     padding: 15px;
     background-color: #a6a6a6;
     width: 28vw;
-    height: 36vh;
-    font-size: 0.75em;
+    height: 39vh;
+    font-size: 0.63em;
     color: white;
     text-align: justify;
-    margin-bottom: 3%;
-}
+    margin-bottom: 4%;
+  }
 
   .itens_6 {
     flex: 1;
-    margin: 0.7%;
     padding: 15px;
     background-color: #a6a6a6;
     width: 28vw;
-    height: 36vh;
-    font-size: 0.75em;
+    height: 39vh;
+    font-size: 0.64em;
     color: white;
-    text-align: start;
     text-align: justify;
     margin-bottom: 4%;
   }
 
   .itens {
     flex: 1;
-    margin: 0 0.7%;
     padding: 10px;
     background-color: #a6a6a6;
     width: 26vw;
-    height: 34vh;
-    font-size: 0.70em;
+    height: 40vh;
+    font-size: 0.67em;
     text-align: center;
     color: white;
-}
+  }
 
 
   .img_blue {
     width: 25vw;
     height: 15vh;
-}
+  }
 
-.parg {
-  font-size: 0.9em;
-}
+  .parg {
+    font-size: 0.9em;
+  }
 }
 
 .pssss {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.9em;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.9em;
 }
 
 @media (min-width: 699px) and (max-width: 800px) {
@@ -257,7 +262,7 @@ a {
     height: 90vh;
     text-align: center;
     height: 165vh;
-}
+  }
 
   .itens,
   .itens_2,
@@ -273,5 +278,5 @@ a {
   .img_blue {
     width: 17vw;
     height: 20vh;
-}
+  }
 }

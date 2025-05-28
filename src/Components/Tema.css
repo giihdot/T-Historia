@@ -42,19 +42,19 @@
 }
 
 /* Dispositivos pequenos (celulares) */
-@media (max-width: 599px) {
-  .botao-tema {
-    width: 17vw;
-    height: 7vh;
-    position:absolute;
-    top: 20%;
-    left: 79%;
-    z-index: 2000;
-    padding: 10px 15px;
-    background-color: #043f5b;
-    color: #a6a6a6;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
- 
-} }
+@media (max-width: 400px) {
+    .botao-tema {
+        width: 17vw;
+        height: 6vh;
+        top: 17.8%;
+        left: 43%;
+        z-index: 2000;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        font-size: 0.7em;
+        border-radius: 10px;
+
+    }
+}
