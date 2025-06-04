@@ -168,12 +168,15 @@ function GuerraDeCanudos() {
               forças armadas ao final do confronto.
             </p>
             <br/>
+            <br/>
              <Avaliacao />
              <br/>
+             <br/>
+             <br/>
             <center>
-              <iframe 
+              <iframe
               width="100%" 
-              height="315" 
+              height="420" 
               src="https://www.youtube.com/embed/EykWGVlNDRg?si=pEaKVGuWxzC6jlBE" 
               title="YouTube video player" 
               frameborder="0" 
